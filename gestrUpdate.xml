@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Gestr Update</title>
+        <link>http://mhuusko5.com/gestrUpdate.xml</link>
+        <description>Gestr Update</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.52</title>
+            <description>Minor web page launching bug fix</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.52"/>
+        </item>
+    </channel>
+</rss>
