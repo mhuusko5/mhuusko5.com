@@ -1,3 +1,3 @@
-mhuusko5
+mhuusko5.com
 ========
 My personal website.
