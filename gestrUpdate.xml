@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.53</title>
-            <description>Optimized for Mac OS X 10.9 (Mavericks)</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.53"/>
+            <title>Version 1.54</title>
+            <description>Further optimizations for Mac OS X 10.9 (Mavericks)</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.54"/>
         </item>
     </channel>
 </rss>
