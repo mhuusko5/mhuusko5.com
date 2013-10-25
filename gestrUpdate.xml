@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.56</title>
-            <description>Fixes minor window layout bug</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.56"/>
+            <title>Version 1.57</title>
+            <description>Gesture recognition algorithm improvements</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.57"/>
         </item>
     </channel>
 </rss>
