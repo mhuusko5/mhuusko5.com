@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.58</title>
-            <description>Better status bar item handling</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.58"/>
+            <title>Version 1.59</title>
+            <description>Easy quit button, and mouse drawing bug fix</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.59"/>
         </item>
     </channel>
 </rss>
