@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.59</title>
-            <description>Easy quit button, and mouse drawing bug fix</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.59"/>
+            <title>Version 1.60</title>
+            <description>Toggling the setup window with the dock icon</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.60"/>
         </item>
     </channel>
 </rss>
