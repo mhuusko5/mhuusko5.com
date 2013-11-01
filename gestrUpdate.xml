@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.61</title>
-            <description>Double right clicking to activate only works when using mouse mode</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.61"/>
+            <title>Version 1.62</title>
+            <description>Icon display optimization</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.62"/>
         </item>
     </channel>
 </rss>
