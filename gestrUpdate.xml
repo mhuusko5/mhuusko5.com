@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.62</title>
-            <description>Icon display optimization</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.62"/>
+            <title>Version 1.63</title>
+            <description>Important fix to ignore items in Applications folder which don't have Bundle IDs</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.63"/>
         </item>
     </channel>
 </rss>

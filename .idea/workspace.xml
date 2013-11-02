@@ -29,7 +29,7 @@
       <file leaf-file-name="gestrUpdate.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="451" selection-end="451" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
+            <state line="15" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.40983605" vertical-offset="0" max-vertical-offset="732">
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/gestrVersion" />
         <option value="$PROJECT_DIR$/gestrUpdate.xml" />
+        <option value="$PROJECT_DIR$/gestrVersion" />
       </list>
     </option>
   </component>
@@ -117,7 +117,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,6 +137,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,18 +145,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -165,6 +157,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -348,7 +348,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="451" selection-end="451" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
+        <state line="15" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.40983605" vertical-offset="0" max-vertical-offset="732">
           <folding />
         </state>
       </provider>
