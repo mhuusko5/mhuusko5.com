@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.64</title>
-            <description>Better support for high resolution screens</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.64"/>
+            <title>Version 1.65</title>
+            <description>Fix for (rare) recognition freezing bug</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.65"/>
         </item>
     </channel>
 </rss>
