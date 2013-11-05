@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taprUpdate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taprUpdate.xml" afterPath="$PROJECT_DIR$/taprUpdate.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="gestrUpdate.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="13" column="14" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -38,7 +37,7 @@
       <file leaf-file-name="taprUpdate.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
+            <state line="10" column="31" selection-start="446" selection-end="446" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
               <folding />
             </state>
           </provider>
@@ -127,7 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,6 +146,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,8 +154,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -164,14 +163,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -180,6 +171,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -363,7 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
+        <state line="10" column="31" selection-start="446" selection-end="446" vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="732">
           <folding />
         </state>
       </provider>

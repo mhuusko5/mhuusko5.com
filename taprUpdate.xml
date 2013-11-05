@@ -7,9 +7,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 0.91</title>
-            <description>Beginning of update series</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="0.91"/>
+            <title>Version 0.92</title>
+            <description>Faster learning of most activated apps</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="0.92"/>
         </item>
     </channel>
 </rss>
