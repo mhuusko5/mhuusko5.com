@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Tapr Update</title>
         <link>http://mhuusko5.com/taprUpdate.xml</link>
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 0.94</title>
-            <description>Slight graphical changes</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="0.94"/>
+            <title>Version 0.95</title>
+            <description>Better scaling support (and retina display support)</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="0.95"/>
         </item>
     </channel>
 </rss>
