@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="fonts/walkwayUltrabold/stylesheet.css">
     <link rel="stylesheet" href="fonts/lintel/stylesheet.css">
     <link rel="stylesheet" href="fonts/jalane/stylesheet.css">
+    <link rel="stylesheet" href="fonts/nikaia/stylesheet.css">
 
     <style>
         * {
@@ -294,149 +295,43 @@
         </a>
     </div>
 
-    <div id="gestrDemoConstructionText" style="position: absolute;
+    <div id="gestrDemoText" style="position: absolute;
                                      font-family: Lintel-Regular;
                                      color: #040404;">
         <script>
             appendAndRenderPage(function () {
-                $('#gestrDemoConstructionText').css('top', $('#gestr2').outerHeight() / 60);
-                $('#gestrDemoConstructionText').css('left', -$('#gestr2').outerWidth() / 18.6);
-                $('#gestrDemoConstructionText').css('font-size', Math.floor(adjustedBodyWidth / 54.6));
+                $('#gestrDemoText').css('top', $('#gestr2').outerHeight() / 60);
+                $('#gestrDemoText').css('left', -$('#gestr2').outerWidth() / 18.6);
+                $('#gestrDemoText').css('font-size', Math.floor(adjustedBodyWidth / 54.6));
             });
         </script>
 
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspActivate applications on your Mac using<br>&nbsp&nbsp&nbspmouse/trackpad gestures
-        you define!<br>Always be one swipe away from any app!
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvery app on your Mac is just a gesture<br>&nbsp&nbsp&nbspaway! Four finger tap on your trackpad<br>to make it your multitasking canvas!
     </div>
 
-    <style>
-        #gestr2Scroller {
-            position: relative;
-        }
-
-        #gestr2Scroller .innerScrollArea {
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-
-        #gestr2Scroller ul {
-            padding: 0;
-            margin: 0;
-            position: relative;
-        }
-
-        #gestr2Scroller li {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            position: absolute;
-        }
-    </style>
-
-    <div id="gestr2Scroller">
+    <div id="gestr2Content" style="position: absolute; background-color: black;">
         <script>
             appendAndRenderPage(function () {
-                $('#gestr2Scroller').css('width', $('#gestr2').outerHeight() / 0.776);
-                $('#gestr2Scroller').css('height', $('#gestr2').outerHeight() / 1.45);
-                $('#gestr2Scroller').css('left', -$('#gestr2').outerWidth() / 17.4);
-                $('#gestr2Scroller').css('top', $('#gestr2').outerHeight() / 3.58);
+                $('#gestr2Content').css('width', $('#gestr2').outerHeight() / 0.776);
+                $('#gestr2Content').css('height', $('#gestr2').outerHeight() / 1.45);
+                $('#gestr2Content').css('left', -$('#gestr2').outerWidth() / 17.4);
+                $('#gestr2Content').css('top', $('#gestr2').outerHeight() / 3.58);
             });
         </script>
 
-        <div class="innerScrollArea">
-            <ul>
-                <li class="gestrExplain" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
+        <div id="gestrDemo" style="position: absolute;">
+            <script>
+                appendAndRenderPage(function () {
+                    $('#gestrDemo').css('height', $('#gestr2Content').outerHeight());
+                    $('#gestrDemo').css('width', $('#gestrDemo').outerHeight() * 1.43);
+                    $('#gestrDemo').css('top', 0);
+                    $('#gestrDemo').css('left', -($('#gestrDemo').outerWidth() - $('#gestr2Content').outerWidth()) / 2);
+                });
 
-                <li class="gestrDemo" style="background-repeat: no-repeat; background-size: cover;
-                                    position: absolute;">
-
-                </li>
-
-                <li class="gestrSetup" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="gestrExplain2" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="gestrRecognition" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-            </ul>
+                $('#gestrDemo').append('<iframe width="100%" height="100%" src="' + window.protocol + '//www.youtube.com/embed/_75VbZCRpyA?rel=0" frameborder="0" allowfullscreen></iframe>');
+            </script>
         </div>
     </div>
-
-    <script>
-        var gestr2Scroller = $('#gestr2Scroller div.innerScrollArea');
-        var gestr2ScrollerContent = gestr2Scroller.children('ul');
-
-        gestr2ScrollerContent.children().each(function () {
-            var $this = $(this).clone();
-            $this.appendTo(gestr2ScrollerContent);
-        });
-
-        gestr2ScrollerTimer = null;
-
-        appendAndRenderPage(function () {
-            clearInterval(gestr2ScrollerTimer);
-
-            $('.gestrSetup').css('height', $('#gestr2Scroller').height());
-            $('.gestrSetup').css('width', $('.gestrSetup').height() * 0.628);
-            $('.gestrExplain').css('height', $('#gestr2Scroller').height());
-            $('.gestrExplain').css('width', $('.gestrExplain').height() * 1.778);
-            $('.gestrExplain2').css('height', $('#gestr2Scroller').height());
-            $('.gestrExplain2').css('width', $('.gestrExplain2').height() * 1.778);
-            $('.gestrRecognition').css('height', $('#gestr2Scroller').height());
-            $('.gestrRecognition').css('width', $('.gestrRecognition').height() * 1.778);
-            $('.gestrDemo').css('height', $('#gestr2Scroller').height());
-            $('.gestrDemo').css('width', $('.gestrDemo').height() * 1.43);
-
-            var curX = 0;
-            gestr2ScrollerContent.children().each(function () {
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += Math.floor($this.outerWidth());
-            });
-
-            var fullW = curX / 2;
-            var viewportW = gestr2Scroller.outerWidth();
-
-            var controller = {curSpeed: 0, fullSpeed: 1.5};
-            var $controller = $(controller);
-            var tweenToNewSpeed = function (newSpeed, duration) {
-                if (duration === undefined) {
-                    duration = 600;
-                }
-                $controller.stop(true).animate({curSpeed: newSpeed}, duration);
-            };
-
-            var doScroll = function () {
-                var curX = gestr2Scroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW * 2 - viewportW) {
-                    newX -= Math.floor(fullW);
-                }
-                gestr2Scroller.scrollLeft(newX);
-            };
-
-            gestr2Scroller.unbind('hover');
-            gestr2Scroller.hover(function () {
-                tweenToNewSpeed(0);
-            }, function () {
-                tweenToNewSpeed(controller.fullSpeed);
-            });
-
-            gestr2ScrollerTimer = setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-        });
-    </script>
 </div>
 
 <div id="macReleasesText2" style="position: absolute;
@@ -1119,13 +1014,6 @@
                 renderPage();
                 $('body').animate({'opacity': 1.0}, 1000);
             }, 100);
-
-            $('.gestrExplain').css('background-image', 'url(img/gestrExplain.png)');
-            $('.gestrSetup').css('background-image', 'url(img/gestrSetup.png)');
-            $('.gestrExplain2').css('background-image', 'url(img/gestrExplain2.png)');
-            $('.gestrRecognition').css('background-image', 'url(img/gestrRecognition.png)');
-            //$('.gestrDemo').append('<iframe src="' + window.protocol + '//player.vimeo.com/video/75353410" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
-            $('.gestrDemo').append('<iframe width="100%" height="100%" src="' + window.protocol + '//www.youtube.com/embed/1eksWufuhNg?rel=0" frameborder="0" allowfullscreen></iframe>');
 
             $('.kemari1').css('background-image', 'url(img/kemari1.png)');
             $('.kemari2').css('background-image', 'url(img/kemari2.png)');

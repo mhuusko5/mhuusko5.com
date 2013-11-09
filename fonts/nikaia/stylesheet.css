@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Nikaia';
+    src: url('webfonts/28F8F8_0_0.eot');
+    src: url('webfonts/28F8F8_0_0.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/28F8F8_0_0.svg#wf') format('svg'),
+         url('webfonts/28F8F8_0_0.woff') format('woff'),
+         url('webfonts/28F8F8_0_0.ttf') format('truetype');
+}
