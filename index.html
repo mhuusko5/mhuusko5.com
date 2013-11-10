@@ -3,9 +3,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>mhuusko5 | Mathew Huusko V</title>
-    <meta name="keywords" content="Mathew Huusko V mhuusko5 mhusko5 mhuusko mhusko Matthew Huusko V Mathew Huusko IV software apps Phillips Exeter Academy PEA software development engineering human computer interaction measured progess microsoft black duck software objective c cocoa javascript contact">
+    <meta name="keywords"
+          content="Mathew Huusko V mhuusko5 mhusko5 mhuusko mhusko Matthew Huusko V Mathew Huusko IV software apps Phillips Exeter Academy PEA software development engineering human computer interaction measured progess microsoft black duck software objective c cocoa javascript contact">
     <meta name="author" content="Mathew Huusko V">
-    <meta name="description" content="Mathew Huusko V. Consumer and creator of software. Seeking to redefine the human-computer relationship.">
+    <meta name="description"
+          content="Mathew Huusko V. Consumer and creator of software. Seeking to redefine the human-computer relationship.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
     <script>
@@ -85,6 +87,14 @@
     appendAndRenderPage(function () {
         adjustedBodyWidth = $('body').innerWidth() - scrollbarWidth;
     });
+
+    function defaultHeightGap() {
+        return adjustedBodyWidth / 32;
+    }
+
+    function defaultTextSize() {
+        return Math.floor(adjustedBodyWidth / 52);
+    }
 </script>
 
 <div id="header" style="background-image: url(img/ticks.png);
@@ -154,14 +164,14 @@
     });
 </script>
 
-<div id="macReleasesText" style="position: absolute;
+<div id="gestrText" style="position: absolute;
                                      font-family: walkway_boldregular;
                                      color: #ecf0f1;">
     <script>
         appendAndRenderPage(function () {
-            $('#macReleasesText').css('top', adjustedBodyWidth / 32);
-            $('#macReleasesText').css('left', adjustedBodyWidth / 32);
-            $('#macReleasesText').css('font-size', Math.floor(adjustedBodyWidth / 52));
+            $('#gestrText').css('top', defaultHeightGap());
+            $('#gestrText').css('left', defaultHeightGap());
+            $('#gestrText').css('font-size', defaultTextSize());
         });
     </script>
 
@@ -175,7 +185,7 @@
             $('#gestr').width(adjustedBodyWidth / 2.04);
             $('#gestr').css('border-top', adjustedBodyWidth / 4.6 + 'px solid #8e44ad');
             $('#gestr').css('border-right', adjustedBodyWidth / 6.92 + 'px solid transparent');
-            $('#gestr').css('top', adjustedBodyWidth / 14.28);
+            $('#gestr').css('top', parseFloat($('#gestrText').css('top')) + defaultHeightGap());
             $('#gestr').css('left', 0);
         });
     </script>
@@ -229,7 +239,7 @@
             $('#gestr2').width(adjustedBodyWidth / 2.8);
             $('#gestr2').css('border-bottom', adjustedBodyWidth / 3.4 + 'px solid #2ecc71');
             $('#gestr2').css('border-left', adjustedBodyWidth / 5.13 + 'px solid transparent');
-            $('#gestr2').css('top', adjustedBodyWidth / 8.96);
+            $('#gestr2').css('top', parseFloat($('#gestr').css('top')) + defaultHeightGap());
             $('#gestr2').css('right', 0);
         });
     </script>
@@ -274,7 +284,7 @@
                     $('#gestr2VersionText').css('font-size', Math.floor($('#gestr2VersionText').width() / 15));
                 });
 
-                $.get('gestrVersion', function(v) {
+                $.get('gestrVersion', function (v) {
                     $('#gestr2VersionText').text('Version ' + v);
                 });
             </script>
@@ -306,10 +316,11 @@
             });
         </script>
 
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvery app on your Mac is just a gesture<br>&nbsp&nbsp&nbspaway! Four finger tap on your trackpad<br>to make it your multitasking canvas!
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvery app on your Mac is just a gesture<br>&nbsp&nbsp&nbspaway! Four finger tap on
+        your trackpad<br>to make it your multitasking canvas!
     </div>
 
-    <div id="gestr2Content" style="position: absolute; background-color: black;">
+    <div id="gestr2Content" style="position: absolute; background-color: #040404;">
         <script>
             appendAndRenderPage(function () {
                 $('#gestr2Content').css('width', $('#gestr2').outerHeight() / 0.776);
@@ -334,14 +345,167 @@
     </div>
 </div>
 
-<div id="macReleasesText2" style="position: absolute;
+<div id="taprText" style="position: absolute;
                                      font-family: walkway_boldregular;
                                      color: #ecf0f1;">
     <script>
         appendAndRenderPage(function () {
-            $('#macReleasesText2').css('top', adjustedBodyWidth / 2.29);
-            $('#macReleasesText2').css('left', adjustedBodyWidth / 8);
-            $('#macReleasesText2').css('font-size', Math.floor(adjustedBodyWidth / 52));
+            $('#taprText').css('left', defaultHeightGap());
+            $('#taprText').css('top', parseFloat($('#gestr2').css('top')) + $('#gestr2').outerHeight() + defaultHeightGap());
+            $('#taprText').css('font-size', defaultTextSize());
+        });
+    </script>
+
+    Imagine if an app, like Gestr, had a little brother..
+</div>
+
+<div id="tapr" style="position: absolute;
+                           height: 0;">
+    <script>
+        appendAndRenderPage(function () {
+            $('#tapr').width(adjustedBodyWidth / 1.19);
+            $('#tapr').css('border-bottom', adjustedBodyWidth / 4.0 + 'px solid #bdc3c7');
+            $('#tapr').css('border-right', adjustedBodyWidth / 10.0 + 'px solid transparent');
+            $('#tapr').css('top', parseFloat($('#taprText').css('top')) + defaultHeightGap());
+            $('#tapr').css('left', 0);
+        });
+    </script>
+
+    <div id="taprIcon" style="background-image: url(img/taprIcon.png);
+                                   background-repeat: no-repeat; background-size: cover;
+                                           position: absolute;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprIcon').width($('#tapr').outerHeight() / 1.2);
+                $('#taprIcon').height($('#taprIcon').width());
+                $('#taprIcon').css('top', ($('#tapr').outerHeight() - $('#taprIcon').height()) / 2);
+                $('#taprIcon').css('left', ($('#tapr').outerHeight() - $('#taprIcon').height()) / 2);
+            });
+        </script>
+    </div>
+
+    <div id="taprIntro" style="position: absolute;
+                                   font-family: Lintel-Regular;
+                                     color: #040404;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprIntro').css('top', $('#tapr').outerHeight() / 40);
+                $('#taprIntro').css('left', $('#tapr').width() / 2.8);
+                $('#taprIntro').css('font-size', defaultTextSize());
+            });
+        </script>
+
+        .. stop imagining.
+    </div>
+
+    <div id="taprTitle" style="position: absolute;
+                                     font-family: Jalane_light;
+                                     color: #2980b9;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprTitle').css('font-size', Math.floor(adjustedBodyWidth / 9));
+                $('#taprTitle').css('top', (parseFloat($('#tapr').outerHeight()) - parseFloat($('#taprTitle').outerHeight())) / 4.9);
+                $('#taprTitle').css('left', parseFloat($('#taprIcon').css('left')) + $('#taprIcon').width() + $('#taprIcon').width() / 4.14);
+            });
+        </script>
+
+        tapr
+    </div>
+
+    <div id="taprDownload" style="position: absolute;
+                                        height: 0; width: 0; background-color: #040404;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprDownload').width($('#tapr').outerHeight() / 1.34);
+                $('#taprDownload').height($('#taprDownload').width() / 2.56);
+                $('#taprDownload').css('bottom', -$('#tapr').outerHeight() + $('#tapr').outerHeight() / 8.6);
+                $('#taprDownload').css('left', $('#tapr').outerHeight() / 0.96);
+            });
+        </script>
+
+        <div id="taprDownloadText" style="position: absolute;
+                                                font-family: Lintel-Regular;
+                                                color: #ecf0f1; text-align: center;">
+            <script>
+                appendAndRenderPage(function () {
+                    $('#taprDownloadText').css('top', $('#taprDownload').outerHeight() / 38);
+                    $('#taprDownloadText').width($('#taprDownload').outerWidth());
+                    $('#taprDownloadText').css('left', 0);
+                    $('#taprDownloadText').css('font-size', Math.floor($('#taprDownloadText').width() / 12));
+                });
+            </script>
+
+            Mac OS X 10.7+, 64-bit
+        </div>
+
+        <a id="taprDownloadIcon" target="_blank" href="Tapr.html" style="position: absolute;
+                               background-image: url(img/download.png);
+                               background-repeat: no-repeat;
+                               background-size: cover;">
+            <script>
+                appendAndRenderPage(function () {
+                    $('#taprDownloadIcon').width($('#taprDownload').outerHeight() / 1.56);
+                    $('#taprDownloadIcon').height($('#taprDownloadIcon').width());
+                    $('#taprDownloadIcon').css('top', $('#taprDownload').outerWidth() / 11);
+                    $('#taprDownloadIcon').css('left', ($('#taprDownload').outerWidth() - $('#taprDownloadIcon').outerWidth()) / 2);
+                });
+            </script>
+        </a>
+
+        <div id="taprVersionText" style="position: absolute;
+                                                font-family: Lintel-Regular;
+                                                color: #ecf0f1; text-align: center;">
+            <script>
+                appendAndRenderPage(function () {
+                    $('#taprVersionText').css('bottom', $('#taprDownload').outerWidth() / 58);
+                    $('#taprVersionText').width($('#taprDownload').outerWidth());
+                    $('#taprVersionText').css('font-size', Math.floor($('#taprVersionText').width() / 15));
+                });
+
+                $.get('taprVersion', function (v) {
+                    $('#taprVersionText').text('Version ' + v);
+                });
+            </script>
+        </div>
+    </div>
+
+    <div id="taprDemo" style="position: absolute;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprDemo').css('height', $('#tapr').outerHeight() * 0.776);
+                $('#taprDemo').css('top', ($('#tapr').outerHeight() - $('#taprDemo').outerHeight()) / 2);
+                $('#taprDemo').css('width', $('#taprDemo').outerHeight() * 1.43);
+                $('#taprDemo').css('left', $('#tapr').outerHeight() / 0.512);
+            });
+
+            $('#taprDemo').append('<iframe width="100%" height="100%" src="' + window.protocol + '//www.youtube.com/embed/_4S447P09k4?rel=0" frameborder="0" allowfullscreen></iframe>');
+        </script>
+    </div>
+
+    <div id="taprDemoText" style="position: absolute;
+                                     font-family: Lintel-Regular;
+                                     color: #040404;">
+        <script>
+            appendAndRenderPage(function () {
+                $('#taprDemoText').css('top', $('#tapr').outerHeight() / 9.8);
+                $('#taprDemoText').css('left', $('#tapr').outerHeight() / 0.322);
+                $('#taprDemoText').width($('#tapr').outerHeight() / 1.3);
+                $('#taprDemoText').css('font-size', Math.floor(adjustedBodyWidth / 70));
+            });
+        </script>
+
+        You're most<br>activated<br>apps are just<br>a tap away!<br>Three finger tap<br>on your trackpad<br>to...<br>sounds familiar, eh?
+    </div>
+</div>
+
+<div id="kemariText" style="position: absolute;
+                                     font-family: walkway_boldregular;
+                                     color: #ecf0f1;">
+    <script>
+        appendAndRenderPage(function () {
+            $('#kemariText').css('left', adjustedBodyWidth / 8);
+            $('#kemariText').css('top', parseFloat($('#tapr').css('top')) + $('#tapr').outerHeight() + defaultHeightGap());
+            $('#kemariText').css('font-size', defaultTextSize());
         });
     </script>
 
@@ -354,7 +518,7 @@
         appendAndRenderPage(function () {
             $('#kemari').width(adjustedBodyWidth / 1.22);
             $('#kemari').height(adjustedBodyWidth / 3.41);
-            $('#kemari').css('top', adjustedBodyWidth / 2.101);
+            $('#kemari').css('top', parseFloat($('#kemariText').css('top')) + defaultHeightGap());
             $('#kemari').css('left', 0);
         });
     </script>
@@ -542,9 +706,9 @@
                                      color: #ecf0f1;">
     <script>
         appendAndRenderPage(function () {
-            $('#contactText').css('top', adjustedBodyWidth / 1.244);
             $('#contactText').css('right', adjustedBodyWidth / 8);
-            $('#contactText').css('font-size', Math.floor(adjustedBodyWidth / 52));
+            $('#contactText').css('top', parseFloat($('#kemari').css('top')) + $('#kemari').outerHeight() + defaultHeightGap());
+            $('#contactText').css('font-size', defaultTextSize());
         });
     </script>
 
@@ -557,7 +721,7 @@
         appendAndRenderPage(function () {
             $('#contact').width(adjustedBodyWidth / 1.54);
             $('#contact').height(adjustedBodyWidth / 5.06);
-            $('#contact').css('top', adjustedBodyWidth / 1.186);
+            $('#contact').css('top', parseFloat($('#contactText').css('top')) + defaultHeightGap());
             $('#contact').css('left', 0);
         });
     </script>
@@ -625,7 +789,7 @@
         appendAndRenderPage(function () {
             $('#contact2').width(adjustedBodyWidth / 3.28);
             $('#contact2').height(adjustedBodyWidth / 5.06);
-            $('#contact2').css('top', adjustedBodyWidth / 1.186);
+            $('#contact2').css('top', parseFloat($('#contactText').css('top')) + defaultHeightGap());
             $('#contact2').css('right', 0);
         });
     </script>
@@ -664,9 +828,9 @@
                                      color: #ecf0f1;">
     <script>
         appendAndRenderPage(function () {
-            $('#employmentText').css('top', adjustedBodyWidth / 0.931);
             $('#employmentText').css('right', adjustedBodyWidth / 28);
-            $('#employmentText').css('font-size', Math.floor(adjustedBodyWidth / 52));
+            $('#employmentText').css('top', parseFloat($('#contact').css('top')) + $('#contact').outerHeight() + defaultHeightGap());
+            $('#employmentText').css('font-size', defaultTextSize());
         });
     </script>
 
@@ -678,7 +842,7 @@
         appendAndRenderPage(function () {
             $('#employment').width(adjustedBodyWidth / 1.1);
             $('#employment').height(adjustedBodyWidth / 4.1);
-            $('#employment').css('top', adjustedBodyWidth / 0.898);
+            $('#employment').css('top', parseFloat($('#employmentText').css('top')) + defaultHeightGap());
             $('#employment').css('right', 0);
         });
     </script>
@@ -712,7 +876,7 @@
             <script>
                 appendAndRenderPage(function () {
                     $('#blackduckProgressImage').width($('#employment1').height() / 1.4);
-                    $('#blackduckProgressImage').height($('#blackduckProgressImage').width() * (141/235));
+                    $('#blackduckProgressImage').height($('#blackduckProgressImage').width() * (141 / 235));
                     $('#blackduckProgressImage').css('top', $('#employment1').height() / 4.4);
                     $('#blackduckProgressImage').css('left', ($('#employment1').width() - $('#blackduckProgressImage').width()) / 2);
                 });
@@ -731,7 +895,7 @@
                 });
             </script>
 
-           UI Engineer, 2013—
+            UI Engineer, 2013—
         </div>
     </div>
 
@@ -764,7 +928,7 @@
             <script>
                 appendAndRenderPage(function () {
                     $('#microsoftImage').width($('#employment2').height() / 1.1);
-                    $('#microsoftImage').height($('#microsoftImage').width() * (150/618));
+                    $('#microsoftImage').height($('#microsoftImage').width() * (150 / 618));
                     $('#microsoftImage').css('top', $('#employment2').height() / 2.76);
                     $('#microsoftImage').css('left', ($('#employment2').width() - $('#microsoftImage').width()) / 2);
                 });
@@ -816,7 +980,7 @@
             <script>
                 appendAndRenderPage(function () {
                     $('#measuredProgressImage').width($('#employment3').height() / 1.1);
-                    $('#measuredProgressImage').height($('#measuredProgressImage').width() * (78/242));
+                    $('#measuredProgressImage').height($('#measuredProgressImage').width() * (78 / 242));
                     $('#measuredProgressImage').css('top', $('#employment3').height() / 3.1);
                     $('#measuredProgressImage').css('left', ($('#employment3').width() - $('#measuredProgressImage').width()) / 2);
                 });
@@ -847,8 +1011,8 @@
                                      color: #ecf0f1;">
     <script>
         appendAndRenderPage(function () {
-            $('#photosText').css('top', adjustedBodyWidth / 0.7192);
-            $('#photosText').css('font-size', Math.floor(adjustedBodyWidth / 52));
+            $('#photosText').css('top', parseFloat($('#employment').css('top')) + $('#employment').outerHeight() + defaultHeightGap());
+            $('#photosText').css('font-size', defaultTextSize());
         });
     </script>
 
@@ -861,7 +1025,7 @@
         appendAndRenderPage(function () {
             $('#photos').width(adjustedBodyWidth);
             $('#photos').height(adjustedBodyWidth / 3.2);
-            $('#photos').css('top', adjustedBodyWidth / 0.6994);
+            $('#photos').css('top', parseFloat($('#photosText').css('top')) + defaultHeightGap());
             $('#photos').css('right', 0);
         });
     </script>
@@ -1000,14 +1164,17 @@
         appendAndRenderPage(function () {
             $('#bottom').width(1);
             $('#bottom').height(1);
-            $('#bottom').css('top', adjustedBodyWidth / 0.552);
+            $('#bottom').css('top', parseFloat($('#photos').css('top')) + $('#photos').outerHeight() + defaultHeightGap());
             $('#bottom').css('left', 0);
         });
 
         $(window).load(function () {
-            $('#title3').text('Build ' + Math.round(((new Date().getTime() - new Date(1995, 6, 21).getTime()) / 1000 / 60 / 60 / 24 / 365) * (Math.pow(10, 8))) / (Math.pow(10, 8)));
-            setInterval(function() {
+            function updateTitle() {
                 $('#title3').text('Build ' + Math.round(((new Date().getTime() - new Date(1995, 6, 21).getTime()) / 1000 / 60 / 60 / 24 / 365) * (Math.pow(10, 8))) / (Math.pow(10, 8)));
+            }
+
+            setInterval(function () {
+                updateTitle();
             }, 1000);
 
             setTimeout(function () {
