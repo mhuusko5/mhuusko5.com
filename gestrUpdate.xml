@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.67</title>
-            <description>Prevents multiple instances of the background app</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.67"/>
+            <title>Version 1.68</title>
+            <description>Makes Gestr drawing smoother</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.68"/>
         </item>
     </channel>
 </rss>
