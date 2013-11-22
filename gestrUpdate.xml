@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.68</title>
-            <description>Makes gesture drawing smoother</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.68"/>
+            <title>Version 1.69</title>
+            <description>Better detection of activating four finger tap (less interference with other kinds of taps)</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.69"/>
         </item>
     </channel>
 </rss>
