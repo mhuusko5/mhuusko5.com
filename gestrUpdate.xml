@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.70</title>
-            <description>Reduces memory usage by ~60 percent</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.70"/>
+            <title>Version 1.71</title>
+            <description>Reduces memory usage by ~50 percent</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.71"/>
         </item>
     </channel>
 </rss>
