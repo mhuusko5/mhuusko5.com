@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gestr.html" afterPath="$PROJECT_DIR$/Gestr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tapr.html" afterPath="$PROJECT_DIR$/Tapr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestrUpdate.xml" afterPath="$PROJECT_DIR$/gestrUpdate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestrVersion" afterPath="$PROJECT_DIR$/gestrVersion" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="496" column="76" selection-start="22468" selection-end="22468" vertical-scroll-proportion="36.615383" vertical-offset="8432" max-vertical-offset="18360">
+            <state line="496" column="76" selection-start="22468" selection-end="22468" vertical-scroll-proportion="0.0" vertical-offset="8432" max-vertical-offset="20519">
               <folding />
             </state>
           </provider>
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gestrUpdate.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gestrUpdate.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="63" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="3" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.07093185" vertical-offset="0" max-vertical-offset="719">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tapr.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tapr.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tapr.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
+            <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -109,12 +109,12 @@
       <list>
         <option value="$PROJECT_DIR$/fonts/nikaia/stylesheet.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/gestrVersion" />
-        <option value="$PROJECT_DIR$/gestrUpdate.xml" />
         <option value="$PROJECT_DIR$/taprVersion" />
         <option value="$PROJECT_DIR$/taprUpdate.xml" />
         <option value="$PROJECT_DIR$/Gestr.html" />
         <option value="$PROJECT_DIR$/Tapr.html" />
+        <option value="$PROJECT_DIR$/gestrVersion" />
+        <option value="$PROJECT_DIR$/gestrUpdate.xml" />
       </list>
     </option>
   </component>
@@ -150,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +171,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,8 +179,8 @@
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -188,6 +188,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -196,14 +204,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -332,16 +332,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestrVersion">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="496" column="76" selection-start="22468" selection-end="22468" vertical-scroll-proportion="36.615383" vertical-offset="8432" max-vertical-offset="18360">
+        <state line="496" column="76" selection-start="22468" selection-end="22468" vertical-scroll-proportion="0.0" vertical-offset="8432" max-vertical-offset="20519">
           <folding />
         </state>
       </provider>
@@ -353,9 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
+    <entry file="file://$PROJECT_DIR$/Tapr.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
           <folding />
         </state>
       </provider>
@@ -367,9 +360,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tapr.html">
+    <entry file="file://$PROJECT_DIR$/gestrVersion">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.07093185" vertical-offset="0" max-vertical-offset="719">
           <folding />
         </state>
       </provider>
