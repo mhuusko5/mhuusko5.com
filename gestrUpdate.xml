@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.72</title>
-            <description>Memory usage down to ~40mb (from ~230mb in version 1.69). Less background CPU usage. However, this update will clear your current gestures.</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.72"/>
+            <title>Version 1.73</title>
+            <description>Fixes possible error with fetching browser bookmarks</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.73"/>
         </item>
     </channel>
 </rss>
