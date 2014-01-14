@@ -6,9 +6,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 0.99</title>
-            <description>Reduces memory usage by ~50 percent</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="0.99"/>
+            <title>Version 1.00</title>
+            <description>New icon</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/clwimuokw5gt0lk/Tapr.zip" sparkle:version="1.00"/>
         </item>
     </channel>
 </rss>

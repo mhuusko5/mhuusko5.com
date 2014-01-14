@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.74</title>
-            <description>Fixes possible error with fetching browser bookmarks</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.74"/>
+            <title>Version 1.75</title>
+            <description>Images updated for retina display</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.75"/>
         </item>
     </channel>
 </rss>
