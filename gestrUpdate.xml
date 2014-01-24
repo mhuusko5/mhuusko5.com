@@ -7,9 +7,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.75</title>
-            <description>Images updated for retina display</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.75"/>
+            <title>Version 1.76</title>
+            <description>Fixes potential bug with external monitor plugged in, and laptop closed</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xauy8cwk3sjah03/Gestr.zip" sparkle:version="1.76"/>
         </item>
     </channel>
 </rss>
