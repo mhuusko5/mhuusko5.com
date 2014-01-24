@@ -1,0 +1,24 @@
+#aboutme-view-text {
+    position: relative;
+    left: calc((100% - 84rem) / 2);
+    top: 5rem;
+    width: 84rem;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#aboutme-view-text div {
+    position: relative;
+}
+
+#aboutme-view-text div.headline {
+    font-size: 2.8rem;
+}
+
+#aboutme-images-container {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

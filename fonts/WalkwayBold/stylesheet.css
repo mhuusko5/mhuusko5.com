@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'WalkwayBold';
+    src: url('font.eot');
+    src: url('font.eot?#iefix') format('embedded-opentype'),
+         url('font.svg#WalkwayBold') format('svg'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+

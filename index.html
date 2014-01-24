@@ -3,1199 +3,188 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>mhuusko5 | Mathew Huusko V</title>
-    <meta name="keywords"
-          content="Mathew Huusko V mhuusko5 mhusko5 mhuusko mhusko Matthew Huusko V Mathew Huusko IV software apps Phillips Exeter Academy PEA software development engineering human computer interaction measured progess microsoft black duck software objective c cocoa javascript contact">
+    <meta name="keywords" content="Mathew Huusko V mhuusko5 mhusko5 mhuusko mhusko Matthew Huusko V Mathew Huusko IV software apps Phillips Exeter Academy PEA software development engineering human computer interaction measured progess microsoft black duck software objective c cocoa javascript contact">
     <meta name="author" content="Mathew Huusko V">
-    <meta name="description"
-          content="Mathew Huusko V. Consumer and creator of software. Seeking to redefine the human-computer relationship.">
+    <meta name="description" content="Mathew Huusko V. Consumer and creator of software. Seeking to redefine the human-computer relationship.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-    <script>
-        window.protocol = (document.location.protocol == 'https:' ? 'https:' : 'http:');
+    <link rel="stylesheet" href="fonts/ExistenceLightStencil/stylesheet.css">
+    <link rel="stylesheet" href="fonts/WalkwayBold/stylesheet.css">
+    <link rel="stylesheet" href="fonts/LintelRegular/stylesheet.css">
+    <link rel="stylesheet" href="fonts/JalaneLight/stylesheet.css">
+    <link rel="stylesheet" href="vendor/Gallery/css/blueimp-gallery.css">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-43318814-4']);
-        _gaq.push(['_trackPageview']);
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/presence.css">
 
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == window.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/jquery.mousewheel.js"></script>
+    <script src="vendor/Gallery/js/blueimp-gallery.js"></script>
     <script src="js/plugins.js"></script>
-
-    <link rel="stylesheet" href="fonts/existenceLightStencil/stylesheet.css">
-    <link rel="stylesheet" href="fonts/existenceLight/stylesheet.css">
-    <link rel="stylesheet" href="fonts/walkwayBold/stylesheet.css">
-    <link rel="stylesheet" href="fonts/walkwayUltrabold/stylesheet.css">
-    <link rel="stylesheet" href="fonts/lintel/stylesheet.css">
-    <link rel="stylesheet" href="fonts/jalane/stylesheet.css">
-    <link rel="stylesheet" href="fonts/nikaia/stylesheet.css">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
-
-        html, body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        body {
-            opacity: 0;
-        }
-    </style>
 </head>
-
 <body>
-<script>
-    renderPage = function () {
-
-    };
-
-    function appendAndRenderPage(func) {
-        var oldRenderPage = renderPage;
-        renderPage = function () {
-            oldRenderPage();
-            func();
-        }
-        renderPage();
-    }
-
-    delayedRenderTimer = null;
-    $(window).resize(function () {
-        renderPage();
-        clearTimeout(delayedRenderTimer);
-        delayedRenderTimer = setTimeout(function () {
-            renderPage();
-        }, 500);
-    });
-
-    var scrollbarWidth = window.getScrollbarWidth();
-
-    appendAndRenderPage(function () {
-        adjustedBodyWidth = $('body').innerWidth() - scrollbarWidth;
-    });
-
-    function defaultHeightGap() {
-        return adjustedBodyWidth / 32;
-    }
-
-    function defaultTextSize() {
-        return Math.floor(adjustedBodyWidth / 52);
-    }
-</script>
-
-<div id="header" style="background-image: url(img/ticks.png);
-                        background-repeat: repeat;
-                        position: absolute;
-                        z-index: 10;
-                        width: 100%;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#header').css('height', $('#header').width() / 12);
-        });
-    </script>
-
-    <div id="title" style="font-family: existencestencil_light;
-                            color: #040404;
-                             position: absolute;
-                             text-wrap: none;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#title').css('font-size', Math.floor($('#header').height() / 2.1));
-                $('#title').css('top', ($('#header').height() - $('#title').height()) / 1.7);
-                $('#title').css('left', ($('#header').width() - $('#title').width()) / 2 - $('#title').outerWidth() / 1.08);
-            });
-        </script>
-
-        mhuusko5 |
+<div id="content">
+    <div class="header title">
+        <span style="font-family: ExistenceLightStencil;">mhuusko5 | </span>
+        <span style="font-family: WalkwayBold;">Mathew Huusko V</span>
     </div>
 
-    <div id="title2" style="font-family: walkway_ultraboldregular;
-                          color: #040404;
-                          position: absolute;
-                          text-wrap: none;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#title2').css('font-size', Math.floor($('#header').height() / 2));
-                $('#title2').css('top', ($('#header').height() - $('#title2').height()) / 1.76);
-                $('#title2').css('left', ($('#header').width() - $('#title2').width()) / 2 + $('#title2').outerWidth() / 3.51);
-            });
-        </script>
+    <div class="header navigation">
+        <div class="one-tall"></div>
 
-        Mathew Huusko V
+        <ul class="list">
+            <li id="aboutme-button" class="item" style="width: 14.6rem;">
+                <div class="indicator" style="margin-left: calc(14.6rem / 2);"></div>
+                <div class="icon" style="background-image: url(img/me.png);"></div>
+                <div class="label">About Me</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="resume-button" class="item" style="width: 14.4rem;">
+                <div class="indicator" style="margin-left: calc(14.5rem / 2);"></div>
+                <div class="icon" style="background-image: url(img/resume.png);"></div>
+                <div class="label">"Résumé"</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="presence-button" class="item" style="width: 14.2rem;">
+                <div class="indicator" style="margin-left: calc(14.3rem / 2);"></div>
+                <div class="icon" style="background-image: url(img/at.png);"></div>
+                <div class="label">Presence</div>
+                <div class="one-wide"></div>
+            </li>
+        </ul>
+
+        <ul class="list" id="app-list" style="width: 34rem; float:right; position: relative;">
+            <li id="gestr-button" class="item" style="width: 11.1rem;">
+                <div class="indicator" style="margin-left: calc(11.1rem / 2)"></div>
+                <div class="icon" style="background-image: url(img/gestr.png);"></div>
+                <div class="label">Gestr</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="ione-button" class="item" style="width: 10.0rem;">
+                <div class="indicator" style="margin-left: calc(10.1rem / 2)"></div>
+                <div class="icon" style="background-image: url(img/ione.png);"></div>
+                <div class="label">Ione</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="tapr-button" class="item" style="width: 10.4rem;">
+                <div class="indicator" style="margin-left: calc(10.4rem / 2)"></div>
+                <div class="icon" style="background-image: url(img/tapr.png);"></div>
+                <div class="label">Tapr</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="kemari-button" class="item" style="width: 12.2rem;">
+                <div class="indicator" style="margin-left: calc(12.4rem / 2)"></div>
+                <div class="icon" style="background-image: url(img/kemari.png);"></div>
+                <div class="label">Kemari</div>
+                <div class="one-wide"></div>
+            </li>
+
+            <li id="buzzkill-button" class="item" style="width: 13.3rem;">
+                <div class="indicator" style="margin-left: calc(13.6rem / 2)"></div>
+                <div class="icon" style="background-image: url(img/buzzkill.png);"></div>
+                <div class="label">Buzz Kill</div>
+            </li>
+        </ul>
+
+        <li class="one-wide" style="display: inline-block; position: relative; float: right;"></li>
+
+        <div id="app-list-label">Software:<div>(Scroll right)</div></div>
+
+        <div class="one-tall" style="bottom: 0;"></div>
     </div>
 
-    <div id="title3" style="font-family: walkway_boldregular;
-                          color: #040404;
-                          position: absolute;
-                          text-wrap: none;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#title3').css('font-size', Math.floor($('#header').height() / 5.8));
-                $('#title3').css('bottom', $('#header').height() / 10);
-                $('#title3').css('left', $('#header').height() / 7);
-            });
-        </script>
-    </div>
-</div>
+    <div id="view-holder">
+        <div class="view" id="aboutme-view">
+            <div id="aboutme-view-text">
+                <div class="headline" style="padding-bottom: 3rem;">Software. Software. Software.</div>
+                <div style="padding-bottom: 2.6rem;">I work full time engineering software at Black Duck Software. I wear a small hat at a big house at the intersection of open-source and enterprise. I take pride in being part of an effort to spread the appropriate use of open-source (something I couldn't live without) to individuals and large companies to help creative people collaborate.</div>
+                <div style="padding-bottom: 2.6rem;">I'm the engineering half of Illuminated Core Inc. As does my partner, Kevin Thompson, I wear a few different hats in order to make sure that what we produce is a meaningful distraction. I like being entertained, I like making software for entertainment, and I like it when that software entertains people.</div>
+                <div style="padding-bottom: 5rem;">I also create software independently, without a special title (or desk usually). I'm the mad hatter - I make and wear all the hats, from invention and concept creation to experience and interface design to creation of visual assets to engineering. I'm on a mission to do away with the traditional button/menu organized, cursor controlled, keyboard shortcut enhanced, desktop experience, and my target is Mac OS X.</div>
+                <div class="headline" style="padding-bottom: 0.8rem;">I like talking about my work, and my vision. But not so much my <span style="position: relative; padding-right: 0.1%; font-family: Helvetica; font-style: italic; font-weight: lighter;">self</span>.</div>
+                <div class="headline" style="padding-bottom: 6.6rem; float: right;">Besides, I hear pictures are worth more.</div>
+            </div>
 
-<div id="scroller" style="background-image: url(img/twinkle.png);
-                                  background-repeat: repeat;
-                                  position: absolute;
-                                  overflow-y: scroll;
-                                  width: 100%;">
-<script>
-    appendAndRenderPage(function () {
-        $('#scroller').css('height', $('body').innerHeight() - $('#header').height());
-        $('#scroller').css('top', $('#header').height());
-    });
-</script>
-
-<div id="gestrText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#gestrText').css('top', defaultHeightGap());
-            $('#gestrText').css('left', defaultHeightGap());
-            $('#gestrText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    Most of my code is trapped on the sectors of my hard drive, never escaping into the real world. Most.
-</div>
-
-<div id="gestr" style="position: absolute;
-                           height: 0;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#gestr').width(adjustedBodyWidth / 2.04);
-            $('#gestr').css('border-top', adjustedBodyWidth / 4.6 + 'px solid #8e44ad');
-            $('#gestr').css('border-right', adjustedBodyWidth / 6.92 + 'px solid transparent');
-            $('#gestr').css('top', parseFloat($('#gestrText').css('top')) + defaultHeightGap());
-            $('#gestr').css('left', 0);
-        });
-    </script>
-
-    <div id="gestrIcon" style="background-image: url(img/gestrIcon.png);
-                                   background-repeat: no-repeat; background-size: cover;
-                                           position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestrIcon').width($('#gestr').outerHeight() / 1.2);
-                $('#gestrIcon').height($('#gestrIcon').width());
-                $('#gestrIcon').css('top', (-$('#gestr').outerHeight() - $('#gestrIcon').height()) / 2);
-                $('#gestrIcon').css('left', ($('#gestr').outerHeight() - $('#gestrIcon').height()) / 2);
-            });
-        </script>
-    </div>
-
-    <div id="gestrIntro" style="position: absolute;
-                                     font-family: Lintel-Regular;
-                                     color: #ecf0f1;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestrIntro').css('top', -parseFloat($('#gestr').outerHeight()) + adjustedBodyWidth / 110);
-                $('#gestrIntro').css('left', parseFloat($('#gestrIcon').css('left')) + $('#gestrIcon').width() + parseFloat($('#gestrIcon').css('left')));
-                $('#gestrIntro').css('font-size', Math.floor(adjustedBodyWidth / 40));
-            });
-        </script>
-
-        INTRODUCING..
-    </div>
-
-    <div id="gestrTitle" style="position: absolute;
-                                     font-family: Jalane_light;
-                                     color: #2ecc71;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestrTitle').css('font-size', Math.floor(adjustedBodyWidth / 9));
-                $('#gestrTitle').css('top', -parseFloat($('#gestr').outerHeight()) + (parseFloat($('#gestr').outerHeight()) - parseFloat($('#gestrTitle').outerHeight())) / 1.55);
-                $('#gestrTitle').css('left', parseFloat($('#gestrIcon').css('left')) + $('#gestrIcon').width() + $('#gestrIcon').width() / 4.14);
-            });
-        </script>
-
-        GESTR
-    </div>
-</div>
-
-<div id="gestr2" style="position: absolute;
-                           height: 0;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#gestr2').width(adjustedBodyWidth / 2.8);
-            $('#gestr2').css('border-bottom', adjustedBodyWidth / 3.4 + 'px solid #2ecc71');
-            $('#gestr2').css('border-left', adjustedBodyWidth / 5.13 + 'px solid transparent');
-            $('#gestr2').css('top', parseFloat($('#gestr').css('top')) + defaultHeightGap());
-            $('#gestr2').css('right', 0);
-        });
-    </script>
-
-    <div id="gestr2Download" style="position: absolute;
-                                        height: 0; width: 0;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestr2Download').css('border-bottom', $('#gestr2').outerWidth() / 2.7216 + 'px solid #040404');
-                $('#gestr2Download').css('border-left', $('#gestr2').outerWidth() / 4.1 + 'px solid transparent');
-                $('#gestr2Download').css('bottom', -$('#gestr2').outerWidth() / 1.9376);
-                $('#gestr2Download').css('left', -$('#gestr2').outerWidth() / 3.138);
-            });
-        </script>
-
-        <div id="gestr2DownloadText" style="position: absolute;
-                                                font-family: Lintel-Regular;
-                                                color: #ecf0f1;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#gestr2DownloadText').css('top', $('#gestr2Download').outerWidth() / 1.58);
-                    $('#gestr2DownloadText').width(0.9 * Math.sqrt(Math.pow($('#gestr2Download').outerWidth(), 2) + Math.pow($('#gestr2Download').outerHeight(), 2)));
-                    $('#gestr2DownloadText').css('left', -$('#gestr2Download').outerWidth() - $('#gestr2Download').outerWidth() / 5.4);
-                    $('#gestr2DownloadText').css('font-size', Math.floor($('#gestr2DownloadText').width() / 12));
-                    $('#gestr2DownloadText').css('transform', 'rotate(-56.5deg)');
-                    $('#gestr2DownloadText').css('-ms-transform', 'rotate(-56.5deg)');
-                    $('#gestr2DownloadText').css('-webkit-transform', 'rotate(-56.5deg)');
-                });
-            </script>
-
-            Mac OS X 10.7+, 64-bit
+            <div id="aboutme-images-container" class="blueimp-gallery blueimp-gallery-controls">
+                <div class="slides"></div>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="play-pause"></a>
+            </div>
         </div>
 
-        <div id="gestr2VersionText" style="position: absolute;
-                                                font-family: Lintel-Regular;
-                                                color: #ecf0f1;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#gestr2VersionText').css('top', $('#gestr2Download').outerWidth() / 0.74);
-                    $('#gestr2VersionText').width(0.9 * Math.sqrt(Math.pow($('#gestr2Download').outerWidth(), 2) + Math.pow($('#gestr2Download').outerHeight(), 2)));
-                    $('#gestr2VersionText').css('left', -$('#gestr2Download').outerWidth() + $('#gestr2Download').outerWidth() / 2.66);
-                    $('#gestr2VersionText').css('font-size', Math.floor($('#gestr2VersionText').width() / 15));
-                });
-
-                $.get('gestrVersion', function (v) {
-                    $('#gestr2VersionText').text('Version ' + v);
-                });
-            </script>
+        <div class="view" id="resume-view">
+            <img src="img/resumeView1.svg">
+            <a id="resume-download" href="img/resumeFile.pdf">Download PDF</a>
+            <img src="img/resumeView2.svg">
+            <img src="img/resumeView3.svg">
         </div>
 
-        <a id="gestr2DownloadIcon" target="_blank" href="Gestr.html" style="position: absolute;
-                               background-image: url(img/download.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#gestr2DownloadIcon').width($('#gestr2Download').outerHeight() / 3.4);
-                    $('#gestr2DownloadIcon').height($('#gestr2DownloadIcon').width());
-                    $('#gestr2DownloadIcon').css('top', $('#gestr2Download').outerWidth() - $('#gestr2Download').outerWidth() / 140);
-                    $('#gestr2DownloadIcon').css('left', -$('#gestr2Download').outerWidth() + $('#gestr2Download').outerWidth() / 2.54);
-                });
-            </script>
-        </a>
-    </div>
+        <div class="view" id="presence-view">
+            <div class="group column1 row1">
+                <a class="icon" style="background-image: url(img/github.png);" target="_blank" href="https://github.com/mhuusko5"></a>
+                <div class="label">Github</div>
+            </div>
 
-    <div id="gestrDemoText" style="position: absolute;
-                                     font-family: Lintel-Regular;
-                                     color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestrDemoText').css('top', $('#gestr2').outerHeight() / 60);
-                $('#gestrDemoText').css('left', -$('#gestr2').outerWidth() / 18.6);
-                $('#gestrDemoText').css('font-size', Math.floor(adjustedBodyWidth / 54.6));
-            });
-        </script>
+            <div class="group column2 row1">
+                <a class="icon" style="background-image: url(img/gmail.png);" href="mailto:mhuusko5@gmail.com"></a>
+                <div class="label">Email</div>
+            </div>
 
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvery app on your Mac is just a gesture<br>&nbsp&nbsp&nbspaway! Four finger tap on
-        your trackpad<br>to make it your multitasking canvas!
-    </div>
+            <div class="group column3 row1">
+                <a class="icon" style="background-image: url(img/linkedin.png);" target="_blank" href="http://lnkd.in/ZtF9mx"></a>
+                <div class="label">LinkedIn</div>
+            </div>
 
-    <div id="gestr2Content" style="position: absolute; background-color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gestr2Content').css('width', $('#gestr2').outerHeight() / 0.776);
-                $('#gestr2Content').css('height', $('#gestr2').outerHeight() / 1.45);
-                $('#gestr2Content').css('left', -$('#gestr2').outerWidth() / 17.4);
-                $('#gestr2Content').css('top', $('#gestr2').outerHeight() / 3.58);
-            });
-        </script>
+            <div class="group column1 row2">
+                <a class="icon" style="background-image: url(img/facebook.png);" target="_blank" href="https://www.facebook.com/mhuusko5"></a>
+                <div class="label">Facebook</div>
+            </div>
 
-        <div id="gestrDemo" style="position: absolute;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#gestrDemo').css('height', $('#gestr2Content').outerHeight());
-                    $('#gestrDemo').css('width', $('#gestrDemo').outerHeight() * 1.43);
-                    $('#gestrDemo').css('top', 0);
-                    $('#gestrDemo').css('left', -($('#gestrDemo').outerWidth() - $('#gestr2Content').outerWidth()) / 2);
-                });
+            <div class="group column2 row2">
+                <a class="icon" style="background-image: url(img/skype.png);" href="skype:mhuusko5?chat"></a>
+                <div class="label">Skype</div>
+            </div>
+            <div class="group column3 row2">
+                <a class="icon" style="background-image: url(img/twitter.png);" target="_blank" href="https://twitter.com/mhuusko5"></a>
+                <div class="label">Twitter</div>
+            </div>
+            <div style="top: 74rem; width: 1px; height: 1px"></div>
+        </div>
 
-                $('#gestrDemo').append('<iframe width="100%" height="100%" src="' + window.protocol + '//www.youtube.com/embed/8lCA9RnW7Jw?rel=0" frameborder="0" allowfullscreen></iframe>');
-            </script>
+        <div class="view" id="gestr-view">
+            <div class="under-construction">Under Construction</div>
+        </div>
+
+        <div class="view" id="ione-view">
+            <div class="under-construction">Under Construction</div>
+        </div>
+
+        <div class="view" id="tapr-view">
+            <div class="under-construction">Under Construction</div>
+        </div>
+
+        <div class="view" id="kemari-view">
+            <div class="under-construction">Under Construction</div>
+        </div>
+
+        <div class="view" id="buzzkill-view">
+            <div class="under-construction">Under Construction</div>
         </div>
     </div>
 </div>
 
-<div id="taprText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#taprText').css('left', defaultHeightGap());
-            $('#taprText').css('top', parseFloat($('#gestr2').css('top')) + $('#gestr2').outerHeight() + defaultHeightGap());
-            $('#taprText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    Imagine if an app, like Gestr, had a little brother..
+<div id="window-warning">
+    <div class="one-tall"></div>
+    <div id="window-warning-text">FLIP YOUR DEVICE<br/>HORIZONTALLY<br/>OR<br/>WIDEN YOUR<br/>BROWSER WINDOW</div>
 </div>
 
-<div id="tapr" style="position: absolute;
-                           height: 0;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#tapr').width(adjustedBodyWidth / 1.19);
-            $('#tapr').css('border-bottom', adjustedBodyWidth / 4.0 + 'px solid #bdc3c7');
-            $('#tapr').css('border-right', adjustedBodyWidth / 10.0 + 'px solid transparent');
-            $('#tapr').css('top', parseFloat($('#taprText').css('top')) + defaultHeightGap());
-            $('#tapr').css('left', 0);
-        });
-    </script>
-
-    <div id="taprIcon" style="background-image: url(img/taprIcon.png);
-                                   background-repeat: no-repeat; background-size: cover;
-                                           position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprIcon').width($('#tapr').outerHeight() / 1.2);
-                $('#taprIcon').height($('#taprIcon').width());
-                $('#taprIcon').css('top', ($('#tapr').outerHeight() - $('#taprIcon').height()) / 2);
-                $('#taprIcon').css('left', ($('#tapr').outerHeight() - $('#taprIcon').height()) / 2);
-            });
-        </script>
-    </div>
-
-    <div id="taprIntro" style="position: absolute;
-                                   font-family: Lintel-Regular;
-                                     color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprIntro').css('top', $('#tapr').outerHeight() / 40);
-                $('#taprIntro').css('left', $('#tapr').width() / 2.8);
-                $('#taprIntro').css('font-size', defaultTextSize());
-            });
-        </script>
-
-        .. stop imagining.
-    </div>
-
-    <div id="taprTitle" style="position: absolute;
-                                     font-family: Jalane_light;
-                                     color: #2ecc71;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprTitle').css('font-size', Math.floor(adjustedBodyWidth / 9));
-                $('#taprTitle').css('top', (parseFloat($('#tapr').outerHeight()) - parseFloat($('#taprTitle').outerHeight())) / 4.9);
-                $('#taprTitle').css('left', parseFloat($('#taprIcon').css('left')) + $('#taprIcon').width() + $('#taprIcon').width() / 4.14);
-            });
-        </script>
-
-        tapr
-    </div>
-
-    <div id="taprDownload" style="position: absolute;
-                                        height: 0; width: 0; background-color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprDownload').width($('#tapr').outerHeight() / 1.34);
-                $('#taprDownload').height($('#taprDownload').width() / 2.56);
-                $('#taprDownload').css('bottom', -$('#tapr').outerHeight() + $('#tapr').outerHeight() / 8.6);
-                $('#taprDownload').css('left', $('#tapr').outerHeight() / 0.96);
-            });
-        </script>
-
-        <div id="taprDownloadText" style="position: absolute;
-                                                font-family: Lintel-Regular;
-                                                color: #ecf0f1; text-align: center;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#taprDownloadText').css('top', $('#taprDownload').outerHeight() / 38);
-                    $('#taprDownloadText').width($('#taprDownload').outerWidth());
-                    $('#taprDownloadText').css('left', 0);
-                    $('#taprDownloadText').css('font-size', Math.floor($('#taprDownloadText').width() / 12));
-                });
-            </script>
-
-            Mac OS X 10.7+, 64-bit
-        </div>
-
-        <a id="taprDownloadIcon" target="_blank" href="Tapr.html" style="position: absolute;
-                               background-image: url(img/download.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#taprDownloadIcon').width($('#taprDownload').outerHeight() / 1.56);
-                    $('#taprDownloadIcon').height($('#taprDownloadIcon').width());
-                    $('#taprDownloadIcon').css('top', $('#taprDownload').outerWidth() / 11);
-                    $('#taprDownloadIcon').css('left', ($('#taprDownload').outerWidth() - $('#taprDownloadIcon').outerWidth()) / 2);
-                });
-            </script>
-        </a>
-
-        <div id="taprVersionText" style="position: absolute;
-                                                font-family: Lintel-Regular;
-                                                color: #ecf0f1; text-align: center;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#taprVersionText').css('bottom', $('#taprDownload').outerWidth() / 58);
-                    $('#taprVersionText').width($('#taprDownload').outerWidth());
-                    $('#taprVersionText').css('font-size', Math.floor($('#taprVersionText').width() / 15));
-                });
-
-                $.get('taprVersion', function (v) {
-                    $('#taprVersionText').text('Version ' + v);
-                });
-            </script>
-        </div>
-    </div>
-
-    <div id="taprDemo" style="position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprDemo').css('height', $('#tapr').outerHeight() * 0.776);
-                $('#taprDemo').css('top', ($('#tapr').outerHeight() - $('#taprDemo').outerHeight()) / 2);
-                $('#taprDemo').css('width', $('#taprDemo').outerHeight() * 1.43);
-                $('#taprDemo').css('left', $('#tapr').outerHeight() / 0.512);
-            });
-
-            $('#taprDemo').append('<iframe width="100%" height="100%" src="' + window.protocol + '//www.youtube.com/embed/_4S447P09k4?rel=0" frameborder="0" allowfullscreen></iframe>');
-        </script>
-    </div>
-
-    <div id="taprDemoText" style="position: absolute;
-                                     font-family: Lintel-Regular;
-                                     color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#taprDemoText').css('top', $('#tapr').outerHeight() / 9.8);
-                $('#taprDemoText').css('left', $('#tapr').outerHeight() / 0.322);
-                $('#taprDemoText').width($('#tapr').outerHeight() / 1.3);
-                $('#taprDemoText').css('font-size', Math.floor(adjustedBodyWidth / 70));
-            });
-        </script>
-
-        You're most<br>activated<br>apps are just<br>a tap away!<br>Three finger tap<br>on your trackpad<br>to...<br>sounds familiar, eh?
-    </div>
-</div>
-
-<div id="kemariText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#kemariText').css('left', adjustedBodyWidth / 8);
-            $('#kemariText').css('top', parseFloat($('#tapr').css('top')) + $('#tapr').outerHeight() + defaultHeightGap());
-            $('#kemariText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    Software development isn't all fun and games. But this is.
-</div>
-
-<div id="kemari" style="position: absolute;
-                            background-color: #2980b9;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#kemari').width(adjustedBodyWidth / 1.22);
-            $('#kemari').height(adjustedBodyWidth / 3.41);
-            $('#kemari').css('top', parseFloat($('#kemariText').css('top')) + defaultHeightGap());
-            $('#kemari').css('left', 0);
-        });
-    </script>
-
-    <style>
-        #kemariScroller {
-            position: relative;
-        }
-
-        #kemariScroller .innerScrollArea {
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-
-        #kemariScroller ul {
-            padding: 0;
-            margin: 0;
-            position: relative;
-        }
-
-        #kemariScroller li {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            position: absolute;
-        }
-    </style>
-
-    <div id="kemariScroller">
-        <script>
-            appendAndRenderPage(function () {
-                $('#kemariScroller').css('width', $('#kemari').width() * 0.694);
-                $('#kemariScroller').css('left', $('#kemari').width() * 0.0122);
-                $('#kemariScroller').css('height', $('#kemari').height() * 0.929);
-                $('#kemariScroller').css('top', ($('#kemari').height() - $('#kemariScroller').height()) / 2);
-            });
-        </script>
-
-        <div class="innerScrollArea">
-            <ul>
-                <li class="kemari1" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="kemari2" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="kemari3" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="kemari4" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <script>
-        var kemariScroller = $('#kemariScroller div.innerScrollArea');
-        var kemariScrollerContent = kemariScroller.children('ul');
-
-        kemariScrollerContent.children().each(function () {
-            var $this = $(this).clone();
-            $this.appendTo(kemariScrollerContent);
-        });
-
-        kemariScrollerTimer = null;
-
-        appendAndRenderPage(function () {
-            clearInterval(kemariScrollerTimer);
-
-            $('.kemari1').css('height', $('#kemariScroller').height());
-            $('.kemari1').css('width', $('.kemari1').height() * 1.777);
-            $('.kemari2').css('height', $('#kemariScroller').height());
-            $('.kemari2').css('width', $('.kemari2').height() * 1.777);
-            $('.kemari3').css('height', $('#kemariScroller').height());
-            $('.kemari3').css('width', $('.kemari3').height() * 1.777);
-            $('.kemari4').css('height', $('#kemariScroller').height());
-            $('.kemari4').css('width', $('.kemari4').height() * 1.777);
-
-            var curX = 0;
-            kemariScrollerContent.children().each(function () {
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += Math.floor($this.outerWidth());
-            });
-
-            var fullW = curX / 2;
-            var viewportW = kemariScroller.outerWidth();
-
-            var controller = {curSpeed: 0, fullSpeed: 1.5};
-            var $controller = $(controller);
-            var tweenToNewSpeed = function (newSpeed, duration) {
-                if (duration === undefined) {
-                    duration = 600;
-                }
-                $controller.stop(true).animate({curSpeed: newSpeed}, duration);
-            };
-
-            var doScroll = function () {
-                var curX = kemariScroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW * 2 - viewportW) {
-                    newX -= Math.floor(fullW);
-                }
-                kemariScroller.scrollLeft(newX);
-            };
-
-            kemariScroller.unbind('hover');
-            kemariScroller.hover(function () {
-                tweenToNewSpeed(0);
-            }, function () {
-                tweenToNewSpeed(controller.fullSpeed);
-            });
-
-            kemariScrollerTimer = setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-        });
-    </script>
-
-    <div id="kemariIcon" style="background-image: url(img/kemariIcon.png);
-                                   background-repeat: no-repeat; background-size: cover;
-                                           position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#kemariIcon').width($('#kemari').outerHeight() / 1.7);
-                $('#kemariIcon').height($('#kemariIcon').width());
-                $('#kemariIcon').css('top', $('#kemari').outerHeight() / 19);
-                $('#kemariIcon').css('right', $('#kemari').outerHeight() / 8.4);
-            });
-        </script>
-    </div>
-
-    <div id="kemariDownload" style="position: absolute;
-                                        background-color: #040404;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#kemariDownload').width($('#kemari').outerHeight() / 1.34);
-                $('#kemariDownload').height($('#kemariDownload').width() / 2.56);
-                $('#kemariDownload').css('bottom', $('#kemari').outerHeight() / 27.2);
-                $('#kemariDownload').css('right', $('#kemari').outerHeight() / 27.2);
-            });
-        </script>
-
-        <div id="kemariDownloadText" style="position: absolute;
-                                                font-family: Lintel-Regular;
-                                                text-align: center;
-                                                color: #ecf0f1;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#kemariDownloadText').width($('#kemariDownload').width());
-                    $('#kemariDownloadText').css('top', $('#kemariDownload').height() / 40);
-                    $('#kemariDownloadText').css('font-size', Math.floor($('#kemariDownload').width() / 12));
-                });
-            </script>
-
-            Google Chrome
-        </div>
-
-        <a id="kemariDownloadIcon" target="_blank"
-           href="https://chrome.google.com/webstore/detail/kemari/opamidmghmfmdajnihdlbkpimmillcoc" style="position: absolute;
-                               background-image: url(img/download.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#kemariDownloadIcon').width($('#kemariDownload').height() / 1.11);
-                    $('#kemariDownloadIcon').height($('#kemariDownloadIcon').width());
-                    $('#kemariDownloadIcon').css('top', $('#kemariDownload').height() / 4.52);
-                    $('#kemariDownloadIcon').css('left', ($('#kemariDownload').width() - $('#kemariDownloadIcon').width()) / 2);
-                });
-            </script>
-        </a>
-    </div>
-</div>
-
-<div id="contactText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#contactText').css('right', adjustedBodyWidth / 8);
-            $('#contactText').css('top', parseFloat($('#kemari').css('top')) + $('#kemari').outerHeight() + defaultHeightGap());
-            $('#contactText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    Phone me up sometime. Actually, don't. Click these instead.
-</div>
-
-<div id="contact" style="position: absolute;
-                            background-color: #bdc3c7;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#contact').width(adjustedBodyWidth / 1.54);
-            $('#contact').height(adjustedBodyWidth / 5.06);
-            $('#contact').css('top', parseFloat($('#contactText').css('top')) + defaultHeightGap());
-            $('#contact').css('left', 0);
-        });
-    </script>
-
-    <a id="gmail" target="_blank" href="mailto:mhuusko5@gmail.com" style="position: absolute;
-                               background-image: url(img/gmail.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#gmail').width($('#contact').height() / 1.5);
-                $('#gmail').height($('#gmail').width());
-                $('#gmail').css('top', 0);
-                $('#gmail').css('left', $('#contact').width() / 36);
-            });
-        </script>
-    </a>
-
-    <a id="twitter" target="_blank" href="https://twitter.com/mhuusko5" style="position: absolute;
-                               background-image: url(img/twitter.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#twitter').width($('#contact').height() / 1.5);
-                $('#twitter').height($('#twitter').width());
-                $('#twitter').css('bottom', 0);
-                $('#twitter').css('left', $('#contact').width() / 3.7);
-            });
-        </script>
-    </a>
-
-    <a id="facebook" target="_blank" href="https://www.facebook.com/mhuusko5" style="position: absolute;
-                               background-image: url(img/facebook.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#facebook').width($('#contact').height() / 1.5);
-                $('#facebook').height($('#facebook').width());
-                $('#facebook').css('top', 0);
-                $('#facebook').css('right', $('#contact').width() / 3.7);
-            });
-        </script>
-    </a>
-
-    <a id="skype" target="_blank" href="skype:mhuusko5?chat" style="position: absolute;
-                               background-image: url(img/skype.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#skype').width($('#contact').height() / 1.5);
-                $('#skype').height($('#skype').width());
-                $('#skype').css('bottom', 0);
-                $('#skype').css('right', $('#contact').width() / 36);
-            });
-        </script>
-    </a>
-</div>
-
-<div id="contact2" style="position: absolute;
-                            background-color: #bdc3c7;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#contact2').width(adjustedBodyWidth / 3.28);
-            $('#contact2').height(adjustedBodyWidth / 5.06);
-            $('#contact2').css('top', parseFloat($('#contactText').css('top')) + defaultHeightGap());
-            $('#contact2').css('right', 0);
-        });
-    </script>
-
-    <a id="github" target="_blank" href="https://github.com/mhuusko5" style="position: absolute;
-                               background-image: url(img/github.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#github').width($('#contact2').height() / 1.5);
-                $('#github').height($('#github').width());
-                $('#github').css('top', 0);
-                $('#github').css('left', $('#contact2').width() / 36);
-            });
-        </script>
-    </a>
-
-    <a id="linkedin" target="_blank" href="http://lnkd.in/ZtF9mx" style="position: absolute;
-                               background-image: url(img/linkedin.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#linkedin').width($('#contact2').height() / 1.5);
-                $('#linkedin').height($('#linkedin').width());
-                $('#linkedin').css('bottom', 0);
-                $('#linkedin').css('right', $('#contact2').width() / 36);
-            });
-        </script>
-    </a>
-</div>
-
-<div id="employmentText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#employmentText').css('right', adjustedBodyWidth / 28);
-            $('#employmentText').css('top', parseFloat($('#contact').css('top')) + $('#contact').outerHeight() + defaultHeightGap());
-            $('#employmentText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    I try to play a misfit. But they just hire me anyway. Who? "The corporations, man."
-</div>
-
-<div id="employment" style="position: absolute;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#employment').width(adjustedBodyWidth / 1.1);
-            $('#employment').height(adjustedBodyWidth / 4.1);
-            $('#employment').css('top', parseFloat($('#employmentText').css('top')) + defaultHeightGap());
-            $('#employment').css('right', 0);
-        });
-    </script>
-
-    <div id="employment1" style="position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#employment1').width($('#employment').width() / 3);
-                $('#employment1').height($('#employment').height());
-                $('#employment1').css('top', 0);
-                $('#employment1').css('right', 0);
-            });
-        </script>
-
-        <div id="employmentSkew1" style="position: absolute; background-color: #bdc3c7;
-                                                                transform: skew(0deg, 7deg); -ms-transform: skew(0deg, 7deg); -webkit-transform: skew(0deg, 7deg);">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentSkew1').width($('#employment1').width());
-                    $('#employmentSkew1').height($('#employment1').height() / 1.2);
-                    $('#employmentSkew1').css('top', ($('#employment1').height() - $('#employmentSkew1').height()) / 2);
-                    $('#employmentSkew1').css('right', 0);
-                });
-            </script>
-        </div>
-
-        <a id="blackduckProgressImage" target="_blank" href="http://www.blackducksoftware.com/" style="position: absolute;
-                               background-image: url(img/blackduck.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#blackduckProgressImage').width($('#employment1').height() / 1.4);
-                    $('#blackduckProgressImage').height($('#blackduckProgressImage').width() * (141 / 235));
-                    $('#blackduckProgressImage').css('top', $('#employment1').height() / 4.4);
-                    $('#blackduckProgressImage').css('left', ($('#employment1').width() - $('#blackduckProgressImage').width()) / 2);
-                });
-            </script>
-        </a>
-
-        <div id="employmentText1" style="position: absolute;
-                                                                     transform: rotate(7deg);-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg);
-                                     font-family: Lintel-Regular;
-                                     color: #040404;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentText1').css('top', $('#employment1').height() / 1.26);
-                    $('#employmentText1').css('left', $('#employment1').width() / 4.3);
-                    $('#employmentText1').css('font-size', Math.floor(adjustedBodyWidth / 48));
-                });
-            </script>
-
-            UI Engineer, 2013—
-        </div>
-    </div>
-
-    <div id="employment2" style="position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#employment2').width($('#employment').width() / 3);
-                $('#employment2').height($('#employment').height());
-                $('#employment2').css('top', 0);
-                $('#employment2').css('right', $('#employment2').width() * 1.01);
-            });
-        </script>
-
-        <div id="employmentSkew2" style="position: absolute; background-color: #bdc3c7;
-                                                                transform: skew(0deg, -7deg); -ms-transform: skew(0deg, -7deg); -webkit-transform: skew(0deg, -7deg);">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentSkew2').width($('#employment2').width());
-                    $('#employmentSkew2').height($('#employment2').height() / 1.2);
-                    $('#employmentSkew2').css('top', ($('#employment2').height() - $('#employmentSkew2').height()) / 2);
-                    $('#employmentSkew2').css('right', 0);
-                });
-            </script>
-        </div>
-
-        <a id="microsoftImage" target="_blank" href="http://www.microsoft.com/" style="position: absolute;
-                               background-image: url(img/microsoft.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#microsoftImage').width($('#employment2').height() / 1.1);
-                    $('#microsoftImage').height($('#microsoftImage').width() * (150 / 618));
-                    $('#microsoftImage').css('top', $('#employment2').height() / 2.76);
-                    $('#microsoftImage').css('left', ($('#employment2').width() - $('#microsoftImage').width()) / 2);
-                });
-            </script>
-        </a>
-
-        <div id="employmentText2" style="position: absolute;
-                                                                     transform: rotate(-7deg);-ms-transform: rotate(-7deg); -webkit-transform: rotate(-7deg);
-                                     font-family: Lintel-Regular;
-                                     color: #040404;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentText2').css('top', $('#employment2').height() / 1.26);
-                    $('#employmentText2').css('left', $('#employment2').width() / 5.1);
-                    $('#employmentText2').css('font-size', Math.floor(adjustedBodyWidth / 48));
-                });
-            </script>
-
-            Engineer Intern, 2012
-        </div>
-    </div>
-
-    <div id="employment3" style="position: absolute;">
-        <script>
-            appendAndRenderPage(function () {
-                $('#employment3').width($('#employment').width() / 3);
-                $('#employment3').height($('#employment').height());
-                $('#employment3').css('top', 0);
-                $('#employment3').css('right', 2 * $('#employment3').width() * 1.01);
-            });
-        </script>
-
-        <div id="employmentSkew3" style="position: absolute; background-color: #bdc3c7;
-                                                                transform: skew(0deg, 7deg); -ms-transform: skew(0deg, 7deg); -webkit-transform: skew(0deg, 7deg);">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentSkew3').width($('#employment3').width());
-                    $('#employmentSkew3').height($('#employment3').height() / 1.2);
-                    $('#employmentSkew3').css('top', ($('#employment3').height() - $('#employmentSkew3').height()) / 2);
-                    $('#employmentSkew3').css('right', 0);
-                });
-            </script>
-        </div>
-
-        <a id="measuredProgressImage" target="_blank" href="http://www.measuredprogress.org/" style="position: absolute;
-                               background-image: url(img/measuredprogress.png);
-                               background-repeat: no-repeat;
-                               background-size: cover;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#measuredProgressImage').width($('#employment3').height() / 1.1);
-                    $('#measuredProgressImage').height($('#measuredProgressImage').width() * (78 / 242));
-                    $('#measuredProgressImage').css('top', $('#employment3').height() / 3.1);
-                    $('#measuredProgressImage').css('left', ($('#employment3').width() - $('#measuredProgressImage').width()) / 2);
-                });
-            </script>
-        </a>
-
-        <div id="employmentText3" style="position: absolute;
-                                                                     transform: rotate(7deg);-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg);
-                                     font-family: Lintel-Regular;
-                                     color: #040404;">
-            <script>
-                appendAndRenderPage(function () {
-                    $('#employmentText3').css('top', $('#employment3').height() / 1.26);
-                    $('#employmentText3').css('left', $('#employment3').width() / 6.3);
-                    $('#employmentText3').css('font-size', Math.floor(adjustedBodyWidth / 48));
-                });
-            </script>
-
-            Assistant Engineer, 2011
-        </div>
-    </div>
-</div>
-
-<div id="photosText" style="position: absolute;
-                                     font-family: walkway_boldregular;
-                                     text-align: center;
-                                     width: 100%;
-                                     color: #ecf0f1;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#photosText').css('top', parseFloat($('#employment').css('top')) + $('#employment').outerHeight() + defaultHeightGap());
-            $('#photosText').css('font-size', defaultTextSize());
-        });
-    </script>
-
-    What do graduating high-school, interning at Microsoft, and drinking tea in the sea have in common? Just me.
-</div>
-
-<div id="photos" style="position: absolute;
-                            background-color: #c0392b;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#photos').width(adjustedBodyWidth);
-            $('#photos').height(adjustedBodyWidth / 3.2);
-            $('#photos').css('top', parseFloat($('#photosText').css('top')) + defaultHeightGap());
-            $('#photos').css('right', 0);
-        });
-    </script>
-
-    <style>
-        #photosScroller {
-            position: relative;
-        }
-
-        #photosScroller .innerScrollArea {
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-
-        #photosScroller ul {
-            padding: 0;
-            margin: 0;
-            position: relative;
-        }
-
-        #photosScroller li {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            position: absolute;
-        }
-    </style>
-
-    <div id="photosScroller">
-        <script>
-            appendAndRenderPage(function () {
-                $('#photosScroller').css('width', $('#photos').width() * 0.9784);
-                $('#photosScroller').css('left', ($('#photos').width() - $('#photosScroller').width()) / 2);
-                $('#photosScroller').css('height', $('#photos').height() * 0.93);
-                $('#photosScroller').css('top', ($('#photos').height() - $('#photosScroller').height()) / 2);
-            });
-        </script>
-
-        <div class="innerScrollArea">
-            <ul>
-                <li class="graduationImage" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="internImage" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="teaImage" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="paintImage" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-
-                <li class="appleImage" style="background-repeat: no-repeat; background-size: cover;
-                                   position: absolute;">
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <script>
-        var photosScroller = $('#photosScroller div.innerScrollArea');
-        var photosScrollerContent = photosScroller.children('ul');
-
-        photosScrollerContent.children().each(function () {
-            var $this = $(this).clone();
-            $this.appendTo(photosScrollerContent);
-        });
-
-        photosScrollerTimer = null;
-
-        appendAndRenderPage(function () {
-            clearInterval(photosScrollerTimer);
-
-            $('.graduationImage').css('height', $('#photosScroller').height());
-            $('.graduationImage').css('width', $('.graduationImage').height() * 1.48);
-            $('.internImage').css('height', $('#photosScroller').height());
-            $('.internImage').css('width', $('.internImage').height() * 1.48);
-            $('.teaImage').css('height', $('#photosScroller').height());
-            $('.teaImage').css('width', $('.teaImage').height() * 1.39);
-            $('.paintImage').css('height', $('#photosScroller').height());
-            $('.paintImage').css('width', $('.paintImage').height() * 1.41);
-            $('.appleImage').css('height', $('#photosScroller').height());
-            $('.appleImage').css('width', $('.appleImage').height() * 0.62);
-
-            var curX = 0;
-            photosScrollerContent.children().each(function () {
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += Math.floor($this.outerWidth());
-            });
-
-            var fullW = curX / 2;
-            var viewportW = photosScroller.outerWidth();
-
-            var controller = {curSpeed: 0, fullSpeed: 1.5};
-            var $controller = $(controller);
-            var tweenToNewSpeed = function (newSpeed, duration) {
-                if (duration === undefined) {
-                    duration = 600;
-                }
-                $controller.stop(true).animate({curSpeed: newSpeed}, duration);
-            };
-
-            var doScroll = function () {
-                var curX = photosScroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW * 2 - viewportW) {
-                    newX -= Math.floor(fullW);
-                }
-                photosScroller.scrollLeft(newX);
-            };
-
-            photosScroller.unbind('hover');
-            photosScroller.hover(function () {
-                tweenToNewSpeed(0);
-            }, function () {
-                tweenToNewSpeed(controller.fullSpeed);
-            });
-
-            photosScrollerTimer = setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-        });
-    </script>
-</div>
-
-<div id="bottom" style="position: absolute;">
-    <script>
-        appendAndRenderPage(function () {
-            $('#bottom').width(1);
-            $('#bottom').height(1);
-            $('#bottom').css('top', parseFloat($('#photos').css('top')) + $('#photos').outerHeight() + defaultHeightGap());
-            $('#bottom').css('left', 0);
-        });
-
-        $(window).load(function () {
-            function updateTitle() {
-                $('#title3').text('Build ' + Math.round(((new Date().getTime() - new Date(1995, 6, 21).getTime()) / 1000 / 60 / 60 / 24 / 365) * (Math.pow(10, 8))) / (Math.pow(10, 8)));
-            }
-
-            setInterval(function () {
-                updateTitle();
-            }, 1000);
-
-            setTimeout(function () {
-                renderPage();
-                $('body').animate({'opacity': 1.0}, 1000);
-            }, 100);
-
-            $('.kemari1').css('background-image', 'url(img/kemari1.png)');
-            $('.kemari2').css('background-image', 'url(img/kemari2.png)');
-            $('.kemari3').css('background-image', 'url(img/kemari3.png)');
-            $('.kemari4').css('background-image', 'url(img/kemari4.png)');
-
-            $('.graduationImage').css('background-image', 'url(img/graduation.png)');
-            $('.internImage').css('background-image', 'url(img/intern.png)');
-            $('.teaImage').css('background-image', 'url(img/tea.png)');
-            $('.paintImage').css('background-image', 'url(img/paint.png)');
-            $('.appleImage').css('background-image', 'url(img/apple.png)');
-        });
-    </script>
-</div>
-</div>
-
+<script src="js/main.js"></script>
 </body>
 </html>

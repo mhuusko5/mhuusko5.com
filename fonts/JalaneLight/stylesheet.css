@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'JalaneLight';
+  src: url('font.eot');
+  src: url('font.eot?#iefix') format('embedded-opentype'),
+       url('font.svg#JalaneLight') format('svg'),
+       url('font.woff') format('woff'),
+       url('font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

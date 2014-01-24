@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="909" height="1095" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+
+
+<!-- Page 2 -->
+<svg x="0" y="-90" width="909" height="1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c0_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c1_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c2_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c3_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c4_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c5_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c6_2"><path d="M76.5,1182.5L76.5,88.5L830.5,88.5L830.5,1182.5Z" /></clipPath>
+<clipPath id="c7_2"><path d="M76.5,88.5L76.5,87.5L830.5,87.5L830.5,88.5Z" /></clipPath>
+<clipPath id="c8_2"><path d="M76.5,1199.5L76.5,1198.5L830.5,1198.5L830.5,1199.5Z" /></clipPath>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M76,87L830,87L830,1182L76,1182L76,87Z" clip-path="url(#c0_2)" fill="#FFFFFF" />
+<path d="M95.5,687.5L811.5,687.5" clip-path="url(#c1_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,718.5L811.5,718.5" clip-path="url(#c2_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<path d="M95.5,964.5L811.5,964.5" clip-path="url(#c3_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,995.5L811.5,995.5" clip-path="url(#c4_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<path d="M95.5,1107.5L811.5,1107.5" clip-path="url(#c5_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,1139.5L811.5,1139.5" clip-path="url(#c6_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<text 
+x="96" 
+y="195" 
+textLength="173" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold2" 
+fill="#000000" 
+>Phillips Exeter Academy</text>
+
+<text 
+x="673" 
+y="195" 
+textLength="138" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#555555" 
+>09 / 2010 - 06 / 2013</text>
+
+<text 
+x="96" 
+y="337" 
+textLength="67" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold2" 
+fill="#000000" 
+>Microsoft</text>
+
+<text 
+x="673" 
+y="336" 
+textLength="138" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#555555" 
+>07 / 2012 - 09 / 2012</text>
+
+<text 
+x="96" 
+y="521" 
+textLength="137" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold2" 
+fill="#000000" 
+>Measured Progress</text>
+
+<text 
+x="673" 
+y="520" 
+textLength="138" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#555555" 
+>06 / 2011 - 08 / 2011</text>
+
+<text 
+x="96" 
+y="754" 
+textLength="59" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Objective-C</text>
+
+<text 
+x="320" 
+y="754" 
+textLength="52" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>JavaScript</text>
+
+<text 
+x="545" 
+y="754" 
+textLength="32" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>HTML</text>
+
+<text 
+x="96" 
+y="784" 
+textLength="20" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>CSS</text>
+
+<text 
+x="320" 
+y="784" 
+textLength="23" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Java</text>
+
+<text 
+x="545" 
+y="784" 
+textLength="26" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Ruby</text>
+
+<text 
+x="96" 
+y="813" 
+textLength="16" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>C#</text>
+
+<text 
+x="320" 
+y="813" 
+textLength="20" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Perl</text>
+
+<text 
+x="545" 
+y="813" 
+textLength="27" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>C++</text>
+
+<text 
+x="96" 
+y="842" 
+textLength="38" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Node.js</text>
+
+<text 
+x="320" 
+y="842" 
+textLength="36" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Python</text>
+
+<text 
+x="545" 
+y="842" 
+textLength="21" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>SQL</text>
+
+<text 
+x="96" 
+y="871" 
+textLength="53" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Typescript</text>
+
+<text 
+x="320" 
+y="871" 
+textLength="22" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Dart</text>
+
+<text 
+x="545" 
+y="871" 
+textLength="21" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Less</text>
+
+<text 
+x="96" 
+y="901" 
+textLength="37" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Groovy</text>
+
+<text 
+x="320" 
+y="901" 
+textLength="69" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>WCF Services</text>
+
+<text 
+x="545" 
+y="901" 
+textLength="92" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Entity Framework</text>
+
+<text 
+x="96" 
+y="930" 
+textLength="30" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>NUnit</text>
+
+<text 
+x="320" 
+y="930" 
+textLength="21" 
+font-size="12.22" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>PHP</text>
+
+<text 
+x="96" 
+y="1031" 
+textLength="173" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold2" 
+fill="#000000" 
+>Phillips Exeter Academy</text>
+
+<text 
+x="733" 
+y="1031" 
+textLength="78" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#555555" 
+>2010 - 2013</text>
+
+<text 
+x="96" 
+y="101" 
+textLength="702" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Worked on a Java adapter library for common source control managements systems (Git, SVN, Perforce) as part of an</text>
+
+<text 
+x="96" 
+y="123" 
+textLength="711" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>(currently private, beta) enterprise targeted open source code analysis and management product. Also made significant</text>
+
+<text 
+x="96" 
+y="144" 
+textLength="513" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>contributions to bug fixes and integration/regression testing surrounding this product.</text>
+
+<text 
+x="96" 
+y="216" 
+textLength="44" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic2" 
+fill="#000000" 
+>Student</text>
+
+<text 
+x="96" 
+y="242" 
+textLength="668" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>I graduated with high-honors after three trying years of consistent high academic performance, while in parallel</text>
+
+<text 
+x="96" 
+y="264" 
+textLength="687" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>starting my career as a software creator (going from "System.out.println()" to interning at Microsoft in a little more</text>
+
+<text 
+x="96" 
+y="285" 
+textLength="77" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>than a year).</text>
+
+<text 
+x="96" 
+y="357" 
+textLength="222" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic2" 
+fill="#000000" 
+>Software Development Engineer Intern</text>
+
+<text 
+x="96" 
+y="383" 
+textLength="649" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>I interned for the summer as a development engineer on the SAMM team working on the App-V (Application</text>
+
+<text 
+x="96" 
+y="405" 
+textLength="693" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Virtualization) product as a part of Microsoft's Desktop Optimization Package. I independently designed, developed,</text>
+
+<text 
+x="96" 
+y="426" 
+textLength="712" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>and delivered a Window Communication Foundation web service and accompanying Windows 8 (at that time, "Metro")</text>
+
+<text 
+x="96" 
+y="448" 
+textLength="693" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>client app for reporting usage statistics for applications being used by virtualized client sets, to support the then beta</text>
+
+<text 
+x="96" 
+y="469" 
+textLength="124" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>release of App-V 5.0.</text>
+
+<text 
+x="96" 
+y="542" 
+textLength="167" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic2" 
+fill="#000000" 
+>Assistant Software Developer</text>
+
+<text 
+x="96" 
+y="568" 
+textLength="711" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>I interned for the summer as an assistant software developer, working on writing unit/integration tests for a large scale</text>
+
+<text 
+x="96" 
+y="589" 
+textLength="708" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>web service which handles reporting student, school, and district level results of U.S. state-specific standardized testing</text>
+
+<text 
+x="96" 
+y="610" 
+textLength="714" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>(e.g. MCAS, NECAP). I also spent some time working alongside quality assurance to reduce bugs in the front facing web</text>
+
+<text 
+x="96" 
+y="632" 
+textLength="168" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>client backed by this service.</text>
+
+<text 
+x="96" 
+y="709" 
+textLength="57" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>S K I L L S</text>
+
+<text 
+x="96" 
+y="985" 
+textLength="103" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>E D U C A T I O N</text>
+
+<text 
+x="96" 
+y="1052" 
+textLength="235" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic2" 
+fill="#000000" 
+>High School , General/Computer Science</text>
+
+<text 
+x="96" 
+y="1129" 
+textLength="74" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>H O N O R S</text>
+
+<text 
+x="96" 
+y="1174" 
+textLength="685" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman2" 
+fill="#000000" 
+>Phillips Exeter Academy 2012 "Upper" Computer Science Award (One of four given) Phillips Exeter Academy 2013</text>
+
+<path d="M76.5,88.5L830.5,88.5" clip-path="url(#c7_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+<path d="M76.5,1199.5L830.5,1199.5" clip-path="url(#c8_2)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+
+<path d="M0,1286
+L0,0
+L909,0
+L909,1286 z "
+fill="none"
+stroke-width="1.0"
+stroke-linecap="butt"
+stroke-linejoin="miter"
+stroke="#000000" />
+
+</svg>
+</svg>

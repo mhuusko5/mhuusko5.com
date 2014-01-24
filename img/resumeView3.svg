@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="909" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+
+
+<!-- Page 3 -->
+<svg x="0" y="-90" width="909" height="1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c0_3"><path d="M76.5,348.5L76.5,88.5L830.5,88.5L830.5,348.5Z" /></clipPath>
+<clipPath id="c1_3"><path d="M76.5,348.5L76.5,88.5L830.5,88.5L830.5,348.5Z" /></clipPath>
+<clipPath id="c2_3"><path d="M76.5,348.5L76.5,88.5L830.5,88.5L830.5,348.5Z" /></clipPath>
+<clipPath id="c3_3"><path d="M76.5,348.5L76.5,88.5L830.5,88.5L830.5,348.5Z" /></clipPath>
+<clipPath id="c4_3"><path d="M76.5,348.5L76.5,88.5L830.5,88.5L830.5,348.5Z" /></clipPath>
+<clipPath id="c5_3"><path d="M76.5,88.5L76.5,87.5L830.5,87.5L830.5,88.5Z" /></clipPath>
+<clipPath id="c6_3"><path d="M76.5,1199.5L76.5,1198.5L830.5,1198.5L830.5,1199.5Z" /></clipPath>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M76,87L830,87L830,348L76,348L76,87Z" clip-path="url(#c0_3)" fill="#FFFFFF" />
+<path d="M95.5,149.5L811.5,149.5" clip-path="url(#c1_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,180.5L811.5,180.5" clip-path="url(#c2_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<path d="M95.5,242.5L811.5,242.5" clip-path="url(#c3_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,273.5L811.5,273.5" clip-path="url(#c4_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<text 
+x="96" 
+y="309" 
+textLength="43" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>English </text>
+
+<text 
+x="144" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>(</text>
+
+<text 
+x="151" 
+y="309" 
+textLength="135" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>Native or bilingual proficiency</text>
+
+<text 
+x="289" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>)</text>
+
+<text 
+x="320" 
+y="309" 
+textLength="47" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>Spanish </text>
+
+<text 
+x="372" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>(</text>
+
+<text 
+x="379" 
+y="309" 
+textLength="124" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>Limited working proficiency</text>
+
+<text 
+x="506" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>)</text>
+
+<text 
+x="545" 
+y="309" 
+textLength="39" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>Italian </text>
+
+<text 
+x="588" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>(</text>
+
+<text 
+x="595" 
+y="309" 
+textLength="103" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>Elementary proficiency</text>
+
+<text 
+x="701" 
+y="309" 
+textLength="4" 
+font-size="10.69" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#555555" 
+>)</text>
+
+<text 
+x="96" 
+y="101" 
+textLength="649" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>"Special" Computer Science Award, "acknowledging significant personal achievement and contribution to the</text>
+
+<text 
+x="96" 
+y="123" 
+textLength="190" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>department" (One of one given)</text>
+
+<text 
+x="96" 
+y="170" 
+textLength="95" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>I N T E R E S T S</text>
+
+<text 
+x="96" 
+y="216" 
+textLength="495" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>software development, human-computer relationships, user interface design, music</text>
+
+<text 
+x="96" 
+y="263" 
+textLength="104" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman3" 
+fill="#000000" 
+>L A N G U A G E S</text>
+
+<path d="M76.5,88.5L830.5,88.5" clip-path="url(#c5_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+<path d="M76.5,1199.5L830.5,1199.5" clip-path="url(#c6_3)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+
+<path d="M0,1286
+L0,0
+L909,0
+L909,1286 z "
+fill="none"
+stroke-width="1.0"
+stroke-linecap="butt"
+stroke-linejoin="miter"
+stroke="#000000" />
+
+</svg>
+</svg>

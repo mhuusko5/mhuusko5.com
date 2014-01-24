@@ -1,0 +1,18 @@
+#resume-view {
+    font-size: 0;
+}
+
+#resume-download {
+    left: calc(8% + 2.1rem);
+    top: 1.2rem;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #040404;
+}
+
+#resume-view img {
+    position: relative;
+    width: 84%;
+    left: 8%;
+    pointer-events: none;
+}

@@ -2,10 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestrUpdate.xml" afterPath="$PROJECT_DIR$/gestrUpdate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestrVersion" afterPath="$PROJECT_DIR$/gestrVersion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taprUpdate.xml" afterPath="$PROJECT_DIR$/taprUpdate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taprVersion" afterPath="$PROJECT_DIR$/taprVersion" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ExistenceLightStencil/Existence-StencilLight-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ExistenceLightStencil/Existence-StencilLight-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ExistenceLightStencil/Existence-StencilLight-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ExistenceLightStencil/Existence-StencilLight-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ExistenceLightStencil/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/WalkwayBold/Walkway_Bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/WalkwayBold/Walkway_Bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/WalkwayBold/Walkway_Bold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/WalkwayBold/Walkway_Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/WalkwayBold/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/existenceLight/Existence-Light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/existenceLight/Existence-Light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/existenceLight/Existence-Light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/existenceLight/Existence-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/existenceLight/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/jalane/jalane_light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/jalane/jalane_light.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/jalane/jalane_light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/jalane/jalane_light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/jalane/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/lintel/27E458_0_0.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/lintel/27E458_0_0.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/lintel/27E458_0_0.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/lintel/27E458_0_0.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/lintel/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/nikaia/28F8F8_0_0.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/nikaia/28F8F8_0_0.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/nikaia/28F8F8_0_0.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/nikaia/28F8F8_0_0.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/nikaia/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/walkwayUltrabold/Walkway_UltraBold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/walkwayUltrabold/Walkway_UltraBold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/walkwayUltrabold/Walkway_UltraBold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/walkwayUltrabold/Walkway_UltraBold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/walkwayUltrabold/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blackduck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/gestrIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/gmail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/graduation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/greyDot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/intern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kemari1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kemari2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kemari3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kemari4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kemariIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/measuredprogress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/microsoft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/paint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/taprIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ticks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/twinkle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
@@ -29,64 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1158" column="13" selection-start="51177" selection-end="51177" vertical-scroll-proportion="-6.0" vertical-offset="18396" max-vertical-offset="19440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gestrVersion" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gestrVersion">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gestrUpdate.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="443" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gestr.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gestr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taprVersion" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taprVersion">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taprUpdate.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tapr.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tapr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+            <state line="169" column="68" selection-start="9436" selection-end="9436" vertical-scroll-proportion="0.325" vertical-offset="2808" max-vertical-offset="3528">
               <folding />
             </state>
           </provider>
@@ -113,11 +119,11 @@
         <option value="$PROJECT_DIR$/fonts/nikaia/stylesheet.css" />
         <option value="$PROJECT_DIR$/Gestr.html" />
         <option value="$PROJECT_DIR$/Tapr.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/gestrVersion" />
         <option value="$PROJECT_DIR$/gestrUpdate.xml" />
         <option value="$PROJECT_DIR$/taprVersion" />
         <option value="$PROJECT_DIR$/taprUpdate.xml" />
+        <option value="$PROJECT_DIR$/gestrVersion" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -153,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,23 +178,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhuusko5.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhuusko5.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,8 +195,19 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -215,12 +218,8 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -228,10 +227,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -285,11 +280,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -309,9 +304,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/gestrVersion">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="0" selection-start="14898" selection-end="14898" vertical-scroll-proportion="0.0" vertical-offset="5904" max-vertical-offset="5922">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="58" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gestr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taprVersion">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>
@@ -358,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="0" selection-start="14979" selection-end="14979" vertical-scroll-proportion="0.0" vertical-offset="6120" max-vertical-offset="19530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gestrVersion">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
@@ -403,62 +426,6 @@
     <entry file="file://$PROJECT_DIR$/Tapr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="465" column="22" selection-start="20990" selection-end="20990" vertical-scroll-proportion="0.0" vertical-offset="8370" max-vertical-offset="19530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gestrVersion">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gestr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taprVersion">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tapr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="51" selection-start="17695" selection-end="17695" vertical-scroll-proportion="0.0" vertical-offset="7236" max-vertical-offset="19530">
           <folding />
         </state>
       </provider>
@@ -501,13 +468,6 @@
     <entry file="file://$PROJECT_DIR$/Tapr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="496" column="76" selection-start="22468" selection-end="22468" vertical-scroll-proportion="0.0" vertical-offset="8928" max-vertical-offset="21726">
           <folding />
         </state>
       </provider>
@@ -589,16 +549,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/nikaia/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="214" selection-end="214" vertical-scroll-proportion="0.10309278" vertical-offset="0" max-vertical-offset="776" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/lintel/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tapr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
@@ -606,23 +556,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gestr.html">
+    <entry file="file://$PROJECT_DIR$/gestrVersion">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1158" column="13" selection-start="51177" selection-end="51177" vertical-scroll-proportion="-6.0" vertical-offset="18396" max-vertical-offset="19440">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="443" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state line="10" column="25" selection-start="443" selection-end="514" vertical-scroll-proportion="0.23684211" vertical-offset="0" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gestr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
           <folding />
         </state>
       </provider>
@@ -636,14 +586,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="13" column="6" selection-start="673" selection-end="673" vertical-scroll-proportion="0.31325302" vertical-offset="0" max-vertical-offset="747">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestrVersion">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
+        <state line="169" column="68" selection-start="9436" selection-end="9436" vertical-scroll-proportion="0.325" vertical-offset="2808" max-vertical-offset="3528">
           <folding />
         </state>
       </provider>

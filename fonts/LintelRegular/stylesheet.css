@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LintelRegular';
+    src: url('font.eot');
+    src: url('font.eot?#iefix') format('embedded-opentype'),
+         url('font.svg#LintelRegular') format('svg'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype');
+}
+ 

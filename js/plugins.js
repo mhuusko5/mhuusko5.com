@@ -36,5 +36,3 @@ window.getScrollbarWidth = function () {
     outer.parentNode.removeChild(outer);
     return widthNoScroll - widthWithScroll;
 }
-
-// Place any jQuery/helper plugins in here.

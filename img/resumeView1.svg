@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="909" height="1085" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+
+
+<!-- Page 1 -->
+<svg x="0" y="-100" width="909" height="1190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c0_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c1_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c2_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c3_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c4_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c5_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c6_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c7_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c8_1"><path d="M76.5,1184.5L76.5,88.5L830.5,88.5L830.5,1184.5Z" /></clipPath>
+<clipPath id="c9_1"><path d="M76.5,88.5L76.5,87.5L830.5,87.5L830.5,88.5Z" /></clipPath>
+<clipPath id="c10_1"><path d="M76.5,1199.5L76.5,1198.5L830.5,1198.5L830.5,1199.5Z" /></clipPath>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M76,88L830,88L830,1184L76,1184L76,88Z" clip-path="url(#c0_1)" fill="#FFFFFF" />
+<path d="M95.5,245.5L811.5,245.5" clip-path="url(#c1_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,276.5L811.5,276.5" clip-path="url(#c2_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<path d="M95.5,553.5L811.5,553.5" clip-path="url(#c3_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#000000"/>
+<path d="M95.5,584.5L811.5,584.5" clip-path="url(#c4_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#AAAAAA"/>
+<text 
+x="96" 
+y="620" 
+textLength="147" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold1" 
+fill="#000000" 
+>Black Duck Software</text>
+
+<text 
+x="691" 
+y="620" 
+textLength="120" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#555555" 
+>09 / 2013 - Present</text>
+
+<text 
+x="96" 
+y="783" 
+textLength="154" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold1" 
+fill="#000000" 
+>Illuminated Core Inc.</text>
+
+<text 
+x="691" 
+y="782" 
+textLength="120" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#555555" 
+>06 / 2012 - Present</text>
+
+<text 
+x="96" 
+y="946" 
+textLength="102" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold1" 
+fill="#000000" 
+>Self Employed</text>
+
+<text 
+x="691" 
+y="945" 
+textLength="120" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#555555" 
+>06 / 2010 - Present</text>
+
+<text 
+x="96" 
+y="1151" 
+textLength="147" 
+font-size="15.28" 
+font-family="QZBAAA-CharterBT-Bold1" 
+fill="#000000" 
+>Black Duck Software</text>
+
+<text 
+x="673" 
+y="1150" 
+textLength="138" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#555555" 
+>06 / 2013 - 09 / 2013</text>
+
+<text 
+x="299" 
+y="170" 
+textLength="309" 
+font-size="25.97" 
+font-family="QZBAAA-CharterBT-Bold1" 
+fill="#000000" 
+>MATHEW HUUSKO V</text>
+
+<text 
+x="385" 
+y="200" 
+textLength="137" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#555555" 
+>mhuusko5@gmail.com</text>
+
+<text 
+x="96" 
+y="266" 
+textLength="87" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>S U M M A R Y</text>
+
+<text 
+x="96" 
+y="312" 
+textLength="179" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>Software. Software. Software.</text>
+
+<text 
+x="96" 
+y="333" 
+textLength="695" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>I work full time engineering software at Black Duck Software. I wear a small hat at a big house at the intersection of</text>
+
+<text 
+x="96" 
+y="355" 
+textLength="660" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>open-source and enterprise. I take pride in being part of an effort to spread the appropriate use of open-source</text>
+
+<text 
+x="96" 
+y="376" 
+textLength="633" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>(something I couldn't live without) to individuals and large companies to help creative people collaborate.</text>
+
+<text 
+x="96" 
+y="398" 
+textLength="697" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>I'm the engineering half of Illuminated Core Inc. As does my partner, Kevin Thompson, I wear a few different hats in</text>
+
+<text 
+x="96" 
+y="419" 
+textLength="698" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>order to make sure that what we produce is a meaningful distraction. I like being entertained, I like making software</text>
+
+<text 
+x="96" 
+y="441" 
+textLength="411" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>for entertainment, and I like it when that software entertains people.</text>
+
+<text 
+x="96" 
+y="462" 
+textLength="708" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>I also create software independently, without a special title (or desk usually). I'm the mad hatter - I make and wear all</text>
+
+<text 
+x="96" 
+y="484" 
+textLength="655" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>the hats, from invention and concept creation to experience and interface design to creation of visual assets to</text>
+
+<text 
+x="96" 
+y="505" 
+textLength="682" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>engineering. I'm on a mission to do away with the traditional button/menu organized, cursor controlled, keyboard</text>
+
+<text 
+x="96" 
+y="527" 
+textLength="401" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>shortcut enhanced, desktop experience, and my target is Mac OS X.</text>
+
+<text 
+x="96" 
+y="574" 
+textLength="107" 
+font-size="15.28" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>E X P E R I E N C E</text>
+
+<text 
+x="96" 
+y="641" 
+textLength="199" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic1" 
+fill="#000000" 
+>Software (User Interface) Engineer</text>
+
+<text 
+x="96" 
+y="667" 
+textLength="708" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>Black Duck Software is working on a new cloud-based unification of its classic product line of open source code search,</text>
+
+<text 
+x="96" 
+y="689" 
+textLength="702" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>code security and license analysis, and management at the enterprise level. I am part of the team developing this new</text>
+
+<text 
+x="96" 
+y="710" 
+textLength="668" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>platform, currently contributing mostly to the user-facing Backbone web application, having started as an intern</text>
+
+<text 
+x="96" 
+y="732" 
+textLength="221" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>working on the Java Spring backend.</text>
+
+<text 
+x="96" 
+y="804" 
+textLength="243" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic1" 
+fill="#000000" 
+>Co-Founder/CTO, Software Engineer Lead</text>
+
+<text 
+x="96" 
+y="830" 
+textLength="628" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>I am currently working closely with co-founder and user experience/graphic design lead Kevin Thompson</text>
+
+<text 
+x="96" 
+y="851" 
+textLength="699" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>(http://www.linkedin.com/in/kevinpthompson) on a number of game and media collaborations. We are particularly</text>
+
+<text 
+x="96" 
+y="873" 
+textLength="699" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>proud of our most recent release, the game Buzz Kill. It's an awesome classic-arcade-game-influenced-CIA-drone-bee-</text>
+
+<text 
+x="96" 
+y="894" 
+textLength="593" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>shoot-'em-up adventure, which comes in both mouse controlled and Leap Motion interfaced flavors.</text>
+
+<text 
+x="96" 
+y="966" 
+textLength="98" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic1" 
+fill="#000000" 
+>Software Creator</text>
+
+<text 
+x="96" 
+y="992" 
+textLength="706" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>For about four years I've been creating software non-stop. Some of my work never leaves my computer, but most of it I</text>
+
+<text 
+x="96" 
+y="1014" 
+textLength="689" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>either open source, or polish up for distribution - browsing my Github and personal website would give you a pretty</text>
+
+<text 
+x="96" 
+y="1035" 
+textLength="677" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>good look at these projects. Currently I'm most focused on a series of extensions to Mac OS X that replace existing</text>
+
+<text 
+x="96" 
+y="1057" 
+textLength="675" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>cursor, keyboard, and menu based interactions with multitouch trackpad driven (what I consider deferred-touch)</text>
+
+<text 
+x="96" 
+y="1078" 
+textLength="669" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>gesture based interactions. Two of the pieces in the series are completed, which cover application switching, and</text>
+
+<text 
+x="96" 
+y="1100" 
+textLength="617" 
+font-size="13.75" 
+font-family="QUBAAA-CharterBT-Roman1" 
+fill="#000000" 
+>launching. The third in the series, a trackpad driven virtual keyboard, is in early stages of development.</text>
+
+<text 
+x="96" 
+y="1172" 
+textLength="162" 
+font-size="13.75" 
+font-family="QECAAA-CharterBT-Italic1" 
+fill="#000000" 
+>Software Engineering Intern</text>
+
+<path d="M76.5,88.5L830.5,88.5" clip-path="url(#c9_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+<path d="M76.5,1199.5L830.5,1199.5" clip-path="url(#c10_1)" fill="none" stroke-width="1" stroke-miterlimit="1.0" stroke-linecap="butt" stroke-linejoin="miter" stroke="#FFFFFF"/>
+
+<path d="M0,1286
+L0,0
+L909,0
+L909,1286 z "
+fill="none"
+stroke-width="1.0"
+stroke-linecap="butt"
+stroke-linejoin="miter"
+stroke="#000000" />
+
+<!-- Form Data here -->
+<foreignObject x="385" y="152" width="145" height="24">
+<body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0;">
+<input type="button"    id="form1_1" name="13 0 R"  pdfFieldName="13 0 R" style="cursor:pointer;  font:normal 9.189641px 'Times New Roman', Times, serif; 	width:137px;	height:16px;  text-align: left; ;  background: transparent;  border-color:transparent; vertical-align:text-top; margin: 0; padding: 0;" onclick="window.open('mailto:%6d%68%75%75%73%6b%6f%35@%67%6d%61%69%6c.%63%6f%6d','_blank');"  title="mailto:%6d%68%75%75%73%6b%6f%35@%67%6d%61%69%6c.%63%6f%6d"/>
+</body>
+</foreignObject>
+<foreignObject x="368" y="129" width="179" height="24">
+<body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0;">
+<input type="button"    id="form1_2" name="12 0 R"  pdfFieldName="12 0 R" style="cursor:pointer;  font:normal 9.189641px 'Times New Roman', Times, serif; 	width:171px;	height:16px;  text-align: left; ;  background: transparent;  border-color:transparent; vertical-align:text-top; margin: 0; padding: 0;" onclick="window.open('http://www.mhuusko5.com','_blank');"  title="http://www.mhuusko5.com"/>
+</body>
+</foreignObject>
+<foreignObject x="360" y="172" width="192" height="24">
+<body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0;">
+<input type="button"    id="form1_3" name="14 0 R"  pdfFieldName="14 0 R" style="cursor:pointer;  font:normal 9.189641px 'Times New Roman', Times, serif; 	width:184px;	height:16px;  text-align: left; ;  background: transparent;  border-color:transparent; vertical-align:text-top; margin: 0; padding: 0;" onclick="window.open('https://github.com/mhuusko5','_blank');"  title="https://github.com/mhuusko5"/>
+</body>
+</foreignObject>
+<foreignObject x="262" y="195" width="388" height="24">
+<body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0;">
+<input type="button"    id="form1_4" name="15 0 R"  pdfFieldName="15 0 R" style="cursor:pointer;  font:normal 9.189641px 'Times New Roman', Times, serif; 	width:380px;	height:16px;  text-align: left; ;  background: transparent;  border-color:transparent; vertical-align:text-top; margin: 0; padding: 0;" onclick="window.open('http://www.linkedin.com/pub/mathew-huusko-v/39/329/b85','_blank');"  title="http://www.linkedin.com/pub/mathew-huusko-v/39/329/b85"/>
+</body>
+</foreignObject>
+
+</svg>
+</svg>
