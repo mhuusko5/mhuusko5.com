@@ -88,7 +88,16 @@ $window.load(function() {
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
-            $('#gestr-video-container').append('<object width="100%" height="100%"><param name="movie" value="http://www.youtube.com/v/8lCA9RnW7Jw?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8lCA9RnW7Jw?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="100%" height="100%" allowscriptaccess="always" allowfullscreen="true"></embed></object>');
+            blueimp.Gallery([
+                {
+                    title: 'Gestr Tutorial',
+                    href: 'https://vimeo.com/85040520',
+                    type: 'text/html',
+                    vimeo: '85040520'
+                }
+            ], {
+                container: '#gestr-video-container'
+            });
         }
 
         $newView.animate({opacity: 1}, 500, null, function() {
