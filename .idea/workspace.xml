@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestrUpdate.xml" afterPath="$PROJECT_DIR$/gestrUpdate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taprUpdate.xml" afterPath="$PROJECT_DIR$/taprUpdate.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="14" selection-start="11440" selection-end="11440" vertical-scroll-proportion="0.5375" vertical-offset="2961" max-vertical-offset="3888">
+            <state line="180" column="44" selection-start="11279" selection-end="11279" vertical-scroll-proportion="-12.333333" vertical-offset="2907" max-vertical-offset="3870">
               <folding>
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -45,6 +46,24 @@
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taprUpdate.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="79" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gestrUpdate.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="79" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="30" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.0" vertical-offset="1498" max-vertical-offset="2304">
+            <state line="88" column="35" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.33199465" vertical-offset="1336" max-vertical-offset="2304">
               <folding />
             </state>
           </provider>
@@ -97,14 +116,14 @@
         <option value="$PROJECT_DIR$/fonts/nikaia/stylesheet.css" />
         <option value="$PROJECT_DIR$/Gestr.html" />
         <option value="$PROJECT_DIR$/Tapr.html" />
-        <option value="$PROJECT_DIR$/gestrUpdate.xml" />
         <option value="$PROJECT_DIR$/taprVersion" />
-        <option value="$PROJECT_DIR$/taprUpdate.xml" />
         <option value="$PROJECT_DIR$/gestrVersion" />
         <option value="$PROJECT_DIR$/css/resume.css" />
         <option value="$PROJECT_DIR$/css/aboutme.css" />
         <option value="$PROJECT_DIR$/css/gestr.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/taprUpdate.xml" />
+        <option value="$PROJECT_DIR$/gestrUpdate.xml" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -488,13 +507,6 @@
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="673" selection-end="673" vertical-scroll-proportion="0.31325302" vertical-offset="0" max-vertical-offset="747">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/gestr.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -526,23 +538,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="557" selection-end="618" vertical-scroll-proportion="0.26121372" vertical-offset="0" max-vertical-offset="758">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gestrVersion">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/aboutme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="279" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/gestr.css">
@@ -552,16 +550,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/taprUpdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="30" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.0" vertical-offset="1498" max-vertical-offset="2304">
+        <state line="10" column="79" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestrUpdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="79" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="14" selection-start="11440" selection-end="11440" vertical-scroll-proportion="0.5375" vertical-offset="2961" max-vertical-offset="3888">
+        <state line="180" column="44" selection-start="11279" selection-end="11279" vertical-scroll-proportion="-12.333333" vertical-offset="2907" max-vertical-offset="3870">
           <folding>
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -577,6 +582,20 @@
             <element signature="n#style#0;n#div#2;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aboutme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="279" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="35" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.33199465" vertical-offset="1336" max-vertical-offset="2304">
+          <folding />
         </state>
       </provider>
     </entry>
