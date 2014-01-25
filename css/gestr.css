@@ -27,10 +27,31 @@
     width: 56rem;
 }
 
+#gestr-download-area {
+    left: 8.4%;
+    top: 15.2rem;
+    width: 23rem;
+}
+
+#gestr-download-area img {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+}
+
+#gestr-download-description {
+    display: inline-block;
+    padding-top: 1.3rem;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
 #gestr-view-text {
     position: relative;
     left: 7.6%;
-    top: 6rem;
+    top: 8rem;
     width: 84.8%;
     font-size: 2rem;
     font-family: LintelRegular;
