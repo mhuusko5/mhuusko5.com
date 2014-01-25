@@ -90,7 +90,7 @@ $window.load(function() {
 
             blueimp.Gallery([
                 {
-                    href: '//www.youtube.com/watch?v=8lCA9RnW7Jw',
+                    href: 'https://www.youtube.com/watch?v=8lCA9RnW7Jw',
                     type: 'text/html',
                     youtube: '8lCA9RnW7Jw'
                 }
