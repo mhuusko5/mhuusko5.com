@@ -5,7 +5,6 @@ var $content = $('#content');
 var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
 var $appList = $('#app-list');
-var protocol = (document.location.protocol == 'https:' ? 'https:' : 'http:');
 
 $window.resize((function setRootUnit() {
     var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
@@ -89,7 +88,15 @@ $window.load(function() {
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
-            $('#gestr-video-container').append('<iframe width="100%" height="100%" src="' + protocol + '//www.youtube.com/embed/8lCA9RnW7Jw?rel=0" frameborder="0" allowfullscreen></iframe>');
+            blueimp.Gallery([
+                {
+                    href: '//www.youtube.com/watch?v=8lCA9RnW7Jw',
+                    type: 'text/html',
+                    youtube: '8lCA9RnW7Jw'
+                }
+            ], {
+                container: '#gestr-video-container'
+            });
         }
 
         $newView.animate({opacity: 1}, 500, null, function() {
@@ -103,9 +110,7 @@ $window.load(function() {
         if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
             switchView(viewName);
         } else {
-            setTimeout(function() {
-                window.location.hash = '#' + 'aboutme';
-            }, 100);
+            switchView('aboutme');
         }
 
         return handleNavigation;
@@ -119,7 +124,7 @@ $window.load(function() {
         var ga = document.createElement('script');
         ga.type = 'text/javascript';
         ga.async = true;
-        ga.src = ('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.src = ('https:' == window.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
