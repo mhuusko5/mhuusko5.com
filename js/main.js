@@ -88,7 +88,17 @@ $window.load(function() {
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
-            $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520?color=ffffff" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            blueimp.Gallery([
+                {
+                    href: 'http://vimeo.com/85040520',
+                    type: 'text/html',
+                    vimeo: '85040520'
+                }
+            ], {
+                container: '#gestr-video-container',
+                carousel: true,
+                vimeoClickToPlay: false
+            });
         }
 
         $newView.animate({opacity: 1}, 500, null, function() {
