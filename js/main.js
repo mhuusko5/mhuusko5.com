@@ -5,9 +5,16 @@ var $content = $('#content');
 var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
 var $appList = $('#app-list');
+var protocol = (document.location.protocol == 'https:' ? 'https:' : 'http:');
 
 $window.resize((function setRootUnit() {
-    $html.css('font-size', Math.round((window.innerWidth - window.getScrollbarWidth()) / 100));
+    var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
+    if (Math.floor(size) === 3) {
+        size = 3;
+    } else {
+        size = Math.round(size);
+    }
+    $html.css('font-size', size);
     return setRootUnit;
 })());
 
@@ -47,6 +54,7 @@ $window.load(function() {
 
     var switchingView = false;
 
+    var loadedViews = {};
     function switchView(viewName) {
         switchingView = true;
 
@@ -65,7 +73,9 @@ $window.load(function() {
         var $newView = $('#' + viewName + '-view');
         $newView.addClass('active').css('display', 'block')
 
-        if (viewName == 'aboutme') {
+        if (viewName == 'aboutme' && !loadedViews['aboutme']) {
+            loadedViews['aboutme'] = true;
+
             var aboutMeImages = [];
             for (var i = 1; i <= 7; i++) {
                 aboutMeImages[i - 1] = 'img/aboutMe' + i + '.png';
@@ -76,6 +86,10 @@ $window.load(function() {
                 slideshowInterval: 4000,
                 stretchImages: true
             });
+        } else if (viewName == 'gestr' && !loadedViews['gestr']) {
+            loadedViews['gestr'] = true;
+
+            $('#gestr-video-container').append('<iframe width="100%" height="100%" src="' + protocol + '//www.youtube.com/embed/8lCA9RnW7Jw?rel=0" frameborder="0" allowfullscreen></iframe>');
         }
 
         $newView.animate({opacity: 1}, 500, null, function() {
@@ -98,8 +112,6 @@ $window.load(function() {
     })());
 
     (function() {
-        window.protocol = (document.location.protocol == 'https:' ? 'https:' : 'http:');
-
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-43318814-4']);
         _gaq.push(['_trackPageview']);
@@ -107,7 +119,7 @@ $window.load(function() {
         var ga = document.createElement('script');
         ga.type = 'text/javascript';
         ga.async = true;
-        ga.src = ('https:' == window.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.src = ('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();

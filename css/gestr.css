@@ -1,0 +1,48 @@
+#gestr-view-title {
+    position: relative;
+    display: inline-block;
+    left: 7.6%;
+    top: 5rem;
+    font-size: 12rem;
+    font-family: JalaneLight;
+    color: #2ecc71;
+}
+
+#gestr-view-title div {
+    display: inline-block;
+    position: relative;
+    bottom: 2.6rem;
+    font-size: 2.4rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#gestr-view-title div.revolution {
+    position: absolute;
+    width: 56rem;
+}
+
+#gestr-view-title div.smallstep {
+    top: -5.8rem;
+    width: 56rem;
+}
+
+#gestr-view-text {
+    position: relative;
+    left: 7.6%;
+    top: 6rem;
+    width: 84.8%;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#gestr-view-text div {
+    position: relative;
+}
+
+#gestr-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

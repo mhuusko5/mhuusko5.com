@@ -1,8 +1,8 @@
 #aboutme-view-text {
     position: relative;
-    left: calc((100% - 84rem) / 2);
+    left: 8%;
     top: 5rem;
-    width: 84rem;
+    width: 84%;
     font-size: 2rem;
     font-family: LintelRegular;
     color: #ecf0f1;
@@ -17,7 +17,6 @@
 }
 
 #aboutme-images-container {
-    display: none;
     position: relative;
     width: 100%;
     height: 100%;
