@@ -84,15 +84,18 @@ $window.load(function() {
                 container: '#aboutme-images-container',
                 carousel: true,
                 slideshowInterval: 4000,
-                stretchImages: true
+                startSlideshow: false,
+                stretchImages: true,
+                unloadElements: false,
+                preloadRange: 1
             });
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
             if ('ontouchstart' in document.documentElement) {
-                $('#gestr-video-container').append('<a href="http://player.vimeo.com/video/85040520" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+                $('#gestr-video-container').append('<a href="//player.vimeo.com/video/85040520" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
             } else {
-                $('#gestr-video-container').append('<iframe src="http://player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+                $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
         }
 
@@ -101,19 +104,21 @@ $window.load(function() {
         });
     }
 
-    $window.bind('hashchange', (function handleNavigation() {
-        var viewName = window.location.hash.substr(1);
+    setTimeout(function() {
+        $window.bind('hashchange', (function handleNavigation() {
+            var viewName = window.location.hash.substr(1);
 
-        if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
-            switchView(viewName);
-        } else {
-            switchView('aboutme');
-        }
+            if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+                switchView(viewName);
+            } else {
+                switchView('aboutme');
+            }
 
-        return handleNavigation;
-    })());
+            return handleNavigation;
+        })());
+    }, 300);
 
-    (function() {
+    setTimeout(function() {
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-43318814-4']);
         _gaq.push(['_trackPageview']);
@@ -124,5 +129,5 @@ $window.load(function() {
         ga.src = ('https:' == window.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
-    })();
+    }, 5000);
 });
