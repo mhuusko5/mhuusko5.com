@@ -126,7 +126,7 @@ $window.load(function() {
 
             return handleNavigation;
         })());
-    }, 300);
+    }, 200);
 
     setTimeout(function() {
         var _gaq = _gaq || [];
