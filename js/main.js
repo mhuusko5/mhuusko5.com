@@ -107,6 +107,8 @@ $window.load(function() {
             }
         }
 
+        $window.trigger('resize');
+
         $newView.animate({opacity: 1}, 500, null, function() {
             switchingView = false;
         });
@@ -124,7 +126,7 @@ $window.load(function() {
 
             return handleNavigation;
         })());
-    }, 300);
+    }, 400);
 
     setTimeout(function() {
         var _gaq = _gaq || [];
