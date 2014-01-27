@@ -97,6 +97,14 @@ $window.load(function() {
             } else {
                 $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
+        } else if (viewName == 'ione' && !loadedViews['ione']) {
+            loadedViews['ione'] = true;
+
+            if ('ontouchstart' in document.documentElement) {
+                $('#ione-video-container').append('<a href="//player.vimeo.com/video/85051548" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+            } else {
+                $('#ione-video-container').append('<iframe src="//player.vimeo.com/video/85051548" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            }
         }
 
         $newView.animate({opacity: 1}, 500, null, function() {
