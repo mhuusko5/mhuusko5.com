@@ -11,7 +11,7 @@
 #ione-view-title div {
     display: inline-block;
     position: relative;
-    bottom: 1.9rem;
+    bottom: 1.8rem;
     font-size: 2.4rem;
     font-family: LintelRegular;
     color: #ecf0f1;
@@ -19,12 +19,10 @@
 
 #ione-view-title div.impossible {
     position: absolute;
-    width: 56rem;
 }
 
 #ione-view-title div.simple {
-    top: -5.1rem;
-    width: 56rem;
+    top: -5.6rem;
 }
 
 #ione-download-area {
