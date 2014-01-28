@@ -105,6 +105,14 @@ $window.load(function() {
             } else {
                 $('#ione-video-container').append('<iframe src="//player.vimeo.com/video/85051548" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
+        } else if (viewName == 'tapr' && !loadedViews['tapr']) {
+            loadedViews['tapr'] = true;
+
+            if ('ontouchstart' in document.documentElement) {
+                $('#tapr-video-container').append('<a href="//player.vimeo.com/video/85051549" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+            } else {
+                $('#tapr-video-container').append('<iframe src="//player.vimeo.com/video/85051549" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            }
         }
 
         $window.trigger('resize');

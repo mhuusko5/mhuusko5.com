@@ -1,0 +1,69 @@
+#tapr-view-title {
+    position: relative;
+    display: inline-block;
+    left: 7.6%;
+    top: 5rem;
+    font-size: 12rem;
+    font-family: JalaneLight;
+    color: #2ecc71;
+}
+
+#tapr-view-title div {
+    display: inline-block;
+    position: relative;
+    bottom: 2.6rem;
+    font-size: 2.4rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#tapr-view-title div.brother {
+    position: absolute;
+    width: 56rem;
+}
+
+#tapr-view-title div.another {
+    top: -5.8rem;
+    width: 56rem;
+}
+
+#tapr-download-area {
+    left: 8.4%;
+    top: 15.6rem;
+    width: 23rem;
+}
+
+#tapr-download-area img {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+}
+
+#tapr-download-description {
+    display: inline-block;
+    padding-top: 1.3rem;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#tapr-view-text {
+    position: relative;
+    left: 7.6%;
+    top: 8rem;
+    width: 84.8%;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#tapr-view-text div {
+    position: relative;
+}
+
+#tapr-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
