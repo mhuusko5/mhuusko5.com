@@ -113,6 +113,14 @@ $window.load(function() {
             } else {
                 $('#tapr-video-container').append('<iframe src="//player.vimeo.com/video/85051549" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
+        } else if (viewName == 'kemari' && !loadedViews['kemari']) {
+            loadedViews['kemari'] = true;
+
+            if ('ontouchstart' in document.documentElement) {
+                $('#kemari-video-container').append('<a href="//player.vimeo.com/video/85295911" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+            } else {
+                $('#kemari-video-container').append('<iframe src="//player.vimeo.com/video/85295911" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            }
         }
 
         $window.trigger('resize');

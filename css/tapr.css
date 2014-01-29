@@ -1,11 +1,12 @@
 #tapr-view-title {
     position: relative;
     display: inline-block;
-    left: 7.6%;
+    left: 8.0%;
     top: 5rem;
     font-size: 12rem;
     font-family: JalaneLight;
     color: #2ecc71;
+    white-space: nowrap;
 }
 
 #tapr-view-title div {
