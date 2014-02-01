@@ -63,6 +63,25 @@
 
 #gestr-video-container {
     position: relative;
+    margin-top: 9.6rem;
     width: 100%;
     height: 100%;
+}
+
+@-moz-document url-prefix() {
+    #gestr-view-title div {
+        bottom: 3.0rem;
+    }
+
+    #gestr-view-title div.smallstep {
+        top: -6.2rem;
+    }
+
+    #gestr-view-text {
+        top: 7rem;
+    }
+
+    #gestr-video-container {
+        margin-top: 8.6rem;
+    }
 }

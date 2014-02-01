@@ -63,6 +63,29 @@
 
 #ione-video-container {
     position: relative;
+    margin-top: 9.6rem;
     width: 100%;
     height: 100%;
+}
+
+@-moz-document url-prefix() {
+    #ione-view-title {
+        top: 1.2rem;
+    }
+
+    #ione-view-title div {
+        bottom: 2.4rem;
+    }
+
+    #ione-view-title div.simple {
+        top: -5.4rem;
+    }
+
+    #ione-view-text {
+        top: 4.2rem;
+    }
+
+    #ione-video-container {
+        margin-top: 5.8rem;
+    }
 }
