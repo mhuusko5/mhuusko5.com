@@ -21,7 +21,7 @@
 }
 
 #kemari-view-title div:nth-child(1) {
-    padding-left: 0.8rem;
+    margin-left: 0.8rem;
 }
 
 #kemari-view-title div.calmly {
@@ -46,8 +46,8 @@
 
 #kemari-download-description {
     display: inline-block;
-    padding-top: 1.3rem;
-    padding-left: 0.8rem;
+    margin-top: 1.3rem;
+    margin-left: 0.8rem;
     font-size: 1.2rem;
     font-family: LintelRegular;
     color: #ecf0f1;

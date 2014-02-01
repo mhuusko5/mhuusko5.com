@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/aboutme.css" afterPath="$PROJECT_DIR$/css/aboutme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/gestr.css" afterPath="$PROJECT_DIR$/css/gestr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ione.css" afterPath="$PROJECT_DIR$/css/ione.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/kemari.css" afterPath="$PROJECT_DIR$/css/kemari.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tapr.css" afterPath="$PROJECT_DIR$/css/tapr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,28 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gestr.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gestr.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/gestr.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="1" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.33684212" vertical-offset="842" max-vertical-offset="1656">
+            <state line="72" column="16" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="1728">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tapr.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tapr.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tapr.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="4" selection-start="1202" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1656">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ione.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/ione.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="17" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="1728">
+            <state line="65" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.36052632" vertical-offset="896" max-vertical-offset="1728">
               <folding />
             </state>
           </provider>
@@ -157,8 +145,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/kemari.css" />
         <option value="$PROJECT_DIR$/css/ione.css" />
-        <option value="$PROJECT_DIR$/css/tapr.css" />
         <option value="$PROJECT_DIR$/css/gestr.css" />
+        <option value="$PROJECT_DIR$/css/tapr.css" />
       </list>
     </option>
   </component>
@@ -1265,21 +1253,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ione.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="17" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tapr.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="4" selection-start="1202" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1656">
+        <state line="80" column="17" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.6210526" vertical-offset="968" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/gestr.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="1" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.33684212" vertical-offset="842" max-vertical-offset="1656">
+        <state line="72" column="16" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tapr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.36052632" vertical-offset="896" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>

@@ -40,8 +40,8 @@
 
 #tapr-download-description {
     display: inline-block;
-    padding-top: 1.3rem;
-    padding-left: 0.8rem;
+    margin-top: 1.3rem;
+    margin-left: 0.8rem;
     font-size: 1.2rem;
     font-family: LintelRegular;
     color: #ecf0f1;
@@ -69,6 +69,10 @@
 }
 
 @-moz-document url-prefix() {
+    #tapr-view-title {
+        top: 4.2rem;
+    }
+
     #tapr-view-title div {
         bottom: 3.0rem;
     }
