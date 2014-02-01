@@ -4,6 +4,7 @@ var $body = $('body');
 var $content = $('#content');
 var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
+var $appListLabel = $('#app-list-label');
 var $appList = $('#app-list');
 
 $window.resize((function setRootUnit() {
@@ -47,9 +48,14 @@ $window.load(function() {
         }
     });
 
-    $appList.mousewheel(function(e) {
+    function scrollAppList(e) {
+        e.preventDefault();
         $appList.scrollLeft($appList.scrollLeft() - e.deltaY);
-    });
+    }
+
+    $appList.mousewheel(scrollAppList);
+
+    $appListLabel.mousewheel(scrollAppList);
 
     var switchingView = false;
 
