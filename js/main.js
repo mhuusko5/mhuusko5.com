@@ -179,13 +179,40 @@ $window.load(function() {
 
     if (window.location.protocol != 'file:') {
         setTimeout(function() {
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
             ga('create', 'UA-47723827-1', 'mhuusko5.com');
             ga('send', 'pageview');
-        }, 1000);
+
+            (function trackOutbounds() {
+                var hitCallbackHandler = function(url) {
+                    window.location.href = url;
+                };
+                if (document.getElementsByTagName) {
+                    var el = document.getElementsByTagName('a');
+                    var getDomain = document.domain.split('.').reverse()[1] + '.' + document.domain.split('.').reverse()[0];
+                    for (var i = 0; i < el.length; i++) {
+                        var href = (typeof(el[i].getAttribute('href')) != 'undefined' ) ? el[i].getAttribute('href') : '';
+                        var myDomain = href.match(getDomain);
+                        if (href.match(/^https?\:/i) && !myDomain) {
+                            el[i].addEventListener('click', function(e) {
+                                var url = this.getAttribute('href');
+                                ga('send', 'event', 'outbound', 'click', url, {'hitCallback': hitCallbackHandler(url)}, {'nonInteraction': 1});
+                                e.preventDefault();
+                            });
+                        }
+                    }
+                }
+            })();
+        }, 500);
     }
 });
