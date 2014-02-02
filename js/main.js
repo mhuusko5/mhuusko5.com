@@ -62,14 +62,14 @@ $window.load(function() {
 
         if (!showingAppList) {
             var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 125.8;
-            $infoList.animate({'margin-left': marginLeft + 'px'}, 500, function() {
+            $infoList.animate({'margin-left': marginLeft + 'px'}, 400, function() {
                 $infoList.css('margin-left', 'calc(100% - 125.8rem)');
                 $toggleAppList.find('div').text('Hide Apps');
                 showingAppList = true;
                 togglingAppList = false;
             });
         } else {
-            $infoList.animate({'margin-left': 0}, 500, function() {
+            $infoList.animate({'margin-left': 0}, 400, function() {
                 $toggleAppList.find('div').text('Show Apps');
                 showingAppList = false;
                 togglingAppList = false;
@@ -80,13 +80,13 @@ $window.load(function() {
     $toggleAppList.find('div').click(toggleAppList);
 
     if (!isMobile()) {
-        $infoList.hover(function() {
+        $infoList.mouseenter(function() {
             if (showingAppList) {
                 toggleAppList();
             }
         });
 
-        $appList.hover(function() {
+        $appList.mouseenter(function() {
             if (!showingAppList) {
                 toggleAppList();
             }
@@ -113,6 +113,10 @@ $window.load(function() {
 
         var $newView = $('#' + viewName + '-view');
         $newView.addClass('active').css('display', 'block')
+
+        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
+            toggleAppList();
+        }
 
         if (viewName == 'aboutme' && !loadedViews['aboutme']) {
             loadedViews['aboutme'] = true;
