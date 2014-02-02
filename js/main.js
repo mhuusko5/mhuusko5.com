@@ -6,7 +6,6 @@ var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
 var $infoList = $('#info-list');
 var $toggleAppList = $('#toggle-app-list');
-var $appList = $('#app-list');
 
 $window.resize((function setRootUnit() {
     var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
@@ -80,20 +79,6 @@ $window.load(function() {
 
     $toggleAppList.find('div').click(toggleAppList);
 
-    if (!isMobile()) {
-        $infoList.mouseenter(function() {
-            if (showingAppList) {
-                toggleAppList();
-            }
-        });
-
-        $appList.mouseenter(function() {
-            if (!showingAppList) {
-                toggleAppList();
-            }
-        });
-    }
-
     var switchingView = false;
     var loadedViews = {};
 
@@ -114,10 +99,6 @@ $window.load(function() {
 
         var $newView = $('#' + viewName + '-view');
         $newView.addClass('active').css('display', 'block')
-
-        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
-            toggleAppList();
-        }
 
         if (viewName == 'aboutme' && !loadedViews['aboutme']) {
             loadedViews['aboutme'] = true;
@@ -174,6 +155,10 @@ $window.load(function() {
         $newView.animate({opacity: 1}, 500, null, function() {
             switchingView = false;
         });
+
+        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
+            toggleAppList();
+        }
     }
 
     $body.animate({'opacity': 1.0}, 1000);
