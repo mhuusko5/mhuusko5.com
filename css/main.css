@@ -179,6 +179,10 @@ body {
 #window-warning-text {
     width: 100%;
     bottom: calc((100% - 58rem) / 2);
+}
+
+#window-warning-text div {
+    position: relative;
     font-family: LintelRegular;
     font-size: 9rem;
     text-align: center;
@@ -190,11 +194,11 @@ body {
     }
 
     .header.title {
-        display: block!important;
+        display: block !important;
     }
 
     #view-holder, .header.navigation {
-        display: none!important;
+        display: none !important;
     }
 }
 
@@ -207,7 +211,10 @@ body {
 .mobile-video-mask img {
     position: absolute;
     height: 30%;
-    top: 0; bottom:0; left: 0; right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto;
 }
 

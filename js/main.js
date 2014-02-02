@@ -23,7 +23,7 @@ $window.load(function() {
     function isMobile() {
         return ('ontouchstart' in document.documentElement);
     }
-    
+
     $('#view-holder .view').css('display', 'none');
 
     var headerHidden = false;
@@ -53,6 +53,7 @@ $window.load(function() {
 
     var showingAppList = false;
     var togglingAppList = false;
+
     function toggleAppList() {
         if (togglingAppList) {
             return;
