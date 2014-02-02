@@ -90,10 +90,16 @@ body {
 #toggle-app-list {
     display: inline-block;
     position: relative;
+    height: 100%;
+    cursor: pointer;
     margin-left: 13rem;
     margin-right: 1rem;
     min-width: 11rem;
-    text-align: right;
+}
+
+#toggle-app-list div {
+    position: relative;
+    float: right;
     line-height: 5.1rem;
     font-size: 2.0rem;
     font-family: LintelRegular;
