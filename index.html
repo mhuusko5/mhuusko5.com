@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/kemari.css">
 
     <script src="vendor/jquery.js"></script>
-    <script src="vendor/jquery.mousewheel.js"></script>
     <script src="vendor/Gallery/js/blueimp-gallery.js"></script>
     <script src="js/plugins.js"></script>
 </head>
@@ -38,68 +37,68 @@
     <div class="header navigation">
         <div class="one-tall"></div>
 
-        <ul class="list">
+        <ul class="list" id="info-list">
             <li id="aboutme-button" class="item" style="width: 14.6rem;">
-                <div class="indicator" style="margin-left: calc(14.6rem / 2);"></div>
+                <div class="indicator" style="margin-left: calc(14.6rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/me.png);"></div>
                 <div class="label">About Me</div>
                 <div class="one-wide"></div>
             </li>
 
             <li id="resume-button" class="item" style="width: 14.4rem;">
-                <div class="indicator" style="margin-left: calc(14.5rem / 2);"></div>
+                <div class="indicator" style="margin-left: calc(14.4rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/resume.png);"></div>
                 <div class="label">"Résumé"</div>
                 <div class="one-wide"></div>
             </li>
 
             <li id="presence-button" class="item" style="width: 14.2rem;">
-                <div class="indicator" style="margin-left: calc(14.3rem / 2);"></div>
+                <div class="indicator" style="margin-left: calc(14.2rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/at.png);"></div>
                 <div class="label">Presence</div>
                 <div class="one-wide"></div>
             </li>
         </ul>
 
-        <ul class="list" id="app-list" style="width: 34rem; float:right; position: relative;">
+        <div id="toggle-app-list">Show Apps</div>
+
+        <ul class="list" id="app-list">
+            <div class="one-wide"></div>
+
             <li id="gestr-button" class="item" style="width: 11.1rem;">
-                <div class="indicator" style="margin-left: calc(11.1rem / 2)"></div>
+                <div class="indicator" style="margin-left: calc(11.1rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/gestr.png);"></div>
                 <div class="label">Gestr</div>
                 <div class="one-wide"></div>
             </li>
 
             <li id="ione-button" class="item" style="width: 10.0rem;">
-                <div class="indicator" style="margin-left: calc(10.1rem / 2)"></div>
+                <div class="indicator" style="margin-left: calc(10.0rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/ione.png);"></div>
                 <div class="label">Ione</div>
                 <div class="one-wide"></div>
             </li>
 
             <li id="tapr-button" class="item" style="width: 10.4rem;">
-                <div class="indicator" style="margin-left: calc(10.4rem / 2)"></div>
+                <div class="indicator" style="margin-left: calc(10.4rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/tapr.png);"></div>
                 <div class="label">Tapr</div>
                 <div class="one-wide"></div>
             </li>
 
             <li id="kemari-button" class="item" style="width: 12.2rem;">
-                <div class="indicator" style="margin-left: calc(12.4rem / 2)"></div>
+                <div class="indicator" style="margin-left: calc(12.2rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/kemari.png);"></div>
                 <div class="label">Kemari</div>
                 <div class="one-wide"></div>
             </li>
 
-            <li id="buzzkill-button" class="item" style="width: 13.3rem;">
-                <div class="indicator" style="margin-left: calc(13.6rem / 2)"></div>
+            <li id="buzzkill-button" class="item" style="width: 13.4rem;">
+                <div class="indicator" style="margin-left: calc(13.4rem / 2.04);"></div>
                 <div class="icon" style="background-image: url(img/buzzkill.png);"></div>
                 <div class="label">Buzz Kill</div>
             </li>
         </ul>
-
-        <li class="one-wide" style="display: inline-block; position: relative; float: right;"></li>
-
-        <div id="app-list-label">Software:<div>(Scroll)</div></div>
 
         <div class="one-tall" style="bottom: 0;"></div>
     </div>

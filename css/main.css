@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     position: absolute;
+    overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -14,7 +15,6 @@
 html, body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -76,13 +76,27 @@ body {
 
 .header.navigation {
     height: 5rem;
+    white-space: nowrap;
 }
 
 .header.navigation .list {
+    position: relative;
+    display: inline-block;
     height: 100%;
     font-size: 0;
-    overflow-x: auto;
     white-space: nowrap;
+}
+
+#toggle-app-list {
+    display: inline-block;
+    position: relative;
+    margin-left: 13rem;
+    margin-right: 1rem;
+    min-width: 11rem;
+    text-align: right;
+    line-height: 5.1rem;
+    font-size: 2.0rem;
+    font-family: LintelRegular;
 }
 
 .header.navigation .list .item {
@@ -103,7 +117,7 @@ body {
 
 .header.navigation .list .item .label {
     left: 5.4rem;
-    line-height: 5rem;
+    line-height: 5.1rem;
     font-size: 2.0rem;
     font-family: LintelRegular;
 }
@@ -129,22 +143,6 @@ body {
 .header.navigation .list .item .one-wide {
     height: 100%;
     right: 0;
-}
-
-#app-list-label {
-    position: relative;
-    float: right;
-    right: 1.0rem;
-    top: 0.67rem;
-    font-size: 1.8rem;
-    font-family: LintelRegular;
-}
-
-#app-list-label div {
-    width: 100%;
-    top: 2.1rem;
-    font-size: 1.1rem;
-    text-align: center;
 }
 
 #view-holder {

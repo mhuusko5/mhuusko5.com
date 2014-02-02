@@ -4,7 +4,8 @@ var $body = $('body');
 var $content = $('#content');
 var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
-var $appListLabel = $('#app-list-label');
+var $infoList = $('#info-list');
+var $toggleAppList = $('#toggle-app-list');
 var $appList = $('#app-list');
 
 $window.resize((function setRootUnit() {
@@ -19,6 +20,8 @@ $window.resize((function setRootUnit() {
 })());
 
 $window.load(function() {
+    $('#view-holder .view').css('display', 'none');
+
     var headerHidden = false;
 
     function hideHeaderTitle() {
@@ -37,10 +40,6 @@ $window.load(function() {
         }
     });
 
-    $('#view-holder .view').css('display', 'none');
-
-    $body.animate({'opacity': 1.0}, 1000);
-
     $listItems.click(function(e) {
         if (!switchingView) {
             hideHeaderTitle();
@@ -48,17 +47,33 @@ $window.load(function() {
         }
     });
 
-    function scrollAppList(e) {
-        e.preventDefault();
-        $appList.scrollLeft($appList.scrollLeft() - e.deltaY);
-    }
+    var showingAppList = false;
+    var togglingAppList = false;
+    $toggleAppList.click(function(e) {
+        if (togglingAppList) {
+            return;
+        }
 
-    $appList.mousewheel(scrollAppList);
+        togglingAppList = true;
 
-    $appListLabel.mousewheel(scrollAppList);
+        if (!showingAppList) {
+            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 125.8;
+            $infoList.animate({'margin-left': marginLeft + 'px'}, 500, function() {
+                $infoList.css('margin-left', 'calc(100% - 125.8rem)');
+                $toggleAppList.text('Hide Apps');
+                showingAppList = true;
+                togglingAppList = false;
+            });
+        } else {
+            $infoList.animate({'margin-left': 0}, 500, function() {
+                $toggleAppList.text('Show Apps');
+                showingAppList = false;
+                togglingAppList = false;
+            });
+        }
+    });
 
     var switchingView = false;
-
     var loadedViews = {};
 
     function switchView(viewName) {
@@ -135,6 +150,8 @@ $window.load(function() {
             switchingView = false;
         });
     }
+
+    $body.animate({'opacity': 1.0}, 1000);
 
     setTimeout(function() {
         $window.bind('hashchange', (function handleNavigation() {
