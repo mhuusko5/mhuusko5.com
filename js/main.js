@@ -201,9 +201,12 @@ $window.load(function() {
                     var el = document.getElementsByTagName('a');
                     var getDomain = document.domain.split('.').reverse()[1] + '.' + document.domain.split('.').reverse()[0];
                     for (var i = 0; i < el.length; i++) {
-                        var href = (typeof(el[i].getAttribute('href')) != 'undefined' ) ? el[i].getAttribute('href') : '';
+                        var href = el[i].getAttribute('href');
+                        if (!href) {
+                            continue;
+                        }
                         var myDomain = href.match(getDomain);
-                        if (href.match(/^https?\:/i) && !myDomain) {
+                        if ((href.match(/^https?\:/i) || href.match(/^http?\:/i)) && !myDomain) {
                             el[i].addEventListener('click', function(e) {
                                 var url = this.getAttribute('href');
                                 ga('send', 'event', 'outbound', 'click', url, {'hitCallback': hitCallbackHandler(url)}, {'nonInteraction': 1});
