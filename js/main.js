@@ -119,7 +119,7 @@ $window.load(function() {
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
-            $('#gestr-toggle-text').click(function() {
+            $('.gestr-to-hide').click(function() {
                 $('.gestr-to-hide').css('display', 'none');
                 $('.gestr-to-show').css('display', 'block');
             });
