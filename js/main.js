@@ -119,6 +119,11 @@ $window.load(function() {
         } else if (viewName == 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
+            $('#gestr-toggle-text').click(function() {
+                $('.gestr-to-hide').css('display', 'none');
+                $('.gestr-to-show').css('display', 'block');
+            });
+
             if (isMobile()) {
                 $('#gestr-video-container').append('<a href="//player.vimeo.com/video/85040520" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
             } else {

@@ -57,6 +57,10 @@
     color: #ecf0f1;
 }
 
+#gestr-view-text .gestr-to-show {
+    display: none;
+}
+
 #gestr-view-text div {
     position: relative;
 }
