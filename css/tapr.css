@@ -57,6 +57,10 @@
     color: #ecf0f1;
 }
 
+#tapr-view-text .tapr-to-show {
+    display: none;
+}
+
 #tapr-view-text div {
     position: relative;
 }

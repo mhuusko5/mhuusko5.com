@@ -140,6 +140,11 @@ $window.load(function() {
         } else if (viewName == 'tapr' && !loadedViews['tapr']) {
             loadedViews['tapr'] = true;
 
+            $('.tapr-to-hide').click(function() {
+                $('.tapr-to-hide').css('display', 'none');
+                $('.tapr-to-show').css('display', 'block');
+            });
+
             if (isMobile()) {
                 $('#tapr-video-container').append('<a href="//player.vimeo.com/video/85051549" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
             } else {
