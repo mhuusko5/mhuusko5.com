@@ -7,6 +7,7 @@ var $listItems = $('.header.navigation .list .item');
 var $infoList = $('#info-list');
 var $toggleAppList = $('#toggle-app-list');
 var $gestrDownloadCount = $('#gestr-download-count');
+var $taprDownloadCount = $('#tapr-download-count');
 
 $window.resize((function setRootUnit() {
     var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
@@ -170,6 +171,21 @@ $window.load(function() {
                 $('.tapr-to-show').css('display', 'none');
                 $('.tapr-to-hide').css('display', 'block');
             });
+
+            if (window.location.protocol != 'file:') {
+                setInterval((function updateTaprDownloadCount() {
+                    $.getJSON('https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAt0NqySdGMJUamatdoAiUg748WGbdj5B4&shortUrl=http://goo.gl/0yd82F&projection=FULL', function(data) {
+                        try {
+                            var clicks = data.analytics.allTime.longUrlClicks;
+                            if (clicks > 0) {
+                                $taprDownloadCount.text(clicks);
+                            }
+                        } catch (e) {}
+                    });
+
+                    return updateTaprDownloadCount;
+                })(), 30000);
+            }
 
             if (isMobile()) {
                 $('#tapr-video-container').append('<a href="//player.vimeo.com/video/85051549" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
