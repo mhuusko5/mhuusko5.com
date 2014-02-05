@@ -6,6 +6,7 @@ var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
 var $infoList = $('#info-list');
 var $toggleAppList = $('#toggle-app-list');
+var $gestrDownloadCount = $('#gestr-download-count');
 
 $window.resize((function setRootUnit() {
     var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
@@ -124,6 +125,26 @@ $window.load(function() {
                 $('.gestr-to-show').css('display', 'block');
             });
 
+            $('.gestr-to-show').click(function() {
+                $('.gestr-to-show').css('display', 'none');
+                $('.gestr-to-hide').css('display', 'block');
+            });
+
+            if (window.location.protocol != 'file:') {
+                setInterval((function updateGestrDownloadCount() {
+                    $.getJSON('https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAt0NqySdGMJUamatdoAiUg748WGbdj5B4&shortUrl=http://goo.gl/Zc5C7B&projection=FULL', function(data) {
+                        try {
+                            var clicks = data.analytics.allTime.longUrlClicks;
+                            if (clicks > 0) {
+                                $gestrDownloadCount.text(clicks);
+                            }
+                        } catch (e) {}
+                    });
+
+                    return updateGestrDownloadCount;
+                })(), 30000);
+            }
+
             if (isMobile()) {
                 $('#gestr-video-container').append('<a href="//player.vimeo.com/video/85040520" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
             } else {
@@ -143,6 +164,11 @@ $window.load(function() {
             $('.tapr-to-hide').click(function() {
                 $('.tapr-to-hide').css('display', 'none');
                 $('.tapr-to-show').css('display', 'block');
+            });
+
+            $('.tapr-to-show').click(function() {
+                $('.tapr-to-show').css('display', 'none');
+                $('.tapr-to-hide').css('display', 'block');
             });
 
             if (isMobile()) {
