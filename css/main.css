@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
     position: absolute;
-    overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -77,6 +76,7 @@ body {
 .header.navigation {
     height: 5rem;
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .header.navigation .list {
