@@ -6,9 +6,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.76</title>
-            <description>Fixes potential bug with external monitor plugged in, and laptop closed</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.76"/>
+            <title>Version 1.77</title>
+            <description>Rather important - listens for attachment of new multitouch devices (e.g. so you don't have to restart the app when you connect a Magic Trackpad)</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.77"/>
         </item>
     </channel>
 </rss>

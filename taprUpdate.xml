@@ -6,9 +6,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.01</title>
-            <description>Fixes potential bug with external monitor plugged in, and laptop closed</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.01"/>
+            <title>Version 1.02</title>
+            <description>Rather important - listens for attachment of new multitouch devices (e.g. so you don't have to restart the app when you connect a Magic Trackpad)</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.02"/>
         </item>
     </channel>
 </rss>
