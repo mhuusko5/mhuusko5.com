@@ -33,3 +33,15 @@ window.getScrollbarWidth = function() {
     outer.parentNode.removeChild(outer);
     return widthNoScroll - widthWithScroll;
 }
+
+function isMobile() {
+    return ('ontouchstart' in document.documentElement);
+}
+
+function isMac() {
+    if (navigator.platform.toLowerCase().indexOf('mac') > -1) {
+        return true;
+    } else {
+        return confirm('This is a Mac app – are you sure you want to download it?');
+    }
+}

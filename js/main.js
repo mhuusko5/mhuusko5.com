@@ -21,10 +21,6 @@ $window.resize((function setRootUnit() {
 })());
 
 $window.load(function() {
-    function isMobile() {
-        return ('ontouchstart' in document.documentElement);
-    }
-
     $('#view-holder .view').css('display', 'none');
 
     var headerHidden = false;
