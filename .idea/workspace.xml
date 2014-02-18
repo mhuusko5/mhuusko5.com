@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,19 +37,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="1" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="2786" max-vertical-offset="3546">
+            <state line="16" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37894738" vertical-offset="0" max-vertical-offset="3564">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.48192772" vertical-offset="36" max-vertical-offset="5490">
+            <state line="19" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="5490">
               <folding />
             </state>
           </provider>
@@ -84,13 +85,13 @@
         <option value="$PROJECT_DIR$/taprUpdate.xml" />
         <option value="$PROJECT_DIR$/js/plugins.js" />
         <option value="$PROJECT_DIR$/css/tapr.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/kemari.css" />
         <option value="$PROJECT_DIR$/css/ione.css" />
         <option value="$PROJECT_DIR$/css/gestr.css" />
         <option value="$PROJECT_DIR$/css/aboutme.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -607,9 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="1" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="2786" max-vertical-offset="3546">
+        <state line="19" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="5490">
           <folding />
         </state>
       </provider>
@@ -623,9 +624,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.48192772" vertical-offset="36" max-vertical-offset="5490">
+        <state line="16" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37894738" vertical-offset="0" max-vertical-offset="3564">
           <folding />
         </state>
       </provider>
