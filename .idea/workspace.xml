@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d016b9f6-0659-4add-b0ab-ed9361a85ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mhuusko5.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +48,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="26" selection-start="8685" selection-end="8685" vertical-scroll-proportion="0.5421687" vertical-offset="3519" max-vertical-offset="5130">
+            <state line="26" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="-1.3386881" vertical-offset="1468" max-vertical-offset="5418">
               <folding />
             </state>
           </provider>
@@ -628,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="26" selection-start="8685" selection-end="8685" vertical-scroll-proportion="0.5421687" vertical-offset="3519" max-vertical-offset="5130">
+        <state line="26" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="-1.3386881" vertical-offset="1468" max-vertical-offset="5418">
           <folding />
         </state>
       </provider>

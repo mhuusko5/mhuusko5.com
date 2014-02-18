@@ -21,6 +21,10 @@ $window.resize((function setRootUnit() {
     return setRootUnit;
 })());
 
+$window.on('orientationchange', function() {
+    $window.trigger('resize');
+});
+
 $window.load(function() {
     $('#view-holder .view').css('display', 'none');
 
@@ -28,7 +32,11 @@ $window.load(function() {
 
     function hideHeaderTitle() {
         if (!headerHidden) {
-            $content.animate({scrollTop: $headerTitle.height()}, 800);
+            headerHidden = true;
+
+            $content.animate({scrollTop: $headerTitle.height()}, 800, function() {
+                $headerTitle.css('display', 'none')
+            });
         }
     }
 
@@ -136,7 +144,8 @@ $window.load(function() {
                             if (clicks > 0) {
                                 $gestrDownloadCount.text(clicks);
                             }
-                        } catch (e) {}
+                        } catch (e) {
+                        }
                     });
 
                     return updateGestrDownloadCount;
@@ -177,7 +186,8 @@ $window.load(function() {
                             if (clicks > 0) {
                                 $taprDownloadCount.text(clicks);
                             }
-                        } catch (e) {}
+                        } catch (e) {
+                        }
                     });
 
                     return updateTaprDownloadCount;
@@ -219,6 +229,12 @@ $window.load(function() {
                 widthInstruction = 'please widen (or shorten?) your browser window.'
             }
             alert('This site is best viewed in landscape... ' + widthInstruction);
+        }
+
+        if (isMobile()) {
+            $(window).bind('touchmove', function() {
+                hideHeaderTitle();
+            });
         }
     });
 
