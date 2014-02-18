@@ -22,10 +22,16 @@ $window.resize((function setRootUnit() {
 })());
 
 $window.on('orientationchange', function() {
-    var viewportmeta = document.querySelector('meta[name="viewport"]');
-    viewportmeta.content = viewportmeta.content.replace(/width=[^,]+/, 'width=1');
-    viewportmeta.content = viewportmeta.content.replace(/width=[^,]+/, 'width=' + window.innerWidth);
-    window.scrollTo(0, 0);
+    function fixMobileWindow() {
+        var viewportmeta = document.querySelector('meta[name="viewport"]');
+        viewportmeta.content = viewportmeta.content.replace(/width=[^,]+/, 'width=1');
+        viewportmeta.content = viewportmeta.content.replace(/width=[^,]+/, 'width=' + window.innerWidth);
+        window.scrollTo(0, 0);
+        $window.trigger('resize');
+    }
+
+    fixMobileWindow();
+    setTimeout(fixMobileWindow, 1000);
 });
 
 $window.load(function() {
