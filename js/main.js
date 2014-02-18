@@ -10,7 +10,8 @@ var $gestrDownloadCount = $('#gestr-download-count');
 var $taprDownloadCount = $('#tapr-download-count');
 
 $window.resize((function setRootUnit() {
-    var size = (window.innerWidth - window.getScrollbarWidth()) / 100;
+    var size = parseFloat($content.width()) / 100;
+
     if (Math.floor(size) === 3) {
         size = 3;
     } else {
@@ -209,7 +210,17 @@ $window.load(function() {
         }
     }
 
-    $body.animate({'opacity': 1.0}, 1000);
+    $body.animate({'opacity': 1.0}, 1000, function() {
+        if (window.innerWidth < window.innerHeight) {
+            var widthInstruction;
+            if (isMobile()) {
+                widthInstruction = 'please flip your device horizontally.'
+            } else {
+                widthInstruction = 'please widen (or shorten?) your browser window.'
+            }
+            alert('This site is best viewed in landscape... ' + widthInstruction);
+        }
+    });
 
     setTimeout(function() {
         $window.bind('hashchange', (function handleNavigation() {
