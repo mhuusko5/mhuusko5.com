@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="6" selection-start="15500" selection-end="15506" vertical-scroll-proportion="-10.703704" vertical-offset="5291" max-vertical-offset="6372">
+            <state line="310" column="6" selection-start="15500" selection-end="15506" vertical-scroll-proportion="-206.66667" vertical-offset="0" max-vertical-offset="6372">
               <folding>
                 <element signature="n#style#0;n#div#4;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="867" selection-end="867" vertical-scroll-proportion="0.72289157" vertical-offset="0" max-vertical-offset="5544">
+            <state line="20" column="23" selection-start="631" selection-end="631" vertical-scroll-proportion="0.48192772" vertical-offset="0" max-vertical-offset="5472">
               <folding />
             </state>
           </provider>
@@ -609,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="6" selection-start="15500" selection-end="15506" vertical-scroll-proportion="-10.703704" vertical-offset="5291" max-vertical-offset="6372">
+        <state line="310" column="6" selection-start="15500" selection-end="15506" vertical-scroll-proportion="-206.66667" vertical-offset="0" max-vertical-offset="6372">
           <folding>
             <element signature="n#style#0;n#div#4;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
@@ -625,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="867" selection-end="867" vertical-scroll-proportion="0.72289157" vertical-offset="0" max-vertical-offset="5544">
+        <state line="20" column="23" selection-start="631" selection-end="631" vertical-scroll-proportion="0.48192772" vertical-offset="0" max-vertical-offset="5472">
           <folding />
         </state>
       </provider>
