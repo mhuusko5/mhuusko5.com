@@ -9,6 +9,7 @@ var $toggleAppList = $('#toggle-app-list');
 var $gestrDownloadCount = $('#gestr-download-count');
 var $taprDownloadCount = $('#tapr-download-count');
 var $gestr_iosIphone = $('#gestr_ios-iphone');
+var $gestr_iosViewText = $('#gestr_ios-view-text');
 
 $window.resize((function setRootUnit() {
     var size = parseFloat($content.width()) / 100;
@@ -167,6 +168,7 @@ $window.load(function() {
 
             $window.resize((function resizeIphone() {
                 $gestr_iosIphone.width($gestr_iosIphone.height() * 0.477);
+                $gestr_iosViewText.width(($content.width() - ($gestr_iosIphone.width() * 1.3)) * 0.8);
                 return resizeIphone;
             })());
 

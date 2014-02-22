@@ -54,6 +54,19 @@
     height: 100%;
 }
 
+#gestr_ios-view-text {
+    height: 92%;
+    top: 4%;
+    left: 7.6%;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#gestr_ios-view-text div {
+    position: relative;
+}
+
 #gestr_ios-iphone {
     height: 94%;
     right: 10%;
