@@ -18,11 +18,11 @@
     color: #ecf0f1;
 }
 
-#ione-view-title div.impossible {
+#ione-view-title div.bottom {
     position: absolute;
 }
 
-#ione-view-title div.simple {
+#ione-view-title div.top {
     top: -5.0rem;
 }
 
@@ -77,7 +77,7 @@
         bottom: 2.4rem;
     }
 
-    #ione-view-title div.simple {
+    #ione-view-title div.top {
         top: -5.4rem;
     }
 

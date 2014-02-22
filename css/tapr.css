@@ -18,11 +18,11 @@
     color: #ecf0f1;
 }
 
-#tapr-view-title div.brother {
+#tapr-view-title div.bottom {
     position: absolute;
 }
 
-#tapr-view-title div.another {
+#tapr-view-title div.top {
     top: -5.8rem;
 }
 
@@ -81,7 +81,7 @@
         bottom: 3.0rem;
     }
 
-    #tapr-view-title div.another {
+    #tapr-view-title div.top {
         top: -6.2rem;
     }
 

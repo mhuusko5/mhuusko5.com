@@ -1,4 +1,4 @@
-#gestr-view-title {
+#gestr_ios-view-title {
     position: relative;
     display: inline-block;
     left: 7.6%;
@@ -9,7 +9,7 @@
     white-space: nowrap;
 }
 
-#gestr-view-title div {
+#gestr_ios-view-title div {
     display: inline-block;
     position: relative;
     bottom: 2.6rem;
@@ -18,27 +18,27 @@
     color: #ecf0f1;
 }
 
-#gestr-view-title div.bottom {
+#gestr_ios-view-title div.bottom {
     position: absolute;
 }
 
-#gestr-view-title div.top {
+#gestr_ios-view-title div.top {
     top: -5.8rem;
 }
 
-#gestr-download-area {
+#gestr_ios-download-area {
     left: 8.4%;
     top: 15.6rem;
     width: 23rem;
 }
 
-#gestr-download-area img {
+#gestr_ios-download-area img {
     position: relative;
     display: inline-block;
     width: 4rem;
 }
 
-#gestr-download-description {
+#gestr_ios-download-description {
     display: inline-block;
     margin-top: 1.3rem;
     margin-left: 0.8rem;
@@ -47,49 +47,43 @@
     color: #ecf0f1;
 }
 
-#gestr-view-text {
-    position: relative;
-    left: 7.6%;
-    top: 8rem;
-    width: 84.8%;
-    font-size: 2rem;
-    font-family: LintelRegular;
-    color: #ecf0f1;
-}
-
-#gestr-view-text .gestr-to-show {
-    display: none;
-}
-
-#gestr-view-text div {
-    position: relative;
-}
-
-#gestr-video-container {
+#gestr_ios-bottom-section {
     position: relative;
     margin-top: 9.6rem;
     width: 100%;
     height: 100%;
 }
 
+#gestr_ios-iphone {
+    height: 94%;
+    right: 10%;
+    top: 3%;
+    background-image: url(../img/iphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gestr_ios-video-container {
+    left: 8.6%;
+    top: 14.7%;
+    width: 83.4%;
+    height: 71%;
+}
+
 @-moz-document url-prefix() {
-    #gestr-view-title {
+    #gestr_ios-view-title {
         top: 4.2rem;
     }
 
-    #gestr-view-title div {
+    #gestr_ios-view-title div {
         bottom: 3.0rem;
     }
 
-    #gestr-view-title div.top {
+    #gestr_ios-view-title div.top {
         top: -6.2rem;
     }
 
-    #gestr-view-text {
-        top: 7rem;
-    }
-
-    #gestr-video-container {
+    #gestr_ios-bottom-section {
         margin-top: 8.6rem;
     }
 }

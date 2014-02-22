@@ -24,11 +24,11 @@
     margin-left: 0.8rem;
 }
 
-#kemari-view-title div.calmly {
+#kemari-view-title div.bottom {
     position: absolute;
 }
 
-#kemari-view-title div.japanese {
+#kemari-view-title div.top {
     top: -6.0rem;
 }
 
