@@ -49,7 +49,7 @@
 
 #gestr_ios-bottom-section {
     position: relative;
-    margin-top: 9.6rem;
+    margin-top: 6.0rem;
     width: 100%;
     height: 100%;
 }
@@ -97,6 +97,6 @@
     }
 
     #gestr_ios-bottom-section {
-        margin-top: 8.6rem;
+        margin-top: 5.0rem;
     }
 }
