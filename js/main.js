@@ -261,7 +261,9 @@ $window.load(function() {
     setTimeout(function() {
         $window.bind('hashchange', (function handleNavigation() {
             var viewName = window.location.hash.substr(1);
-            viewName = viewName.substring(0, viewName.indexOf('?'));
+            if (viewName.indexOf('?') > -1) {
+                viewName = viewName.substring(0, viewName.indexOf('?'));
+            }
 
             if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
                 switchView(viewName);
