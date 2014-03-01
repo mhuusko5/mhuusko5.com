@@ -74,16 +74,16 @@ $window.load(function() {
         togglingAppList = true;
 
         if (!showingAppList) {
-            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 140.1;
+            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 140.9;
             $infoList.animate({'margin-left': marginLeft + 'px'}, 400, function() {
-                $infoList.css('margin-left', 'calc(100% - 140.1rem)');
-                $toggleAppList.find('div').text('Hide Apps');
+                $infoList.css('margin-left', 'calc(100% - 140.9rem)');
+                $toggleAppList.find('div').text('Hide Software');
                 showingAppList = true;
                 togglingAppList = false;
             });
         } else {
             $infoList.animate({'margin-left': 0}, 400, function() {
-                $toggleAppList.find('div').text('Show Apps');
+                $toggleAppList.find('div').text('Show Software');
                 showingAppList = false;
                 togglingAppList = false;
             });
