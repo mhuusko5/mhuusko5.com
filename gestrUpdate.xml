@@ -6,9 +6,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.78</title>
-            <description>Small speed improvements, and slight UI flattening</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.78"/>
+            <title>Version 1.79</title>
+            <description>Added option to allow "quick-draw" mode. If enabled, you can draw single-stroke gestures by drawing with three fingers grouped together on your trackpad (the recognizer will pay attention only to your middle finger), without having to four finger tap first! It's faster/smoother, but limited to single-stroke gestures.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.79"/>
         </item>
     </channel>
 </rss>
