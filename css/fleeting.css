@@ -1,11 +1,12 @@
 #fleeting-view-title {
     position: relative;
     display: inline-block;
-    left: 7.6%;
-    top: 5rem;
+    left: 6.6%;
+    top: 2.2rem;
     font-size: 12rem;
-    font-family: JalaneLight;
+    font-family: LintelRegular;
     color: #2ecc71;
+    letter-spacing: -0.8rem;
     white-space: nowrap;
 }
 
@@ -16,6 +17,7 @@
     font-size: 2.4rem;
     font-family: LintelRegular;
     color: #ecf0f1;
+    letter-spacing: normal;
 }
 
 #fleeting-view-title div.bottom {
@@ -29,7 +31,7 @@
 #fleeting-download-area {
     left: 8.4%;
     top: 15.6rem;
-    width: 23rem;
+    width: 31rem;
 }
 
 #fleeting-download-area img {
@@ -49,7 +51,7 @@
 
 #fleeting-bottom-section {
     position: relative;
-    margin-top: 6.0rem;
+    margin-top: 3.6rem;
     width: 100%;
     height: 100%;
 }
@@ -85,7 +87,7 @@
 
 @-moz-document url-prefix() {
     #fleeting-view-title {
-        top: 4.2rem;
+        top: 2.0rem;
     }
 
     #fleeting-view-title div {
@@ -97,6 +99,6 @@
     }
 
     #fleeting-bottom-section {
-        margin-top: 5.0rem;
+        margin-top: 4.4rem;
     }
 }
