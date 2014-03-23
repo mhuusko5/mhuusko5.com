@@ -1,0 +1,102 @@
+#fleeting-view-title {
+    position: relative;
+    display: inline-block;
+    left: 7.6%;
+    top: 5rem;
+    font-size: 12rem;
+    font-family: JalaneLight;
+    color: #2ecc71;
+    white-space: nowrap;
+}
+
+#fleeting-view-title div {
+    display: inline-block;
+    position: relative;
+    bottom: 2.6rem;
+    font-size: 2.4rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#fleeting-view-title div.bottom {
+    position: absolute;
+}
+
+#fleeting-view-title div.top {
+    top: -5.8rem;
+}
+
+#fleeting-download-area {
+    left: 8.4%;
+    top: 15.6rem;
+    width: 23rem;
+}
+
+#fleeting-download-area img {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+}
+
+#fleeting-download-description {
+    display: inline-block;
+    margin-top: 1.3rem;
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#fleeting-bottom-section {
+    position: relative;
+    margin-top: 6.0rem;
+    width: 100%;
+    height: 100%;
+}
+
+#fleeting-view-text {
+    height: 92%;
+    top: 4%;
+    left: 7.6%;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#fleeting-view-text div {
+    position: relative;
+}
+
+#fleeting-iphone {
+    height: 94%;
+    right: 10%;
+    top: 3%;
+    background-image: url(../img/iphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#fleeting-video-container {
+    left: 8.6%;
+    top: 14.7%;
+    width: 83.4%;
+    height: 71%;
+}
+
+@-moz-document url-prefix() {
+    #fleeting-view-title {
+        top: 4.2rem;
+    }
+
+    #fleeting-view-title div {
+        bottom: 3.0rem;
+    }
+
+    #fleeting-view-title div.top {
+        top: -6.2rem;
+    }
+
+    #fleeting-bottom-section {
+        margin-top: 5.0rem;
+    }
+}

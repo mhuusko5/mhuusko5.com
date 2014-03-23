@@ -10,6 +10,8 @@ var $gestrDownloadCount = $('#gestr-download-count');
 var $taprDownloadCount = $('#tapr-download-count');
 var $gestr_iosIphone = $('#gestr_ios-iphone');
 var $gestr_iosViewText = $('#gestr_ios-view-text');
+var $fleetingIphone = $('#fleeting-iphone');
+var $fleetingViewText = $('#fleeting-view-text');
 
 $window.resize((function setRootUnit() {
     var size = parseFloat($content.width()) / 100;
@@ -74,9 +76,9 @@ $window.load(function() {
         togglingAppList = true;
 
         if (!showingAppList) {
-            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 140.9;
+            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 149.7;
             $infoList.animate({'margin-left': marginLeft + 'px'}, 400, function() {
-                $infoList.css('margin-left', 'calc(100% - 140.9rem)');
+                $infoList.css('margin-left', 'calc(100% - 149.7rem)');
                 $toggleAppList.find('div').text('Hide Software');
                 showingAppList = true;
                 togglingAppList = false;
@@ -163,6 +165,20 @@ $window.load(function() {
             } else {
                 $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
+        } else if (viewName == 'fleeting' && !loadedViews['fleeting']) {
+            loadedViews['fleeting'] = true;
+
+            $window.resize((function resizeIphone() {
+                $fleetingIphone.width($fleetingIphone.height() * 0.477);
+                $fleetingViewText.width(($content.width() - ($fleetingIphone.width() * 1.3)) * 0.8);
+                return resizeIphone;
+            })());
+
+            if (isMobile()) {
+                $('#fleeting-video-container').append('<a href="//player.vimeo.com/video/89854562" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+            } else {
+                $('#fleeting-video-container').append('<iframe src="//player.vimeo.com/video/89854562" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            }
         } else if (viewName == 'gestr_ios' && !loadedViews['gestr_ios']) {
             loadedViews['gestr_ios'] = true;
 
@@ -235,7 +251,7 @@ $window.load(function() {
             switchingView = false;
         });
 
-        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
+        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
             toggleAppList();
         }
     }
@@ -265,7 +281,7 @@ $window.load(function() {
                 viewName = viewName.substring(0, viewName.indexOf('?'));
             }
 
-            if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+            if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
                 switchView(viewName);
             } else {
                 switchView('aboutme');
