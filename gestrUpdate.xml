@@ -6,9 +6,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.80</title>
-            <description>Added option to allow "quick-draw" mode, which lets your draw with three fingers grouped together, without having to activate with a four finger tap first. *Update* Includes fix for undesired scrolling bug.</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.80"/>
+            <title>Version 1.81</title>
+            <description>Small fix for bug regarding assignment of three stroke gestures.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.81"/>
         </item>
     </channel>
 </rss>
