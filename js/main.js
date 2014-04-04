@@ -58,7 +58,6 @@ $window.load(function() {
     }
 
     $content.scroll(function() {
-        console.log('fee');
         if (!headerHidden) {
             var scrolled = $content.scrollTop();
             if (scrolled >= $headerTitle.height()) {
@@ -324,6 +323,8 @@ $window.load(function() {
                     hideHeaderTitle();
                 });
             }
+            
+            $window.trigger('resize');
         });
     }
 
