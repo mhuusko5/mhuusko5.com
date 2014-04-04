@@ -1,6 +1,5 @@
 var $window = $(window);
 var $html = $('html');
-var $body = $('body');
 var $splashscreen = $('#splashscreen');
 var $splashEnter = $('#splashEnter');
 var $content = $('#content');
