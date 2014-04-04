@@ -20,7 +20,7 @@ if (window.location.hash.substr(1).length > 0) {
     $splashscreen = null;
 } else {
     $splashscreen.css('background-image', 'url(img/splashBackground.png)');
-    $body.css('overflow', 'hidden');
+    $content.css('display', 'none');
 }
 
 $window.resize((function setRootUnit() {
@@ -308,7 +308,7 @@ $window.load(function() {
         }, 500);
     }
 
-    function showContent(callback) {
+    function showContent() {
         $content.animate({'opacity': 1.0}, 1000, function() {
             if (window.innerWidth < window.innerHeight) {
                 var widthInstruction;
@@ -325,10 +325,6 @@ $window.load(function() {
                     hideHeaderTitle();
                 });
             }
-
-            if (callback) {
-                callback();
-            }
         });
     }
 
@@ -337,12 +333,10 @@ $window.load(function() {
             $splashEnter.click(function() {
                 $splashscreen.animate({'opacity': 0.0}, 500, function() {
                     $splashscreen.remove();
-                    $splashscreen = null;
                 });
 
-                showContent(function() {
-                    $body.css('overflow', '');
-                });
+                $content.css('display', 'block');
+                showContent();
             });
         });
     } else {
