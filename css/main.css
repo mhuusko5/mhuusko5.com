@@ -16,10 +16,6 @@ html, body {
     height: 100%;
 }
 
-body {
-    opacity: 0;
-}
-
 .one-wide {
     height: 100%;
     width: 2px;
@@ -46,6 +42,8 @@ body {
     width: 100vmax;
     height: 100%;
     overflow-y: auto;
+    opacity: 0;
+    z-index: 1;
 }
 
 .header {

@@ -1,6 +1,8 @@
 var $window = $(window);
 var $html = $('html');
 var $body = $('body');
+var $splashscreen = $('#splashscreen');
+var $splashEnter = $('#splashEnter');
 var $content = $('#content');
 var $headerTitle = $('.header.title')
 var $listItems = $('.header.navigation .list .item');
@@ -12,6 +14,14 @@ var $gestr_iosIphone = $('#gestr_ios-iphone');
 var $gestr_iosViewText = $('#gestr_ios-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
+
+if (window.location.hash.substr(1).length > 0) {
+    $splashscreen.remove();
+    $splashscreen = null;
+} else {
+    $splashscreen.css('background-image', 'url(img/splashBackground.png)');
+    $body.css('overflow', 'hidden');
+}
 
 $window.resize((function setRootUnit() {
     var size = parseFloat($content.width()) / 100;
@@ -49,6 +59,7 @@ $window.load(function() {
     }
 
     $content.scroll(function() {
+        console.log('fee');
         if (!headerHidden) {
             var scrolled = $content.scrollTop();
             if (scrolled >= $headerTitle.height()) {
@@ -95,10 +106,16 @@ $window.load(function() {
     $toggleAppList.find('div').click(toggleAppList);
 
     var switchingView = false;
+    var currentView = null;
     var loadedViews = {};
 
     function switchView(viewName) {
+        if (viewName == currentView) {
+            return;
+        }
+
         switchingView = true;
+        currentView = viewName;
 
         var $activeView = $('#view-holder .view.active');
         if ($activeView.attr('id') == viewName) {
@@ -256,24 +273,6 @@ $window.load(function() {
         }
     }
 
-    $body.animate({'opacity': 1.0}, 1000, function() {
-        if (window.innerWidth < window.innerHeight) {
-            var widthInstruction;
-            if (isMobile()) {
-                widthInstruction = 'please flip your device horizontally.'
-            } else {
-                widthInstruction = 'please widen (or shorten?) your browser window.'
-            }
-            alert('This site is best viewed in landscape... ' + widthInstruction);
-        }
-
-        if (isMobile()) {
-            $(window).bind('touchmove', function() {
-                hideHeaderTitle();
-            });
-        }
-    });
-
     setTimeout(function() {
         $window.bind('hashchange', (function handleNavigation() {
             var viewName = window.location.hash.substr(1);
@@ -306,30 +305,47 @@ $window.load(function() {
 
             ga('create', 'UA-47723827-1', 'mhuusko5.com');
             ga('send', 'pageview');
-
-            (function trackOutbounds() {
-                var hitCallbackHandler = function(url) {
-                    window.location.href = url;
-                };
-                if (document.getElementsByTagName) {
-                    var el = document.getElementsByTagName('a');
-                    var getDomain = document.domain.split('.').reverse()[1] + '.' + document.domain.split('.').reverse()[0];
-                    for (var i = 0; i < el.length; i++) {
-                        var href = el[i].getAttribute('href');
-                        if (!href) {
-                            continue;
-                        }
-                        var myDomain = href.match(getDomain);
-                        if ((href.match(/^https?\:/i) || href.match(/^http?\:/i)) && !myDomain) {
-                            el[i].addEventListener('click', function(e) {
-                                var url = this.getAttribute('href');
-                                ga('send', 'event', 'outbound', 'click', url, {'hitCallback': hitCallbackHandler(url)}, {'nonInteraction': 1});
-                                e.preventDefault();
-                            });
-                        }
-                    }
-                }
-            })();
         }, 500);
+    }
+
+    function showContent(callback) {
+        $content.animate({'opacity': 1.0}, 1000, function() {
+            if (window.innerWidth < window.innerHeight) {
+                var widthInstruction;
+                if (isMobile()) {
+                    widthInstruction = 'please flip your device horizontally.'
+                } else {
+                    widthInstruction = 'please widen (or shorten?) your browser window.'
+                }
+                alert('This site is best viewed in landscape... ' + widthInstruction);
+            }
+
+            if (isMobile()) {
+                $(window).bind('touchmove', function() {
+                    hideHeaderTitle();
+                });
+            }
+
+            if (callback) {
+                callback();
+            }
+        });
+    }
+
+    if ($splashscreen) {
+        $splashscreen.animate({'opacity': 1.0}, 500, function() {
+            $splashEnter.click(function() {
+                $splashscreen.animate({'opacity': 0.0}, 500, function() {
+                    $splashscreen.remove();
+                    $splashscreen = null;
+                });
+
+                showContent(function() {
+                    $body.css('overflow', '');
+                });
+            });
+        });
+    } else {
+        showContent();
     }
 });
