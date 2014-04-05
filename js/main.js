@@ -324,7 +324,11 @@ $window.load(function() {
                 });
             }
             
-            $window.trigger('resize');
+            $('.blueimp-gallery').css('display', 'none');
+            setTimeout(function() {
+                $('.blueimp-gallery').css('display', 'block');
+                $window.trigger('resize');
+            }, 100);
         });
     }
 
