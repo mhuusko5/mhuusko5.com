@@ -325,6 +325,9 @@ $window.load(function() {
             }
             
             $window.trigger('resize');
+            setTimeout(function() {
+                $window.trigger('resize');
+            }, 1000);
         });
     }
 
