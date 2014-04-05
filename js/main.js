@@ -325,7 +325,7 @@ $window.load(function() {
             }
             
             $html.css('font-size', 1);
-            $window.trigger('resize');
+          //  $window.trigger('resize');
         });
     }
 
