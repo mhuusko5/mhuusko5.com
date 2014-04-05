@@ -324,10 +324,8 @@ $window.load(function() {
                 });
             }
             
+            $html.css('font-size', 1);
             $window.trigger('resize');
-            setTimeout(function() {
-                $window.trigger('resize');
-            }, 1000);
         });
     }
 
