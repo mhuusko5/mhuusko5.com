@@ -271,42 +271,24 @@ $window.load(function() {
         }
     }
 
-    setTimeout(function() {
-        $window.bind('hashchange', (function handleNavigation() {
-            var viewName = window.location.hash.substr(1);
-            if (viewName.indexOf('?') > -1) {
-                viewName = viewName.substring(0, viewName.indexOf('?'));
-            }
-
-            if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
-                switchView(viewName);
-            } else {
-                switchView('aboutme');
-            }
-
-            return handleNavigation;
-        })());
-    }, 200);
-
-    if (window.location.protocol != 'file:') {
-        setTimeout(function() {
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-47723827-1', 'mhuusko5.com');
-            ga('send', 'pageview');
-        }, 500);
-    }
-
     function showContent() {
+        setTimeout(function() {
+            $window.bind('hashchange', (function handleNavigation() {
+                var viewName = window.location.hash.substr(1);
+                if (viewName.indexOf('?') > -1) {
+                    viewName = viewName.substring(0, viewName.indexOf('?'));
+                }
+
+                if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+                    switchView(viewName);
+                } else {
+                    switchView('aboutme');
+                }
+
+                return handleNavigation;
+            })());
+        }, 200);
+
         $content.animate({'opacity': 1.0}, 1000, function() {
             if (window.innerWidth < window.innerHeight) {
                 var widthInstruction;
@@ -323,12 +305,6 @@ $window.load(function() {
                     hideHeaderTitle();
                 });
             }
-            
-            $('.blueimp-gallery').css('display', 'none');
-            setTimeout(function() {
-                $('.blueimp-gallery').css('display', 'block');
-                $window.trigger('resize');
-            }, 100);
         });
     }
 
@@ -345,5 +321,23 @@ $window.load(function() {
         });
     } else {
         showContent();
+    }
+
+    if (window.location.protocol != 'file:') {
+        setTimeout(function() {
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-47723827-1', 'mhuusko5.com');
+            ga('send', 'pageview');
+        }, 2000);
     }
 });
