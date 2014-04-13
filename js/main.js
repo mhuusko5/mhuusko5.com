@@ -340,4 +340,6 @@ $window.load(function() {
             ga('send', 'pageview');
         }, 2000);
     }
+    
+    $window.trigger('resize');
 });
