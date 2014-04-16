@@ -6,9 +6,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.10</title>
-            <description>The six app grid has been replaced with a nine app dial arrangement. This should be considered a welcome upgrade. However if you don't like this new version, yell at me ASAP via mhuusko5@gmail.com</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.10"/>
+            <title>Version 1.11</title>
+            <description>The six app grid has been replaced with a nine app dial arrangement. This should be considered a welcome upgrade. However if you don't like this new version, yell at me ASAP via mhuusko5@gmail.com. UPDATE: 1.11 comes with important bug fix for recent/new users.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.11"/>
         </item>
     </channel>
 </rss>
