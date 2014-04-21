@@ -95,6 +95,15 @@ html, body {
     overflow: hidden;
 }
 
+.mobiletouch .header.navigation .list-arrow {
+    width: 8%;
+}
+
+.mobiletouch .header.navigation .list {
+    left: 8%;
+    width: 84%;
+}
+
 .header.navigation .list .item {
     display: inline-block;
     position: relative;

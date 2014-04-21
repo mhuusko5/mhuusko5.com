@@ -18,6 +18,10 @@ var $spotThatArtistViewText = $('#spot_that_artist-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
 
+if (isMobile()) {
+    $content.addClass('mobiletouch');
+}
+
 if (window.location.hash.substr(1).length > 0) {
     $splashscreen.remove();
     $splashscreen = null;
