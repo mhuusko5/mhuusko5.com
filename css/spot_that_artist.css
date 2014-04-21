@@ -5,9 +5,17 @@
     top: 5rem;
     font-size: 12rem;
     font-family: JalaneLight;
-    letter-spacing: 0.9rem;
     color: #2ecc71;
     white-space: nowrap;
+}
+
+#spot_that_artist-view-title span {
+    position: relative;
+    display: inline-block;
+    top: -2.4rem;
+    font-size: 5.5rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
 }
 
 #spot_that_artist-view-title div {
@@ -16,7 +24,6 @@
     bottom: 2.6rem;
     font-size: 2.4rem;
     font-family: LintelRegular;
-    letter-spacing: normal;
     color: #ecf0f1;
 }
 
