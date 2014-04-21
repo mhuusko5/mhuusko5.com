@@ -86,16 +86,21 @@ $window.load(function() {
         return width;
     }
 
+    function rightListOffset() {
+        return -100 * fullListWidth() / $menuList.outerWidth() + 100;
+    }
+
     var listPinned = '';
     var listOffset = 0;
+
     function renderListOffset() {
-        if (fullListWidth() + (listOffset / 100) * $menuList.outerWidth() <= $menuList.outerWidth()) {
+        if (listOffset <= rightListOffset()) {
             listPinned = 'right';
-            listOffset += 0.5;
+            listOffset = rightListOffset();
             $listAnchor.css('margin-left', 'calc(100% - ' + fullListWidth() / parseFloat($html.css('font-size')) + 'rem)');
         } else if (listOffset >= 0) {
             listPinned = 'left';
-            listOffset -= 0.5;
+            listOffset = 0;
             $listAnchor.css('margin-left', 0);
         } else {
             listPinned = '';
@@ -122,23 +127,23 @@ $window.load(function() {
     }
 
     var rightArrowInterval = false;
-    $listArrowRight.on('mouseover touchstart', function(){
+    $listArrowRight.on('mouseover touchstart', function() {
         clearInterval(rightArrowInterval);
         rightArrowInterval = setInterval(rightArrowAction, 20);
     });
 
-    $listArrowRight.on('mouseout touchend', function(){
+    $listArrowRight.on('mouseout touchend', function() {
         clearInterval(rightArrowInterval);
         rightArrowInterval = false;
     });
 
     var leftArrowInterval = false;
-    $listArrowLeft.on('mouseover touchstart', function(){
+    $listArrowLeft.on('mouseover touchstart', function() {
         clearInterval(leftArrowInterval);
         leftArrowInterval = setInterval(leftArrowAction, 20);
     });
 
-    $listArrowLeft.on('mouseout touchend', function(){
+    $listArrowLeft.on('mouseout touchend', function() {
         clearInterval(leftArrowInterval);
         leftArrowInterval = false;
     });
@@ -146,6 +151,7 @@ $window.load(function() {
     var switchingView = false;
     var currentView = null;
     var loadedViews = {};
+    var headerMenuSet = false;
 
     function switchView(viewName) {
         if (viewName == currentView) {
@@ -316,6 +322,15 @@ $window.load(function() {
 
         $window.trigger('resize');
 
+        if (!headerMenuSet) {
+            headerMenuSet = true;
+
+            if (viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+                listOffset = rightListOffset();
+                renderListOffset();
+            }
+        }
+
         $newView.animate({opacity: 1}, 500, null, function() {
             switchingView = false;
         });
@@ -330,17 +345,7 @@ $window.load(function() {
                 }
 
                 var validViews = [
-                    'aboutme',
-                    'resume',
-                    'presence',
-                    'gestr',
-                    'spot_that_artist',
-                    'fleeting',
-                    'gestr_ios',
-                    'ione',
-                    'tapr',
-                    'kemari',
-                    'buzzkill'
+                    'aboutme', 'resume', 'presence', 'gestr', 'spot_that_artist', 'fleeting', 'gestr_ios', 'ione', 'tapr', 'kemari', 'buzzkill'
                 ];
 
                 if (validViews.indexOf(viewName) != -1) {
@@ -386,6 +391,6 @@ $window.load(function() {
     } else {
         showContent();
     }
-    
+
     $window.trigger('resize');
 });
