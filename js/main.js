@@ -132,7 +132,7 @@ $window.load(function() {
         rightArrowInterval = setInterval(rightArrowAction, 20);
     });
 
-    $listArrowRight.on('mouseout touchend', function() {
+    $listArrowRight.on('mouseout touchend touchcancel', function() {
         clearInterval(rightArrowInterval);
         rightArrowInterval = false;
     });
@@ -143,7 +143,7 @@ $window.load(function() {
         leftArrowInterval = setInterval(leftArrowAction, 20);
     });
 
-    $listArrowLeft.on('mouseout touchend', function() {
+    $listArrowLeft.on('mouseout touchend touchcancel', function() {
         clearInterval(leftArrowInterval);
         leftArrowInterval = false;
     });
