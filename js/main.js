@@ -18,7 +18,6 @@ var $spotThatArtistViewText = $('#spot_that_artist-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
 
-alert(window.location.hash.substr(1));
 if (window.location.hash.substr(1).length > 0) {
     $splashscreen.remove();
     $splashscreen = null;
@@ -127,7 +126,7 @@ $window.load(function() {
         renderListOffset();
     }
 
-    var arrowOn = isMobile() ? 'vmousedown' : 'mouseover';
+    var arrowOn = isMobile() ? 'vmousedown touchstart' : 'mouseover';
     var arrowOff = isMobile() ? 'vmouseup vmousecancel touchend touchcancel' : 'mouseout';
 
     var rightArrowInterval = false;
