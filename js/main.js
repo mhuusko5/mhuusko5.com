@@ -4,13 +4,17 @@ var $splashscreen = $('#splashscreen');
 var $splashEnter = $('#splashEnter');
 var $content = $('#content');
 var $headerTitle = $('.header.title')
+var $menuList = $('.header.navigation .list');
 var $listItems = $('.header.navigation .list .item');
-var $infoList = $('#info-list');
-var $toggleAppList = $('#toggle-app-list');
+var $listAnchor = $('#aboutme-button');
+var $listArrowLeft = $('#list-arrow-left');
+var $listArrowRight = $('#list-arrow-right');
 var $gestrDownloadCount = $('#gestr-download-count');
 var $taprDownloadCount = $('#tapr-download-count');
-var $gestr_iosIphone = $('#gestr_ios-iphone');
-var $gestr_iosViewText = $('#gestr_ios-view-text');
+var $gestrIosIphone = $('#gestr_ios-iphone');
+var $gestrIosViewText = $('#gestr_ios-view-text');
+var $spotThatArtistIphone = $('#spot_that_artist-iphone');
+var $spotThatArtistViewText = $('#spot_that_artist-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
 
@@ -74,34 +78,70 @@ $window.load(function() {
         }
     });
 
-    var showingAppList = false;
-    var togglingAppList = false;
+    function fullListWidth() {
+        var width = 0;
+        $listItems.each(function(i, el) {
+            width += parseFloat($(el).outerWidth());
+        });
+        return width;
+    }
 
-    function toggleAppList() {
-        if (togglingAppList) {
-            return;
-        }
-
-        togglingAppList = true;
-
-        if (!showingAppList) {
-            var marginLeft = $infoList.parent().width() - parseFloat($html.css('font-size')) * 149.7;
-            $infoList.animate({'margin-left': marginLeft + 'px'}, 400, function() {
-                $infoList.css('margin-left', 'calc(100% - 149.7rem)');
-                $toggleAppList.find('div').text('Hide Software');
-                showingAppList = true;
-                togglingAppList = false;
-            });
+    var listPinned = '';
+    var listOffset = 0;
+    function renderListOffset() {
+        if (fullListWidth() + (listOffset / 100) * $menuList.outerWidth() <= $menuList.outerWidth()) {
+            listPinned = 'right';
+            listOffset += 0.5;
+            $listAnchor.css('margin-left', 'calc(100% - ' + fullListWidth() / parseFloat($html.css('font-size')) + 'rem)');
+        } else if (listOffset >= 0) {
+            listPinned = 'left';
+            listOffset -= 0.5;
+            $listAnchor.css('margin-left', 0);
         } else {
-            $infoList.animate({'margin-left': 0}, 400, function() {
-                $toggleAppList.find('div').text('Show Software');
-                showingAppList = false;
-                togglingAppList = false;
-            });
+            listPinned = '';
+            $listAnchor.css('margin-left', 'calc(50% - ' + (fullListWidth() / parseFloat($html.css('font-size'))) * 0.3466 + 'rem + ' + listOffset + '%)');
         }
     }
 
-    $toggleAppList.find('div').click(toggleAppList);
+    function rightArrowAction() {
+        if (listPinned == 'right') {
+            return;
+        }
+
+        listOffset -= 0.5;
+        renderListOffset();
+    }
+
+    function leftArrowAction() {
+        if (listPinned == 'left') {
+            return;
+        }
+
+        listOffset += 0.5;
+        renderListOffset();
+    }
+
+    var rightArrowInterval = false;
+    $listArrowRight.on('mouseover touchstart', function(){
+        clearInterval(rightArrowInterval);
+        rightArrowInterval = setInterval(rightArrowAction, 20);
+    });
+
+    $listArrowRight.on('mouseout touchend', function(){
+        clearInterval(rightArrowInterval);
+        rightArrowInterval = false;
+    });
+
+    var leftArrowInterval = false;
+    $listArrowLeft.on('mouseover touchstart', function(){
+        clearInterval(leftArrowInterval);
+        leftArrowInterval = setInterval(leftArrowAction, 20);
+    });
+
+    $listArrowLeft.on('mouseout touchend', function(){
+        clearInterval(leftArrowInterval);
+        leftArrowInterval = false;
+    });
 
     var switchingView = false;
     var currentView = null;
@@ -180,6 +220,20 @@ $window.load(function() {
             } else {
                 $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
+        } else if (viewName == 'spot_that_artist' && !loadedViews['spot_that_artist']) {
+            loadedViews['spot_that_artist'] = true;
+
+            $window.resize((function resizeIphone() {
+                $spotThatArtistIphone.width($spotThatArtistIphone.height() * 0.477);
+                $spotThatArtistViewText.width(($content.width() - ($spotThatArtistIphone.width() * 1.3)) * 0.8);
+                return resizeIphone;
+            })());
+
+            if (isMobile()) {
+                $('#spot_that_artist-video-container').append('<a href="//player.vimeo.com/video/92540726" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
+            } else {
+                $('#spot_that_artist-video-container').append('<iframe src="//player.vimeo.com/video/92540726" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            }
         } else if (viewName == 'fleeting' && !loadedViews['fleeting']) {
             loadedViews['fleeting'] = true;
 
@@ -198,8 +252,8 @@ $window.load(function() {
             loadedViews['gestr_ios'] = true;
 
             $window.resize((function resizeIphone() {
-                $gestr_iosIphone.width($gestr_iosIphone.height() * 0.477);
-                $gestr_iosViewText.width(($content.width() - ($gestr_iosIphone.width() * 1.3)) * 0.8);
+                $gestrIosIphone.width($gestrIosIphone.height() * 0.477);
+                $gestrIosViewText.width(($content.width() - ($gestrIosIphone.width() * 1.3)) * 0.8);
                 return resizeIphone;
             })());
 
@@ -265,10 +319,6 @@ $window.load(function() {
         $newView.animate({opacity: 1}, 500, null, function() {
             switchingView = false;
         });
-
-        if ((showingAppList && (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence')) || (!showingAppList && (viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill'))) {
-            toggleAppList();
-        }
     }
 
     function showContent() {
@@ -279,10 +329,24 @@ $window.load(function() {
                     viewName = viewName.substring(0, viewName.indexOf('?'));
                 }
 
-                if (viewName == 'aboutme' || viewName == 'resume' || viewName == 'presence' || viewName == 'gestr' || viewName == 'fleeting' || viewName == 'gestr_ios' || viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+                var validViews = [
+                    'aboutme',
+                    'resume',
+                    'presence',
+                    'gestr',
+                    'spot_that_artist',
+                    'fleeting',
+                    'gestr_ios',
+                    'ione',
+                    'tapr',
+                    'kemari',
+                    'buzzkill'
+                ];
+
+                if (validViews.indexOf(viewName) != -1) {
                     switchView(viewName);
                 } else {
-                    switchView('aboutme');
+                    window.location.hash = '#' + validViews[0];
                 }
 
                 return handleNavigation;

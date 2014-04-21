@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/presence.css">
     <link rel="stylesheet" href="css/gestr.css">
+    <link rel="stylesheet" href="css/spot_that_artist.css">
     <link rel="stylesheet" href="css/fleeting.css">
     <link rel="stylesheet" href="css/gestr_ios.css">
     <link rel="stylesheet" href="css/ione.css">
@@ -58,8 +59,12 @@
 <div class="header navigation">
     <div class="one-tall"></div>
 
-    <ul class="list" id="info-list">
-        <li id="aboutme-button" class="item" style="width: 14.6rem;">
+    <div class="list-arrow" id="list-arrow-left">
+        <<div class="one-wide" style="display: inline-block; right: 0;"></div>
+    </div>
+
+    <ul class="list">
+        <li id="aboutme-button" class="item" style="width: 14.6rem; margin-left: 0;">
             <div class="indicator" style="margin-left: calc(14.6rem / 2.04);"></div>
             <div class="icon" style="background-image: url(img/me.png);"></div>
             <div class="label">About Me</div>
@@ -79,19 +84,18 @@
             <div class="label">Presence</div>
             <div class="one-wide"></div>
         </li>
-    </ul>
-
-    <div id="toggle-app-list">
-        <div>Show Software</div>
-    </div>
-
-    <ul class="list" id="app-list">
-        <div class="one-wide" style="display: inline-block; position: relative;"></div>
 
         <li id="gestr-button" class="item" style="width: 11.1rem;">
             <div class="indicator" style="margin-left: calc(11.1rem / 2.04);"></div>
             <div class="icon" style="background-image: url(img/gestr.png);"></div>
             <div class="label">Gestr</div>
+            <div class="one-wide"></div>
+        </li>
+
+        <li id="spot_that_artist-button" class="item" style="width: 13.1rem;">
+            <div class="indicator" style="margin-left: calc(13.1rem / 2.04);"></div>
+            <div class="icon" style="background-image: url(img/spotArtist.png);"></div>
+            <div class="label" style="line-height: 1.8rem; white-space: normal; font-size: 1.6rem; text-align: center; left: 4.5rem; top: 0.8rem;">Spot that Artist</div>
             <div class="one-wide"></div>
         </li>
 
@@ -135,6 +139,10 @@
             <div class="label">Buzz Kill</div>
         </li>
     </ul>
+
+    <div class="list-arrow" id="list-arrow-right" style="right: 0;">
+        ><div class="one-wide" style="display: inline-block; left: 0;"></div>
+    </div>
 
     <div class="one-tall" style="bottom: 0;"></div>
 </div>
@@ -268,6 +276,32 @@
         </div>
     </div>
     <div id="gestr-video-container"></div>
+</div>
+
+<div class="view" id="spot_that_artist-view">
+    <div id="spot_that_artist-view-title">
+        S>t>A
+        <div>is...</div>
+        <div class="bottom">the FASTEST way to add music to your Spotify</div>
+        <div class="top">a pleasantly minimal iPhone app</div>
+    </div>
+    <a target="_blank" href="https://itunes.apple.com/app/spot-that-artist/id861531022" id="spot_that_artist-download-area">
+        <img src="img/download.png">
+
+        <div id="spot_that_artist-download-description">Available on the App Store for iPhone</div>
+    </a>
+
+    <div id="spot_that_artist-bottom-section">
+        <div id="spot_that_artist-view-text">
+            <div>With Spot that Artist, it only takes a few taps to add an artist's full discography to your Spotify account.</div>
+            <div style="margin-top: 2.6rem;">Spotify library looking empty? Someone recommend a band? Want to hear more of that singer on the radio?</div>
+            <div style="margin-top: 2.6rem;">Spot that Artist is the fastest and easiest way to add whole albums/artists to your Spotify library.</div>
+            <div style="margin-top: 2.6rem; font-size: 2.8rem;">Check out a brief demo of Spot that Artist now!</div>
+        </div>
+        <div id="spot_that_artist-iphone">
+            <div id="spot_that_artist-video-container"></div>
+        </div>
+    </div>
 </div>
 
 <div class="view" id="fleeting-view">

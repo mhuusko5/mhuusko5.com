@@ -1,0 +1,104 @@
+#spot_that_artist-view-title {
+    position: relative;
+    display: inline-block;
+    left: 7.6%;
+    top: 5rem;
+    font-size: 12rem;
+    font-family: JalaneLight;
+    letter-spacing: 0.9rem;
+    color: #2ecc71;
+    white-space: nowrap;
+}
+
+#spot_that_artist-view-title div {
+    display: inline-block;
+    position: relative;
+    bottom: 2.6rem;
+    font-size: 2.4rem;
+    font-family: LintelRegular;
+    letter-spacing: normal;
+    color: #ecf0f1;
+}
+
+#spot_that_artist-view-title div.bottom {
+    position: absolute;
+}
+
+#spot_that_artist-view-title div.top {
+    top: -5.8rem;
+}
+
+#spot_that_artist-download-area {
+    left: 8.4%;
+    top: 15.6rem;
+    width: 26rem;
+}
+
+#spot_that_artist-download-area img {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+}
+
+#spot_that_artist-download-description {
+    display: inline-block;
+    margin-top: 1.3rem;
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#spot_that_artist-bottom-section {
+    position: relative;
+    margin-top: 6.0rem;
+    width: 100%;
+    height: 100%;
+}
+
+#spot_that_artist-view-text {
+    height: 92%;
+    top: 4%;
+    left: 7.6%;
+    font-size: 2rem;
+    font-family: LintelRegular;
+    color: #ecf0f1;
+}
+
+#spot_that_artist-view-text div {
+    position: relative;
+}
+
+#spot_that_artist-iphone {
+    height: 94%;
+    right: 10%;
+    top: 3%;
+    background-image: url(../img/iphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spot_that_artist-video-container {
+    left: 8.6%;
+    top: 14.7%;
+    width: 83.4%;
+    height: 71%;
+}
+
+@-moz-document url-prefix() {
+    #spot_that_artist-view-title {
+        top: 4.2rem;
+    }
+
+    #spot_that_artist-view-title div {
+        bottom: 3.0rem;
+    }
+
+    #spot_that_artist-view-title div.top {
+        top: -6.2rem;
+    }
+
+    #spot_that_artist-bottom-section {
+        margin-top: 5.0rem;
+    }
+}
