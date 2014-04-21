@@ -126,24 +126,27 @@ $window.load(function() {
         renderListOffset();
     }
 
+    var arrowOn = isMobile() ? 'touchstart' : 'mouseover';
+    var arrowOff = isMobile() ? 'touchend touchcancel' : 'mouseout';
+
     var rightArrowInterval = false;
-    $listArrowRight.on('mouseover touchstart', function() {
+    $listArrowRight.on(arrowOn, function() {
         clearInterval(rightArrowInterval);
         rightArrowInterval = setInterval(rightArrowAction, 20);
     });
 
-    $listArrowRight.on('mouseout touchend touchcancel', function() {
+    $listArrowRight.on(arrowOff, function() {
         clearInterval(rightArrowInterval);
         rightArrowInterval = false;
     });
 
     var leftArrowInterval = false;
-    $listArrowLeft.on('mouseover touchstart', function() {
+    $listArrowLeft.on(arrowOn, function() {
         clearInterval(leftArrowInterval);
         leftArrowInterval = setInterval(leftArrowAction, 20);
     });
 
-    $listArrowLeft.on('mouseout touchend touchcancel', function() {
+    $listArrowLeft.on(arrowOff, function() {
         clearInterval(leftArrowInterval);
         leftArrowInterval = false;
     });
