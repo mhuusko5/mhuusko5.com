@@ -126,8 +126,8 @@ $window.load(function() {
         renderListOffset();
     }
 
-    var arrowOn = isMobile() ? 'touchstart' : 'mouseover';
-    var arrowOff = isMobile() ? 'touchend touchcancel' : 'mouseout';
+    var arrowOn = isMobile() ? 'vmousedown touchstart' : 'mouseover';
+    var arrowOff = isMobile() ? 'vmouseup touchend touchcancel' : 'mouseout';
 
     var rightArrowInterval = false;
     $listArrowRight.on(arrowOn, function() {
