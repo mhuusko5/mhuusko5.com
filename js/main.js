@@ -113,7 +113,7 @@ $window.load(function() {
     }
 
     function rightArrowAction() {
-        if (listPinned == 'right') {
+        if (listPinned === 'right') {
             return;
         }
 
@@ -122,7 +122,7 @@ $window.load(function() {
     }
 
     function leftArrowAction() {
-        if (listPinned == 'left') {
+        if (listPinned === 'left') {
             return;
         }
 
@@ -161,7 +161,7 @@ $window.load(function() {
     var headerMenuSet = false;
 
     function switchView(viewName) {
-        if (viewName == currentView) {
+        if (viewName === currentView) {
             return;
         }
 
@@ -169,7 +169,7 @@ $window.load(function() {
         currentView = viewName;
 
         var $activeView = $('#view-holder .view.active');
-        if ($activeView.attr('id') == viewName) {
+        if ($activeView.attr('id') === viewName) {
             return;
         }
 
@@ -183,7 +183,7 @@ $window.load(function() {
         var $newView = $('#' + viewName + '-view');
         $newView.addClass('active').css('display', 'block')
 
-        if (viewName == 'aboutme' && !loadedViews['aboutme']) {
+        if (viewName === 'aboutme' && !loadedViews['aboutme']) {
             loadedViews['aboutme'] = true;
 
             var aboutMeImages = [];
@@ -199,7 +199,7 @@ $window.load(function() {
                 unloadElements: false,
                 preloadRange: 1
             });
-        } else if (viewName == 'gestr' && !loadedViews['gestr']) {
+        } else if (viewName === 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
             $('.gestr-to-hide').click(function() {
@@ -233,7 +233,7 @@ $window.load(function() {
             } else {
                 $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'spot_that_artist' && !loadedViews['spot_that_artist']) {
+        } else if (viewName === 'spot_that_artist' && !loadedViews['spot_that_artist']) {
             loadedViews['spot_that_artist'] = true;
 
             $window.resize((function resizeIphone() {
@@ -247,7 +247,7 @@ $window.load(function() {
             } else {
                 $('#spot_that_artist-video-container').append('<iframe src="//player.vimeo.com/video/92540726" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'fleeting' && !loadedViews['fleeting']) {
+        } else if (viewName === 'fleeting' && !loadedViews['fleeting']) {
             loadedViews['fleeting'] = true;
 
             $window.resize((function resizeIphone() {
@@ -261,7 +261,7 @@ $window.load(function() {
             } else {
                 $('#fleeting-video-container').append('<iframe src="//player.vimeo.com/video/89854562" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'gestr_ios' && !loadedViews['gestr_ios']) {
+        } else if (viewName === 'gestr_ios' && !loadedViews['gestr_ios']) {
             loadedViews['gestr_ios'] = true;
 
             $window.resize((function resizeIphone() {
@@ -275,7 +275,7 @@ $window.load(function() {
             } else {
                 $('#gestr_ios-video-container').append('<iframe src="//player.vimeo.com/video/86953023" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'ione' && !loadedViews['ione']) {
+        } else if (viewName === 'ione' && !loadedViews['ione']) {
             loadedViews['ione'] = true;
 
             if (isMobile()) {
@@ -283,7 +283,7 @@ $window.load(function() {
             } else {
                 $('#ione-video-container').append('<iframe src="//player.vimeo.com/video/85051548" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'tapr' && !loadedViews['tapr']) {
+        } else if (viewName === 'tapr' && !loadedViews['tapr']) {
             loadedViews['tapr'] = true;
 
             $('.tapr-to-hide').click(function() {
@@ -317,7 +317,7 @@ $window.load(function() {
             } else {
                 $('#tapr-video-container').append('<iframe src="//player.vimeo.com/video/85051549" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
-        } else if (viewName == 'kemari' && !loadedViews['kemari']) {
+        } else if (viewName === 'kemari' && !loadedViews['kemari']) {
             loadedViews['kemari'] = true;
 
             if (isMobile()) {
@@ -332,7 +332,7 @@ $window.load(function() {
         if (!headerMenuSet) {
             headerMenuSet = true;
 
-            if (viewName == 'ione' || viewName == 'tapr' || viewName == 'kemari' || viewName == 'buzzkill') {
+            if (viewName === 'ione' || viewName === 'tapr' || viewName === 'kemari' || viewName === 'buzzkill') {
                 listOffset = rightListOffset();
                 renderListOffset();
             }
