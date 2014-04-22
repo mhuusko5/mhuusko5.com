@@ -79,8 +79,8 @@ html, body {
 
 .header.navigation .list-arrow {
     height: 100%;
-    width: 4%;
-    line-height: 5.1rem;
+    width: 4.5%;
+    line-height: 5.2rem;
     font-size: 3.2rem;
     font-family: LintelRegular;
     text-align: center;
@@ -88,8 +88,8 @@ html, body {
 
 .header.navigation .list {
     height: 100%;
-    width: 92%;
-    left: 4%;
+    width: 91%;
+    left: 4.5%;
     font-size: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -97,6 +97,7 @@ html, body {
 
 .mobiletouch .header.navigation .list-arrow {
     width: 8%;
+    font-size: 3.6rem;
 }
 
 .mobiletouch .header.navigation .list {

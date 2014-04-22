@@ -108,7 +108,7 @@ $window.load(function() {
             $listAnchor.css('margin-left', 0);
         } else {
             listPinned = '';
-            $listAnchor.css('margin-left', 'calc(50% - ' + (fullListWidth() / parseFloat($html.css('font-size'))) * 0.3466 + 'rem + ' + listOffset + '%)');
+            $listAnchor.css('margin-left', 'calc(50% - ' + ($menuList.outerWidth() / 2) / parseFloat($html.css('font-size')) + 'rem + ' + listOffset + '%)');
         }
     }
 
