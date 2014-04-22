@@ -21,7 +21,7 @@
 #spot_that_artist-view-title div {
     display: inline-block;
     position: relative;
-    bottom: 2.6rem;
+    bottom: 2.8rem;
     font-size: 2.4rem;
     font-family: LintelRegular;
     color: #ecf0f1;
@@ -32,7 +32,7 @@
 }
 
 #spot_that_artist-view-title div.top {
-    top: -5.8rem;
+    top: -6.0rem;
 }
 
 #spot_that_artist-download-area {
@@ -58,7 +58,7 @@
 
 #spot_that_artist-bottom-section {
     position: relative;
-    margin-top: 6.0rem;
+    margin-top: 6.25rem;
     width: 100%;
     height: 100%;
 }
@@ -98,11 +98,11 @@
     }
 
     #spot_that_artist-view-title div {
-        bottom: 3.0rem;
+        bottom: 3.2rem;
     }
 
     #spot_that_artist-view-title div.top {
-        top: -6.2rem;
+        top: -6.4rem;
     }
 
     #spot_that_artist-bottom-section {
