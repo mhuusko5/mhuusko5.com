@@ -88,7 +88,7 @@ html, body {
 
 .header.navigation .list {
     height: 100%;
-    width: 91%;
+    width: calc(91% + 1px);
     left: 4.5%;
     font-size: 0;
     white-space: nowrap;
@@ -102,7 +102,7 @@ html, body {
 
 .mobiletouch .header.navigation .list {
     left: 8%;
-    width: 84%;
+    width: calc(84% + 2px);
 }
 
 .header.navigation .list .item {
