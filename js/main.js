@@ -332,7 +332,7 @@ $window.load(function() {
         if (!headerMenuSet) {
             headerMenuSet = true;
 
-            if (viewName === 'ione' || viewName === 'tapr' || viewName === 'kemari' || viewName === 'buzzkill') {
+            if (viewName === 'fleeting' || viewName === 'ione' || viewName === 'kemari' || viewName === 'buzzkill') {
                 listOffset = rightListOffset();
                 renderListOffset();
             }
