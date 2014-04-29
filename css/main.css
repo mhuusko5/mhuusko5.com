@@ -181,12 +181,3 @@ html, body {
     right: 0;
     margin: auto;
 }
-
-.under-construction {
-    width: 100%;
-    top: calc((100% - 11rem) / 2);
-    font-size: 12rem;
-    font-family: Jalanelight;
-    text-align: center;
-    color: #ecf0f1;
-}
