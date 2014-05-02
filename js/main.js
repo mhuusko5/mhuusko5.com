@@ -17,6 +17,8 @@ var $spotThatArtistIphone = $('#spot_that_artist-iphone');
 var $spotThatArtistViewText = $('#spot_that_artist-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
+var $resumeView1 = $('#resume-view-image-1');
+var $resumeView2 = $('#resume-view-image-2');
 
 if (isMobile()) {
     $content.addClass('mobiletouch');
@@ -199,6 +201,11 @@ $window.load(function() {
                 unloadElements: false,
                 preloadRange: 1
             });
+        } else if (viewName === 'resume' && !loadedViews['resume']) {
+            loadedViews['resume'] = true;
+
+            $resumeView1[0].src = 'img/resumeView1.png';
+            $resumeView2[0].src = 'img/resumeView2.png';
         } else if (viewName === 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
