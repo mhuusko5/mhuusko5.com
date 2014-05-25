@@ -365,7 +365,7 @@ $window.load(function() {
                 if (validViews.indexOf(viewName) != -1) {
                     switchView(viewName);
                 } else {
-                    window.location.hash = '#' + validViews[0];
+                    switchView(validViews[0]);
                 }
 
                 return handleNavigation;
