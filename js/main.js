@@ -79,7 +79,6 @@ $window.load(function() {
 
     $listItems.click(function(e) {
         if (!switchingView) {
-            hideHeaderTitle();
             window.location.hash = '#' + e.currentTarget.id.replace('-button', '');
         }
     });
@@ -363,6 +362,7 @@ $window.load(function() {
                 ];
 
                 if (validViews.indexOf(viewName) != -1) {
+                    hideHeaderTitle();
                     switchView(viewName);
                 } else {
                     switchView(validViews[0]);
