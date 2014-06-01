@@ -19,6 +19,7 @@ var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
 var $resumeView1 = $('#resume-view-image-1');
 var $resumeView2 = $('#resume-view-image-2');
+var $creationLinks = $('#creations-view .item a');
 
 if (isMobile()) {
     $content.addClass('mobiletouch');
@@ -78,6 +79,12 @@ $window.load(function() {
     });
 
     $listItems.click(function(e) {
+        var itemLink = $(e.currentTarget).attr('href');
+        if (itemLink) {
+            window.open(itemLink, '_blank');
+            return;
+        }
+
         if (!switchingView) {
             window.location.hash = '#' + e.currentTarget.id.replace('-button', '');
         }
@@ -205,6 +212,18 @@ $window.load(function() {
 
             $resumeView1[0].src = 'img/resumeView1.png';
             $resumeView2[0].src = 'img/resumeView2.png';
+        } else if (viewName === 'creations' && !loadedViews['creations']) {
+            loadedViews['creations'] = true;
+
+            $creationLinks.click(function(e) {
+                var link = $(e.currentTarget).attr('link');
+                if ($(e.currentTarget).attr('newpage')) {
+                    window.open(link, '_blank');
+                } else {
+                    headerMenuSet = false;
+                    window.location = link;
+                }
+            });
         } else if (viewName === 'gestr' && !loadedViews['gestr']) {
             loadedViews['gestr'] = true;
 
@@ -338,7 +357,7 @@ $window.load(function() {
         if (!headerMenuSet) {
             headerMenuSet = true;
 
-            if (viewName === 'fleeting' || viewName === 'ione' || viewName === 'kemari' || viewName === 'buzzkill') {
+            if (viewName === 'spot_that_artist' || viewName === 'fleeting' || viewName === 'ione' || viewName === 'kemari') {
                 listOffset = rightListOffset();
                 renderListOffset();
             }
@@ -358,7 +377,7 @@ $window.load(function() {
                 }
 
                 var validViews = [
-                    'aboutme', 'resume', 'presence', 'gestr', 'spot_that_artist', 'fleeting', 'gestr_ios', 'ione', 'tapr', 'kemari', 'buzzkill'
+                    'aboutme', 'resume', 'presence', 'creations', 'gestr', 'spot_that_artist', 'fleeting', 'gestr_ios', 'ione', 'tapr', 'kemari'
                 ];
 
                 if (validViews.indexOf(viewName) != -1) {
