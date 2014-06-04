@@ -88,7 +88,7 @@ html, body {
 
 .header.navigation .list {
     height: 100%;
-    width: calc(91% + 1px);
+    width: calc(91% + 2px);
     left: 4.5%;
     font-size: 0;
     white-space: nowrap;
