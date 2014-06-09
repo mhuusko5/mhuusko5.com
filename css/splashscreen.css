@@ -70,8 +70,7 @@
         text-align: center;
         color: whitesmoke;
         font-family: LintelRegular;
-        border-bottom: 0.1em solid #ecf0f1;
-        text-decoration: inherit;
+        text-decoration: underline;
     }
 }
 
@@ -122,8 +121,7 @@
         text-align: center;
         color: whitesmoke;
         font-family: LintelRegular;
-        border-bottom: 0.1em solid #ecf0f1;
-        text-decoration: inherit;
+        text-decoration: underline;
     }
 }
 
