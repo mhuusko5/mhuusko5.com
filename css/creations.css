@@ -17,15 +17,9 @@
 
 #creations-view .item a {
     position: relative;
-    border-bottom: 2px solid #ecf0f1;
+    border-bottom: 0.1em solid #ecf0f1;
     margin-left: 0.4rem;
     cursor: pointer;
-}
-
-@media (max-width: 1050px) {
-    #creations-view .item a {
-        border-bottom: 1px solid #ecf0f1 !important;
-    }
 }
 
 #creations-view .item a:visited {
