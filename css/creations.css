@@ -17,7 +17,7 @@
 
 #creations-view .item a {
     position: relative;
-    border-bottom: 0.1em solid #ecf0f1;
+    border-bottom: 0.08em solid #ecf0f1;
     margin-left: 0.4rem;
     cursor: pointer;
 }
