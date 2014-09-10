@@ -40,7 +40,7 @@
     #splashLine {
         width: 100%;
         top: 55.5%;
-        font-size: 2.4rem;
+        font-size: 2.05rem;
     }
 
     #splashEnter {
@@ -87,9 +87,9 @@
     }
 
     #splashLine {
-        right: 8.5%;
-        top: calc(9% + 6rem);
-        font-size: 2.7rem;
+        right: 9%;
+        top: calc(9% + 6.2rem);
+        font-size: 2.3rem;
     }
 
     #splashEnter {
