@@ -6,9 +6,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.13</title>
-            <description>1.10, replace 6 app grid with 9 app dial layout. 1.11, fix bug created in 1.10 :). 1.12, add option to display preview of app being hovered on if it's running. 1.13, add clean slate option/action.</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.13"/>
+            <title>Version 1.14</title>
+            <description>1.10, replace 6 app grid with 9 app dial layout. 1.11, fix bug created in 1.10 :). 1.12, add option to display preview of app being hovered on if it's running. 1.13, add clean slate option/action. 1.14, add Mac OS X 1.10/Yosemite support.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.14"/>
         </item>
     </channel>
 </rss>
