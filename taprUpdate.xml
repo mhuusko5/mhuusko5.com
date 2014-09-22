@@ -6,9 +6,9 @@
         <description>Tapr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.20</title>
-            <description>1.12, add option to display preview of app being hovered on if it's running. 1.13, add clean slate option/action. 1.14, add Mac OS X 1.10/Yosemite support. 1.20, add option to be able to cycle through Cmd-Tab switcher with single finger slide across top of trackpad.</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.20"/>
+            <title>Version 1.21</title>
+            <description>1.12, add option to display preview of app being hovered on if it's running. 1.13, add clean slate option/action. 1.14, add Mac OS X 1.10/Yosemite support. 1.21, add option to be able to cycle through Cmd-Tab switcher with single finger slide across *BOTTOM* of trackpad.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/xhi2ooic8bx8p6f/Tapr.zip" sparkle:version="1.21"/>
         </item>
     </channel>
 </rss>
