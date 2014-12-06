@@ -6,9 +6,9 @@
         <description>Gestr Update</description>
         <language>en</language>
         <item>
-            <title>Version 1.83</title>
-            <description>1.82, add ability to assign gestures to AppleScripts (there are some default ones, and custom ones can be put in ~/Library/Application Support/Gestr/Scripts). 1.83, add Mac OS X 1.10/Yosemite support.</description>
-            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.83"/>
+            <title>Version 1.84</title>
+            <description>1.84, support Yosemite dark mode. 1.82, add ability to assign gestures to AppleScripts (there are some default ones, and custom ones can be put in ~/Library/Application Support/Gestr/Scripts). 1.83, add Mac OS X 1.10/Yosemite support.</description>
+            <enclosure url="https://dl.dropboxusercontent.com/s/kfa2xgygeuhrla3/Gestr.zip" sparkle:version="1.84"/>
         </item>
     </channel>
 </rss>
