@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/presence.css">
     <link rel="stylesheet" href="css/creations.css">
     <link rel="stylesheet" href="css/gestr.css">
-    <link rel="stylesheet" href="css/spot_that_artist.css">
     <link rel="stylesheet" href="css/fleeting.css">
     <link rel="stylesheet" href="css/gestr_ios.css">
     <link rel="stylesheet" href="css/ione.css">
@@ -91,6 +90,13 @@
             <div class="one-wide"></div>
         </li>
 
+        <li id="radeeus-button" href="http://radeeus.com" class="item" style="width: 13.4rem;">
+            <div class="indicator" style="margin-left: calc(13.4rem / 2.04);"></div>
+            <div class="icon" style="background-image: url(img/radeeus.png);"></div>
+            <div class="label">Radeeus</div>
+            <div class="one-wide"></div>
+        </li>
+
         <li id="gestr-button" class="item" style="width: 11.1rem;">
             <div class="indicator" style="margin-left: calc(11.1rem / 2.04);"></div>
             <div class="icon" style="background-image: url(img/gestr.png);"></div>
@@ -109,13 +115,6 @@
             <div class="indicator" style="margin-left: calc(14.3rem / 2.04);"></div>
             <div class="icon" style="background-image: url(img/gestr.png);"></div>
             <div class="label">Gestr iOS</div>
-            <div class="one-wide"></div>
-        </li>
-
-        <li id="spot_that_artist-button" class="item" style="width: 13.1rem;">
-            <div class="indicator" style="margin-left: calc(13.1rem / 2.04);"></div>
-            <div class="icon" style="background-image: url(img/spotArtist.png);"></div>
-            <div class="label" style="line-height: 1.8rem; white-space: normal; font-size: 1.6rem; text-align: center; left: 4.5rem; top: 0.8rem;">Spot that Artist</div>
             <div class="one-wide"></div>
         </li>
 
@@ -155,8 +154,7 @@
         </div>
         <div style="margin-top: 2.6rem;">I also create software independently, without a special title (or desk usually). I'm the mad hatter, making and wearing all the hats, from invention and concept creation to experience and interface design to creation of visual assets to engineering. Much of my work is related to how people physically interface with software experiences.
         </div>
-        <div class="headline" style="margin-top: 5rem;">I like talking about my work, and my vision. But not my
-            <span style="position: relative; margin-right: 0.1%; font-family: Helvetica; font-style: italic; font-weight: lighter;">self</span>.
+        <div class="headline" style="margin-top: 5rem;">I like talking about my work, and my vision. But not my "self".
         </div>
         <div class="headline" style="margin-top: 0.8rem; float: right;">Besides, I hear pictures are worth more.
         </div>
@@ -214,6 +212,11 @@
 
 <div class="view" id="creations-view">
     <div class="item">
+        <img src="img/radeeus.png">
+        <a newpage="true" link="http://radeeus.com">Radeeus</a>
+        <span> | Listen to music with your friends, together in real time.</span>
+    </div>
+    <div class="item">
         <img src="img/gestr.png">
         <a link="#gestr">Gestr</a>
         <span> | Launch apps and bookmarks on your Mac with multitouch trackpad drawings.</span>
@@ -229,9 +232,14 @@
         <span> | Activate apps on your Jailbroken iOS device with multitouch drawings.</span>
     </div>
     <div class="item">
-        <img src="img/spotArtist.png">
-        <a link="#spot_that_artist">Spot that Artist</a>
-        <span> | Quickly add artists’ discographies to your Spotify with your iPhone.</span>
+        <img src="img/code.png">
+        <a newpage="true" link="https://github.com/mhuusko5/M5MultitouchSupport">M5MultitouchSupport</a>
+        <span> | Sanely consume system wide multitouch events under Mac OS X.</span>
+    </div>
+    <div class="item">
+        <img src="img/code.png">
+        <a newpage="true" link="https://github.com/mhuusko5/M5DrawingRecognizer">M5DrawingRecognizer</a>
+        <span> | Easily store/match multistroke gestures in Objective-C.</span>
     </div>
     <div class="item">
         <img src="img/fleeting.png">
@@ -244,16 +252,6 @@
         <span> | Trigger Activator events by tapping on the sides of your Jailbroken iOS device.</span>
     </div>
     <div class="item">
-        <img src="img/code.png">
-        <a newpage="true" link="https://github.com/mhuusko5/Cocoa-Mac-Multitouch-Support-Wrapper">C.M.M.S.W.</a>
-        <span> | Makes working with system wide multitouch events under Mac OS X sane.</span>
-    </div>
-    <div class="item">
-        <img src="img/code.png">
-        <a newpage="true" link="https://github.com/mhuusko5/Cocoa-Multistroke-Gesture-Recognition">C.M.G.R.</a>
-        <span> | Makes storing/matching multistroke gestures in Objective-C trivial.</span>
-    </div>
-    <div class="item">
         <img src="img/ione.png">
         <a link="#ione">Ione</a>
         <span> | A fullscreen, Retina-enabled port of Sinuous for the Leap Motion platform.</span>
@@ -262,6 +260,11 @@
         <img src="img/kemari.png">
         <a link="#kemari">Kemari</a>
         <span> | A Zen inspired, non-competitive ball game for the Leap Motion platform.</span>
+    </div>
+    <div class="item">
+        <img src="img/spotArtist.png">
+        <a newpage="true" link="https://github.com/mhuusko5/Spot-that-Artist">Spot that Artist</a>
+        <span> | Quickly add artists’ discographies to your Spotify with your iPhone.</span>
     </div>
     <div class="item">
         <img src="img/buzzkill.png">
@@ -317,32 +320,6 @@
         </div>
     </div>
     <div id="gestr-video-container"></div>
-</div>
-
-<div class="view" id="spot_that_artist-view">
-    <div id="spot_that_artist-view-title">
-        S<span>></span>t<span>></span>A
-        <div>is...</div>
-        <div class="bottom">the FASTEST way to add music to your Spotify</div>
-        <div class="top">a delightfully simple iOS 7 experience</div>
-    </div>
-    <a target="_blank" href="https://itunes.apple.com/app/spot-that-artist/id861531022" id="spot_that_artist-download-area">
-        <img src="img/download.png">
-
-        <div id="spot_that_artist-download-description">Available on the App Store for iPhone</div>
-    </a>
-
-    <div id="spot_that_artist-bottom-section">
-        <div id="spot_that_artist-view-text">
-            <div>With Spot that Artist, it only takes a few taps to add an artist's full discography to your Spotify account.</div>
-            <div style="margin-top: 2.6rem;">Spotify library looking empty? Someone recommend a band? Want to hear more of that singer from the radio?</div>
-            <div style="margin-top: 2.6rem;">Spot that Artist is the fastest and easiest way to add whole albums/artists to your Spotify library.</div>
-            <div style="margin-top: 2.6rem; font-size: 2.8rem;">Check out a brief demo of Spot that Artist now!</div>
-        </div>
-        <div id="spot_that_artist-iphone">
-            <div id="spot_that_artist-video-container"></div>
-        </div>
-    </div>
 </div>
 
 <div class="view" id="fleeting-view">

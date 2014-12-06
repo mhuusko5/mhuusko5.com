@@ -13,12 +13,8 @@ var $gestrDownloadCount = $('#gestr-download-count');
 var $taprDownloadCount = $('#tapr-download-count');
 var $gestrIosIphone = $('#gestr_ios-iphone');
 var $gestrIosViewText = $('#gestr_ios-view-text');
-var $spotThatArtistIphone = $('#spot_that_artist-iphone');
-var $spotThatArtistViewText = $('#spot_that_artist-view-text');
 var $fleetingIphone = $('#fleeting-iphone');
 var $fleetingViewText = $('#fleeting-view-text');
-var $resumeView1 = $('#resume-view-image-1');
-var $resumeView2 = $('#resume-view-image-2');
 var $creationLinks = $('#creations-view .item a');
 
 if (isMobile()) {
@@ -207,11 +203,6 @@ $window.load(function() {
                 unloadElements: false,
                 preloadRange: 1
             });
-        } else if (viewName === 'resume' && !loadedViews['resume']) {
-            loadedViews['resume'] = true;
-
-            $resumeView1[0].src = 'img/resumeView1.png';
-            $resumeView2[0].src = 'img/resumeView2.png';
         } else if (viewName === 'creations' && !loadedViews['creations']) {
             loadedViews['creations'] = true;
 
@@ -257,20 +248,6 @@ $window.load(function() {
                 $('#gestr-video-container').append('<a href="//player.vimeo.com/video/85040520" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
             } else {
                 $('#gestr-video-container').append('<iframe src="//player.vimeo.com/video/85040520" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
-            }
-        } else if (viewName === 'spot_that_artist' && !loadedViews['spot_that_artist']) {
-            loadedViews['spot_that_artist'] = true;
-
-            $window.resize((function resizeIphone() {
-                $spotThatArtistIphone.width($spotThatArtistIphone.height() * 0.477);
-                $spotThatArtistViewText.width(($content.width() - ($spotThatArtistIphone.width() * 1.3)) * 0.8);
-                return resizeIphone;
-            })());
-
-            if (isMobile()) {
-                $('#spot_that_artist-video-container').append('<a href="//player.vimeo.com/video/92540726" class="mobile-video-mask"><img src="img/playIcon.svg"></a>');
-            } else {
-                $('#spot_that_artist-video-container').append('<iframe src="//player.vimeo.com/video/92540726" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
             }
         } else if (viewName === 'fleeting' && !loadedViews['fleeting']) {
             loadedViews['fleeting'] = true;
@@ -357,7 +334,7 @@ $window.load(function() {
         if (!headerMenuSet) {
             headerMenuSet = true;
 
-            if (viewName === 'spot_that_artist' || viewName === 'fleeting' || viewName === 'ione' || viewName === 'kemari') {
+            if (viewName === 'gestr_ios' || viewName === 'fleeting' || viewName === 'ione' || viewName === 'kemari') {
                 listOffset = rightListOffset();
                 renderListOffset();
             }
@@ -377,7 +354,11 @@ $window.load(function() {
                 }
 
                 var validViews = [
-                    'aboutme', 'resume', 'presence', 'creations', 'gestr', 'spot_that_artist', 'fleeting', 'gestr_ios', 'ione', 'tapr', 'kemari'
+                    'aboutme', 'presence', 'creations', 'gestr', 'fleeting', 'gestr_ios', 'ione', 'tapr', 'kemari'
+                ];
+
+                var validLinks = [
+                    'resume', 'radeeus'
                 ];
 
                 if (validViews.indexOf(viewName) != -1) {
@@ -385,6 +366,11 @@ $window.load(function() {
                     switchView(viewName);
                 } else {
                     switchView(validViews[0]);
+                }
+
+                if (validLinks.indexOf(viewName) != -1) {
+                    var itemLink = $('#' + viewName + '-button').attr('href');
+                    window.open(itemLink, '_blank');
                 }
 
                 return handleNavigation;
