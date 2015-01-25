@@ -68,6 +68,20 @@
     height: 100%;
 }
 
+@supports (-webkit-appearance:none) {
+    #ione-view-title {
+        top: 1.2rem;
+    }
+
+    #ione-view-text {
+        top: 4.0rem;
+    }
+
+    #ione-video-container {
+        margin-top: 6.6rem;
+    } 
+}
+
 @-moz-document url-prefix() {
     #ione-view-title {
         top: 1.2rem;
